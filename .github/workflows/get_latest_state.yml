@@ -25,17 +25,22 @@ jobs:
         uses: AnimMouse/setup-rclone@v1
         with:
           rclone_config: ${{ secrets.RCLONE_CONFIG }}
-        run: |
-          rclone copy lp-lucaperic:User\ 1/collection.anki2 .
 
+      - name: Grab collection
+        run: |
+          unset RCLONE_CONFIG
+          unset RCLONE_CONF
+          rclone copy lp-lucaperic:User\ 1/collection.anki2 .
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Generate report
         run: |
           ./ci_build.sh
-          python get_report.py
+          uv run get_report.py
 
       - name: Commit report
         run: |
