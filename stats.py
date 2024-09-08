@@ -10,8 +10,6 @@ import random
 import time
 from typing import Sequence
 
-import anki.cards
-import anki.collection
 from anki.consts import *
 from anki.lang import FormatTimeSpan
 from anki.utils import base62, ids2str
@@ -117,22 +115,135 @@ class CollectionStats:
         txt += self._section(self.hourGraph())
         txt += self._section(self.easeGraph())
         txt += self._section(self.cardGraph())
+        txt += self._section(self.calendarGraph())
         txt += self._section(self.footer())
         return "<center>%s</center>" % txt
+
+    def calendarGraph(self) -> str:
+        start, end, chunk = self.get_start_end_chunk()
+        current_year = time.localtime().tm_year
+        data = self.gatherCalendarData(current_year)
+
+        txt = self._title("Calendar", "Review activity over the past year.")
+        txt += self._calendarGraph(data)
+        return txt
+
+    def gatherCalendarData(self, target_year: int) -> dict:
+        now = time.time()
+        now_for_year = time.mktime(time.strptime(f"{target_year}-01-01", "%Y-%m-%d"))
+
+        # Get review counts for the past year
+        review_counts = self.col.db.all("""
+        SELECT
+            cast((id/1000 - ?) / 86400.0 as int) as day,
+            count()
+        FROM revlog
+        WHERE id > ?
+        GROUP BY day
+        """, self.col.sched.day_cutoff, (now - 365 * 86400) * 1000)
+
+        review_count_map = {day: count for day, count in review_counts}
+
+        # Generate calendar data
+        calendar_data = []
+        max_count = max(review_count_map.values()) if review_count_map else 1
+        for i in range(365):
+            date = time.localtime(now_for_year + i * 86400)
+            count = review_count_map.get(i - 365, 0)
+            calendar_data.append({
+                "date": time.strftime("%Y-%m-%d", date),
+                "count": count,
+                "intensity": min(1, count / max_count)
+            })
+
+        return {
+            "calendar": calendar_data,
+            "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+        }
+
+    def _calendarGraph(self, data: dict) -> str:
+        graph_id = f"calendar-graph-{random.randint(0, 1000000)}"
+
+        js_code = f"""
+        <div id="{graph_id}" style="width: 100%; height: 200px;"></div>
+        <script>
+        (function() {{
+            const data = {json.dumps(data)};
+            const graphElement = document.getElementById('{graph_id}');
+
+            // Create calendar cells
+            const cellSize = 14;
+            const cellSpacing = 2;
+            const totalWidth = 53 * (cellSize + cellSpacing);
+            const totalHeight = 7 * (cellSize + cellSpacing);
+
+            const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.setAttribute('width', totalWidth);
+            svg.setAttribute('height', totalHeight);
+
+            data.calendar.forEach((day, index) => {{
+                const weekNumber = Math.floor(index / 7);
+                const dayOfWeek = index % 7;
+
+                const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                rect.setAttribute('x', weekNumber * (cellSize + cellSpacing));
+                rect.setAttribute('y', dayOfWeek * (cellSize + cellSpacing));
+                rect.setAttribute('width', cellSize);
+                rect.setAttribute('height', cellSize);
+                rect.setAttribute('fill', `rgba(0, 0, 255, ${{day.intensity}})`);
+
+                const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                title.textContent = `${{day.date}}: ${{day.count}} reviews`;
+                rect.appendChild(title);
+
+                svg.appendChild(rect);
+            }});
+
+            // Add weekday labels
+            data.weekdays.forEach((day, index) => {{
+                const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                text.setAttribute('x', -5);
+                text.setAttribute('y', index * (cellSize + cellSpacing) + cellSize);
+                text.setAttribute('text-anchor', 'end');
+                text.setAttribute('alignment-baseline', 'middle');
+                text.setAttribute('font-size', '10');
+                text.textContent = day;
+                svg.appendChild(text);
+            }});
+
+            graphElement.appendChild(svg);
+        }})();
+        </script>
+        """
+
+        return js_code
 
     def _section(self, txt: str) -> str:
         return "<div class=section>%s</div>" % txt
 
     css = """
-<style>
-h1 { margin-bottom: 0; margin-top: 1em; }
-.pielabel { text-align:center; padding:0px; color:white; }
-body:not(.night_mode) {background-image: url(data:image/png;base64,%s); }
-@media print {
-    .section { page-break-inside: avoid; padding-top: 5mm; }
-}
-body { direction: ltr !important; }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anki Stats</title>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Flot for charts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js"></script>
+    <!-- Flot Stack plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.stack.min.js"></script>
+    <!-- Flot Pie plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.pie.min.js"></script>
+    <style>
+    h1 { margin-bottom: 0; margin-top: 1em; }
+    .pielabel { text-align:center; padding:0px; color:white; }
+    body:not(.night_mode) {background-image: url(data:image/png;base64,%s); }
+    @media print {
+        .section { page-break-inside: avoid; padding-top: 5mm; }
+    }
+    body { direction: ltr !important; }
+    </style>
+</head>
 """
 
     # Today stats
