@@ -1,12 +1,8 @@
 name: Update report
 
-# on:
-#   schedule:
-#     - cron: '55 23 * * *'
 on:
-  push:
-    branches:
-      - 'master'
+  schedule:
+    - cron: '55 23 * * *'
 
 jobs:
   build_and_run:
@@ -47,7 +43,7 @@ jobs:
           echo "Ran by ${GITHUB_ACTOR}..."
           git_diff_output=$(git diff)
           if [ -z "$git_diff_output" ]; then
-            echo "Statefile wasn't updated after all..."
+            echo "Report wasn't updated after all..."
           else
             git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
             git config --global user.email "username@users.noreply.github.com"
