@@ -165,7 +165,7 @@ class CollectionStats:
         graph_id = f"calendar-graph-{random.randint(0, 1000000)}"
 
         js_code = f"""
-        <div id="{graph_id}" style="width: 100%; height: 200px;"></div>
+        <div id="{graph_id}" style="width: 400px; height: 200px; overflow: scroll"></div>
         <script>
         (function() {{
             const data = {json.dumps(data)};
