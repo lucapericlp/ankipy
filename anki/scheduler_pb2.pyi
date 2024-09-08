@@ -946,14 +946,21 @@ class ComputeFsrsWeightsRequest(google.protobuf.message.Message):
     DESCRIPTOR: google.protobuf.descriptor.Descriptor
 
     SEARCH_FIELD_NUMBER: builtins.int
+    CURRENT_WEIGHTS_FIELD_NUMBER: builtins.int
+    IGNORE_REVLOGS_BEFORE_MS_FIELD_NUMBER: builtins.int
     search: builtins.str
     """/ The search used to gather cards for training"""
+    @property
+    def current_weights(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.float]: ...
+    ignore_revlogs_before_ms: builtins.int
     def __init__(
         self,
         *,
         search: builtins.str = ...,
+        current_weights: collections.abc.Iterable[builtins.float] | None = ...,
+        ignore_revlogs_before_ms: builtins.int = ...,
     ) -> None: ...
-    def ClearField(self, field_name: typing_extensions.Literal["search", b"search"]) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["current_weights", b"current_weights", "ignore_revlogs_before_ms", b"ignore_revlogs_before_ms", "search", b"search"]) -> None: ...
 
 global___ComputeFsrsWeightsRequest = ComputeFsrsWeightsRequest
 
@@ -966,7 +973,6 @@ class ComputeFsrsWeightsResponse(google.protobuf.message.Message):
     @property
     def weights(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.float]: ...
     fsrs_items: builtins.int
-    """if less than 1000, should warn user"""
     def __init__(
         self,
         *,
@@ -992,6 +998,38 @@ class ComputeFsrsWeightsFromItemsRequest(google.protobuf.message.Message):
     def ClearField(self, field_name: typing_extensions.Literal["items", b"items"]) -> None: ...
 
 global___ComputeFsrsWeightsFromItemsRequest = ComputeFsrsWeightsFromItemsRequest
+
+@typing_extensions.final
+class FsrsBenchmarkRequest(google.protobuf.message.Message):
+    DESCRIPTOR: google.protobuf.descriptor.Descriptor
+
+    TRAIN_SET_FIELD_NUMBER: builtins.int
+    @property
+    def train_set(self) -> google.protobuf.internal.containers.RepeatedCompositeFieldContainer[global___FsrsItem]: ...
+    def __init__(
+        self,
+        *,
+        train_set: collections.abc.Iterable[global___FsrsItem] | None = ...,
+    ) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["train_set", b"train_set"]) -> None: ...
+
+global___FsrsBenchmarkRequest = FsrsBenchmarkRequest
+
+@typing_extensions.final
+class FsrsBenchmarkResponse(google.protobuf.message.Message):
+    DESCRIPTOR: google.protobuf.descriptor.Descriptor
+
+    WEIGHTS_FIELD_NUMBER: builtins.int
+    @property
+    def weights(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.float]: ...
+    def __init__(
+        self,
+        *,
+        weights: collections.abc.Iterable[builtins.float] | None = ...,
+    ) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["weights", b"weights"]) -> None: ...
+
+global___FsrsBenchmarkResponse = FsrsBenchmarkResponse
 
 @typing_extensions.final
 class FsrsItem(google.protobuf.message.Message):
@@ -1028,21 +1066,82 @@ class FsrsReview(google.protobuf.message.Message):
 global___FsrsReview = FsrsReview
 
 @typing_extensions.final
+class SimulateFsrsReviewRequest(google.protobuf.message.Message):
+    DESCRIPTOR: google.protobuf.descriptor.Descriptor
+
+    WEIGHTS_FIELD_NUMBER: builtins.int
+    DESIRED_RETENTION_FIELD_NUMBER: builtins.int
+    DECK_SIZE_FIELD_NUMBER: builtins.int
+    DAYS_TO_SIMULATE_FIELD_NUMBER: builtins.int
+    NEW_LIMIT_FIELD_NUMBER: builtins.int
+    REVIEW_LIMIT_FIELD_NUMBER: builtins.int
+    MAX_INTERVAL_FIELD_NUMBER: builtins.int
+    SEARCH_FIELD_NUMBER: builtins.int
+    @property
+    def weights(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.float]: ...
+    desired_retention: builtins.float
+    deck_size: builtins.int
+    days_to_simulate: builtins.int
+    new_limit: builtins.int
+    review_limit: builtins.int
+    max_interval: builtins.int
+    search: builtins.str
+    def __init__(
+        self,
+        *,
+        weights: collections.abc.Iterable[builtins.float] | None = ...,
+        desired_retention: builtins.float = ...,
+        deck_size: builtins.int = ...,
+        days_to_simulate: builtins.int = ...,
+        new_limit: builtins.int = ...,
+        review_limit: builtins.int = ...,
+        max_interval: builtins.int = ...,
+        search: builtins.str = ...,
+    ) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["days_to_simulate", b"days_to_simulate", "deck_size", b"deck_size", "desired_retention", b"desired_retention", "max_interval", b"max_interval", "new_limit", b"new_limit", "review_limit", b"review_limit", "search", b"search", "weights", b"weights"]) -> None: ...
+
+global___SimulateFsrsReviewRequest = SimulateFsrsReviewRequest
+
+@typing_extensions.final
+class SimulateFsrsReviewResponse(google.protobuf.message.Message):
+    DESCRIPTOR: google.protobuf.descriptor.Descriptor
+
+    ACCUMULATED_KNOWLEDGE_ACQUISITION_FIELD_NUMBER: builtins.int
+    DAILY_REVIEW_COUNT_FIELD_NUMBER: builtins.int
+    DAILY_NEW_COUNT_FIELD_NUMBER: builtins.int
+    DAILY_TIME_COST_FIELD_NUMBER: builtins.int
+    @property
+    def accumulated_knowledge_acquisition(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.float]: ...
+    @property
+    def daily_review_count(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.int]: ...
+    @property
+    def daily_new_count(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.int]: ...
+    @property
+    def daily_time_cost(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.float]: ...
+    def __init__(
+        self,
+        *,
+        accumulated_knowledge_acquisition: collections.abc.Iterable[builtins.float] | None = ...,
+        daily_review_count: collections.abc.Iterable[builtins.int] | None = ...,
+        daily_new_count: collections.abc.Iterable[builtins.int] | None = ...,
+        daily_time_cost: collections.abc.Iterable[builtins.float] | None = ...,
+    ) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["accumulated_knowledge_acquisition", b"accumulated_knowledge_acquisition", "daily_new_count", b"daily_new_count", "daily_review_count", b"daily_review_count", "daily_time_cost", b"daily_time_cost"]) -> None: ...
+
+global___SimulateFsrsReviewResponse = SimulateFsrsReviewResponse
+
+@typing_extensions.final
 class ComputeOptimalRetentionRequest(google.protobuf.message.Message):
     DESCRIPTOR: google.protobuf.descriptor.Descriptor
 
     WEIGHTS_FIELD_NUMBER: builtins.int
-    DECK_SIZE_FIELD_NUMBER: builtins.int
     DAYS_TO_SIMULATE_FIELD_NUMBER: builtins.int
-    MAX_MINUTES_OF_STUDY_PER_DAY_FIELD_NUMBER: builtins.int
     MAX_INTERVAL_FIELD_NUMBER: builtins.int
     SEARCH_FIELD_NUMBER: builtins.int
     LOSS_AVERSION_FIELD_NUMBER: builtins.int
     @property
     def weights(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.float]: ...
-    deck_size: builtins.int
     days_to_simulate: builtins.int
-    max_minutes_of_study_per_day: builtins.int
     max_interval: builtins.int
     search: builtins.str
     loss_aversion: builtins.float
@@ -1050,14 +1149,12 @@ class ComputeOptimalRetentionRequest(google.protobuf.message.Message):
         self,
         *,
         weights: collections.abc.Iterable[builtins.float] | None = ...,
-        deck_size: builtins.int = ...,
         days_to_simulate: builtins.int = ...,
-        max_minutes_of_study_per_day: builtins.int = ...,
         max_interval: builtins.int = ...,
         search: builtins.str = ...,
         loss_aversion: builtins.float = ...,
     ) -> None: ...
-    def ClearField(self, field_name: typing_extensions.Literal["days_to_simulate", b"days_to_simulate", "deck_size", b"deck_size", "loss_aversion", b"loss_aversion", "max_interval", b"max_interval", "max_minutes_of_study_per_day", b"max_minutes_of_study_per_day", "search", b"search", "weights", b"weights"]) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["days_to_simulate", b"days_to_simulate", "loss_aversion", b"loss_aversion", "max_interval", b"max_interval", "search", b"search", "weights", b"weights"]) -> None: ...
 
 global___ComputeOptimalRetentionRequest = ComputeOptimalRetentionRequest
 
@@ -1162,16 +1259,19 @@ class EvaluateWeightsRequest(google.protobuf.message.Message):
 
     WEIGHTS_FIELD_NUMBER: builtins.int
     SEARCH_FIELD_NUMBER: builtins.int
+    IGNORE_REVLOGS_BEFORE_MS_FIELD_NUMBER: builtins.int
     @property
     def weights(self) -> google.protobuf.internal.containers.RepeatedScalarFieldContainer[builtins.float]: ...
     search: builtins.str
+    ignore_revlogs_before_ms: builtins.int
     def __init__(
         self,
         *,
         weights: collections.abc.Iterable[builtins.float] | None = ...,
         search: builtins.str = ...,
+        ignore_revlogs_before_ms: builtins.int = ...,
     ) -> None: ...
-    def ClearField(self, field_name: typing_extensions.Literal["search", b"search", "weights", b"weights"]) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["ignore_revlogs_before_ms", b"ignore_revlogs_before_ms", "search", b"search", "weights", b"weights"]) -> None: ...
 
 global___EvaluateWeightsRequest = EvaluateWeightsRequest
 

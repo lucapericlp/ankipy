@@ -125,6 +125,16 @@ class RustBackendGenerated:
         output.ParseFromString(raw_bytes)
         return output
 
+    def set_custom_certificate_raw(self, message: bytes) -> bytes:
+        return self._run_command(1, 8, message)
+
+    def set_custom_certificate(self, val: str) -> bool:
+        message = anki.generic_pb2.String(val=val)
+        raw_bytes = self._run_command(1, 8, message.SerializeToString())
+        output = anki.generic_pb2.Bool()
+        output.ParseFromString(raw_bytes)
+        return output.val
+
     def open_collection_raw(self, message: bytes) -> bytes:
         return self._run_command(3, 0, message)
 
@@ -667,326 +677,348 @@ class RustBackendGenerated:
         output.ParseFromString(raw_bytes)
         return output
 
-    def get_queued_cards_raw(self, message: bytes) -> bytes:
+    def fsrs_benchmark_raw(self, message: bytes) -> bytes:
+        """Generates parameters used for FSRS's scheduler benchmarks."""
         return self._run_command(11, 1, message)
+
+    def fsrs_benchmark(self, train_set: Iterable[anki.scheduler_pb2.FsrsItem]) -> Sequence[float]:
+        """Generates parameters used for FSRS's scheduler benchmarks."""
+        message = anki.scheduler_pb2.FsrsBenchmarkRequest(train_set=train_set)
+        raw_bytes = self._run_command(11, 1, message.SerializeToString())
+        output = anki.scheduler_pb2.FsrsBenchmarkResponse()
+        output.ParseFromString(raw_bytes)
+        return output.weights
+
+    def get_queued_cards_raw(self, message: bytes) -> bytes:
+        return self._run_command(11, 2, message)
 
     def get_queued_cards(self, *, fetch_limit: int, intraday_learning_only: bool) -> anki.scheduler_pb2.QueuedCards:
         message = anki.scheduler_pb2.GetQueuedCardsRequest(fetch_limit=fetch_limit, intraday_learning_only=intraday_learning_only)
-        raw_bytes = self._run_command(11, 1, message.SerializeToString())
+        raw_bytes = self._run_command(11, 2, message.SerializeToString())
         output = anki.scheduler_pb2.QueuedCards()
         output.ParseFromString(raw_bytes)
         return output
 
     def answer_card_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 2, message)
+        return self._run_command(11, 3, message)
 
     def answer_card(self, message: anki.scheduler_pb2.CardAnswer) -> anki.collection_pb2.OpChanges:
         
-        raw_bytes = self._run_command(11, 2, message.SerializeToString())
+        raw_bytes = self._run_command(11, 3, message.SerializeToString())
         output = anki.collection_pb2.OpChanges()
         output.ParseFromString(raw_bytes)
         return output
 
     def sched_timing_today_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 3, message)
+        return self._run_command(11, 4, message)
 
     def sched_timing_today(self) -> anki.scheduler_pb2.SchedTimingTodayResponse:
         message = anki.generic_pb2.Empty()
-        raw_bytes = self._run_command(11, 3, message.SerializeToString())
+        raw_bytes = self._run_command(11, 4, message.SerializeToString())
         output = anki.scheduler_pb2.SchedTimingTodayResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def studied_today_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 4, message)
+        return self._run_command(11, 5, message)
 
     def studied_today(self) -> str:
         message = anki.generic_pb2.Empty()
-        raw_bytes = self._run_command(11, 4, message.SerializeToString())
-        output = anki.generic_pb2.String()
-        output.ParseFromString(raw_bytes)
-        return output.val
-
-    def studied_today_message_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 5, message)
-
-    def studied_today_message(self, *, cards: int, seconds: float) -> str:
-        message = anki.scheduler_pb2.StudiedTodayMessageRequest(cards=cards, seconds=seconds)
         raw_bytes = self._run_command(11, 5, message.SerializeToString())
         output = anki.generic_pb2.String()
         output.ParseFromString(raw_bytes)
         return output.val
 
-    def update_stats_raw(self, message: bytes) -> bytes:
+    def studied_today_message_raw(self, message: bytes) -> bytes:
         return self._run_command(11, 6, message)
+
+    def studied_today_message(self, *, cards: int, seconds: float) -> str:
+        message = anki.scheduler_pb2.StudiedTodayMessageRequest(cards=cards, seconds=seconds)
+        raw_bytes = self._run_command(11, 6, message.SerializeToString())
+        output = anki.generic_pb2.String()
+        output.ParseFromString(raw_bytes)
+        return output.val
+
+    def update_stats_raw(self, message: bytes) -> bytes:
+        return self._run_command(11, 7, message)
 
     def update_stats(self, *, deck_id: int, new_delta: int, review_delta: int, millisecond_delta: int) -> anki.generic_pb2.Empty:
         message = anki.scheduler_pb2.UpdateStatsRequest(deck_id=deck_id, new_delta=new_delta, review_delta=review_delta, millisecond_delta=millisecond_delta)
-        raw_bytes = self._run_command(11, 6, message.SerializeToString())
-        output = anki.generic_pb2.Empty()
-        output.ParseFromString(raw_bytes)
-        return output
-
-    def extend_limits_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 7, message)
-
-    def extend_limits(self, *, deck_id: int, new_delta: int, review_delta: int) -> anki.generic_pb2.Empty:
-        message = anki.scheduler_pb2.ExtendLimitsRequest(deck_id=deck_id, new_delta=new_delta, review_delta=review_delta)
         raw_bytes = self._run_command(11, 7, message.SerializeToString())
         output = anki.generic_pb2.Empty()
         output.ParseFromString(raw_bytes)
         return output
 
-    def counts_for_deck_today_raw(self, message: bytes) -> bytes:
+    def extend_limits_raw(self, message: bytes) -> bytes:
         return self._run_command(11, 8, message)
+
+    def extend_limits(self, *, deck_id: int, new_delta: int, review_delta: int) -> anki.generic_pb2.Empty:
+        message = anki.scheduler_pb2.ExtendLimitsRequest(deck_id=deck_id, new_delta=new_delta, review_delta=review_delta)
+        raw_bytes = self._run_command(11, 8, message.SerializeToString())
+        output = anki.generic_pb2.Empty()
+        output.ParseFromString(raw_bytes)
+        return output
+
+    def counts_for_deck_today_raw(self, message: bytes) -> bytes:
+        return self._run_command(11, 9, message)
 
     def counts_for_deck_today(self, did: int) -> anki.scheduler_pb2.CountsForDeckTodayResponse:
         message = anki.decks_pb2.DeckId(did=did)
-        raw_bytes = self._run_command(11, 8, message.SerializeToString())
+        raw_bytes = self._run_command(11, 9, message.SerializeToString())
         output = anki.scheduler_pb2.CountsForDeckTodayResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def congrats_info_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 9, message)
+        return self._run_command(11, 10, message)
 
     def congrats_info(self) -> anki.scheduler_pb2.CongratsInfoResponse:
         message = anki.generic_pb2.Empty()
-        raw_bytes = self._run_command(11, 9, message.SerializeToString())
+        raw_bytes = self._run_command(11, 10, message.SerializeToString())
         output = anki.scheduler_pb2.CongratsInfoResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def restore_buried_and_suspended_cards_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 10, message)
+        return self._run_command(11, 11, message)
 
     def restore_buried_and_suspended_cards(self, cids: Iterable[int]) -> anki.collection_pb2.OpChanges:
         message = anki.cards_pb2.CardIds(cids=cids)
-        raw_bytes = self._run_command(11, 10, message.SerializeToString())
-        output = anki.collection_pb2.OpChanges()
-        output.ParseFromString(raw_bytes)
-        return output
-
-    def unbury_deck_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 11, message)
-
-    def unbury_deck(self, *, deck_id: int, mode: anki.scheduler_pb2.UnburyDeckRequest.Mode.V) -> anki.collection_pb2.OpChanges:
-        message = anki.scheduler_pb2.UnburyDeckRequest(deck_id=deck_id, mode=mode)
         raw_bytes = self._run_command(11, 11, message.SerializeToString())
         output = anki.collection_pb2.OpChanges()
         output.ParseFromString(raw_bytes)
         return output
 
-    def bury_or_suspend_cards_raw(self, message: bytes) -> bytes:
+    def unbury_deck_raw(self, message: bytes) -> bytes:
         return self._run_command(11, 12, message)
+
+    def unbury_deck(self, *, deck_id: int, mode: anki.scheduler_pb2.UnburyDeckRequest.Mode.V) -> anki.collection_pb2.OpChanges:
+        message = anki.scheduler_pb2.UnburyDeckRequest(deck_id=deck_id, mode=mode)
+        raw_bytes = self._run_command(11, 12, message.SerializeToString())
+        output = anki.collection_pb2.OpChanges()
+        output.ParseFromString(raw_bytes)
+        return output
+
+    def bury_or_suspend_cards_raw(self, message: bytes) -> bytes:
+        return self._run_command(11, 13, message)
 
     def bury_or_suspend_cards(self, *, card_ids: Iterable[int], note_ids: Iterable[int], mode: anki.scheduler_pb2.BuryOrSuspendCardsRequest.Mode.V) -> anki.collection_pb2.OpChangesWithCount:
         message = anki.scheduler_pb2.BuryOrSuspendCardsRequest(card_ids=card_ids, note_ids=note_ids, mode=mode)
-        raw_bytes = self._run_command(11, 12, message.SerializeToString())
+        raw_bytes = self._run_command(11, 13, message.SerializeToString())
         output = anki.collection_pb2.OpChangesWithCount()
         output.ParseFromString(raw_bytes)
         return output
 
     def empty_filtered_deck_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 13, message)
+        return self._run_command(11, 14, message)
 
     def empty_filtered_deck(self, did: int) -> anki.collection_pb2.OpChanges:
         message = anki.decks_pb2.DeckId(did=did)
-        raw_bytes = self._run_command(11, 13, message.SerializeToString())
+        raw_bytes = self._run_command(11, 14, message.SerializeToString())
         output = anki.collection_pb2.OpChanges()
         output.ParseFromString(raw_bytes)
         return output
 
     def rebuild_filtered_deck_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 14, message)
+        return self._run_command(11, 15, message)
 
     def rebuild_filtered_deck(self, did: int) -> anki.collection_pb2.OpChangesWithCount:
         message = anki.decks_pb2.DeckId(did=did)
-        raw_bytes = self._run_command(11, 14, message.SerializeToString())
+        raw_bytes = self._run_command(11, 15, message.SerializeToString())
         output = anki.collection_pb2.OpChangesWithCount()
         output.ParseFromString(raw_bytes)
         return output
 
     def schedule_cards_as_new_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 15, message)
+        return self._run_command(11, 16, message)
 
     def schedule_cards_as_new(self, message: anki.scheduler_pb2.ScheduleCardsAsNewRequest) -> anki.collection_pb2.OpChanges:
         
-        raw_bytes = self._run_command(11, 15, message.SerializeToString())
+        raw_bytes = self._run_command(11, 16, message.SerializeToString())
         output = anki.collection_pb2.OpChanges()
         output.ParseFromString(raw_bytes)
         return output
 
     def schedule_cards_as_new_defaults_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 16, message)
+        return self._run_command(11, 17, message)
 
     def schedule_cards_as_new_defaults(self, context: anki.scheduler_pb2.ScheduleCardsAsNewRequest.Context.V) -> anki.scheduler_pb2.ScheduleCardsAsNewDefaultsResponse:
         message = anki.scheduler_pb2.ScheduleCardsAsNewDefaultsRequest(context=context)
-        raw_bytes = self._run_command(11, 16, message.SerializeToString())
+        raw_bytes = self._run_command(11, 17, message.SerializeToString())
         output = anki.scheduler_pb2.ScheduleCardsAsNewDefaultsResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def set_due_date_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 17, message)
+        return self._run_command(11, 18, message)
 
     def set_due_date(self, *, card_ids: Iterable[int], days: str, config_key: anki.config_pb2.OptionalStringConfigKey) -> anki.collection_pb2.OpChanges:
         message = anki.scheduler_pb2.SetDueDateRequest(card_ids=card_ids, days=days, config_key=config_key)
-        raw_bytes = self._run_command(11, 17, message.SerializeToString())
+        raw_bytes = self._run_command(11, 18, message.SerializeToString())
         output = anki.collection_pb2.OpChanges()
         output.ParseFromString(raw_bytes)
         return output
 
     def sort_cards_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 18, message)
+        return self._run_command(11, 19, message)
 
     def sort_cards(self, *, card_ids: Iterable[int], starting_from: int, step_size: int, randomize: bool, shift_existing: bool) -> anki.collection_pb2.OpChangesWithCount:
         message = anki.scheduler_pb2.SortCardsRequest(card_ids=card_ids, starting_from=starting_from, step_size=step_size, randomize=randomize, shift_existing=shift_existing)
-        raw_bytes = self._run_command(11, 18, message.SerializeToString())
-        output = anki.collection_pb2.OpChangesWithCount()
-        output.ParseFromString(raw_bytes)
-        return output
-
-    def sort_deck_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 19, message)
-
-    def sort_deck(self, *, deck_id: int, randomize: bool) -> anki.collection_pb2.OpChangesWithCount:
-        message = anki.scheduler_pb2.SortDeckRequest(deck_id=deck_id, randomize=randomize)
         raw_bytes = self._run_command(11, 19, message.SerializeToString())
         output = anki.collection_pb2.OpChangesWithCount()
         output.ParseFromString(raw_bytes)
         return output
 
-    def get_scheduling_states_raw(self, message: bytes) -> bytes:
+    def sort_deck_raw(self, message: bytes) -> bytes:
         return self._run_command(11, 20, message)
+
+    def sort_deck(self, *, deck_id: int, randomize: bool) -> anki.collection_pb2.OpChangesWithCount:
+        message = anki.scheduler_pb2.SortDeckRequest(deck_id=deck_id, randomize=randomize)
+        raw_bytes = self._run_command(11, 20, message.SerializeToString())
+        output = anki.collection_pb2.OpChangesWithCount()
+        output.ParseFromString(raw_bytes)
+        return output
+
+    def get_scheduling_states_raw(self, message: bytes) -> bytes:
+        return self._run_command(11, 21, message)
 
     def get_scheduling_states(self, cid: int) -> anki.scheduler_pb2.SchedulingStates:
         message = anki.cards_pb2.CardId(cid=cid)
-        raw_bytes = self._run_command(11, 20, message.SerializeToString())
+        raw_bytes = self._run_command(11, 21, message.SerializeToString())
         output = anki.scheduler_pb2.SchedulingStates()
         output.ParseFromString(raw_bytes)
         return output
 
     def describe_next_states_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 21, message)
+        return self._run_command(11, 22, message)
 
     def describe_next_states(self, message: anki.scheduler_pb2.SchedulingStates) -> Sequence[str]:
         
-        raw_bytes = self._run_command(11, 21, message.SerializeToString())
+        raw_bytes = self._run_command(11, 22, message.SerializeToString())
         output = anki.generic_pb2.StringList()
         output.ParseFromString(raw_bytes)
         return output.vals
 
     def state_is_leech_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 22, message)
+        return self._run_command(11, 23, message)
 
     def state_is_leech(self, message: anki.scheduler_pb2.SchedulingState) -> bool:
         
-        raw_bytes = self._run_command(11, 22, message.SerializeToString())
+        raw_bytes = self._run_command(11, 23, message.SerializeToString())
         output = anki.generic_pb2.Bool()
         output.ParseFromString(raw_bytes)
         return output.val
 
     def upgrade_scheduler_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 23, message)
+        return self._run_command(11, 24, message)
 
     def upgrade_scheduler(self) -> anki.generic_pb2.Empty:
         message = anki.generic_pb2.Empty()
-        raw_bytes = self._run_command(11, 23, message.SerializeToString())
+        raw_bytes = self._run_command(11, 24, message.SerializeToString())
         output = anki.generic_pb2.Empty()
         output.ParseFromString(raw_bytes)
         return output
 
     def custom_study_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 24, message)
+        return self._run_command(11, 25, message)
 
     def custom_study(self, message: anki.scheduler_pb2.CustomStudyRequest) -> anki.collection_pb2.OpChanges:
         
-        raw_bytes = self._run_command(11, 24, message.SerializeToString())
+        raw_bytes = self._run_command(11, 25, message.SerializeToString())
         output = anki.collection_pb2.OpChanges()
         output.ParseFromString(raw_bytes)
         return output
 
     def custom_study_defaults_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 25, message)
+        return self._run_command(11, 26, message)
 
     def custom_study_defaults(self, deck_id: int) -> anki.scheduler_pb2.CustomStudyDefaultsResponse:
         message = anki.scheduler_pb2.CustomStudyDefaultsRequest(deck_id=deck_id)
-        raw_bytes = self._run_command(11, 25, message.SerializeToString())
+        raw_bytes = self._run_command(11, 26, message.SerializeToString())
         output = anki.scheduler_pb2.CustomStudyDefaultsResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def reposition_defaults_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 26, message)
+        return self._run_command(11, 27, message)
 
     def reposition_defaults(self) -> anki.scheduler_pb2.RepositionDefaultsResponse:
         message = anki.generic_pb2.Empty()
-        raw_bytes = self._run_command(11, 26, message.SerializeToString())
+        raw_bytes = self._run_command(11, 27, message.SerializeToString())
         output = anki.scheduler_pb2.RepositionDefaultsResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def compute_fsrs_weights_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 27, message)
+        return self._run_command(11, 28, message)
 
-    def compute_fsrs_weights(self, search: str) -> anki.scheduler_pb2.ComputeFsrsWeightsResponse:
-        message = anki.scheduler_pb2.ComputeFsrsWeightsRequest(search=search)
-        raw_bytes = self._run_command(11, 27, message.SerializeToString())
+    def compute_fsrs_weights(self, *, search: str, current_weights: Iterable[float], ignore_revlogs_before_ms: int) -> anki.scheduler_pb2.ComputeFsrsWeightsResponse:
+        message = anki.scheduler_pb2.ComputeFsrsWeightsRequest(search=search, current_weights=current_weights, ignore_revlogs_before_ms=ignore_revlogs_before_ms)
+        raw_bytes = self._run_command(11, 28, message.SerializeToString())
         output = anki.scheduler_pb2.ComputeFsrsWeightsResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def get_optimal_retention_parameters_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 28, message)
+        return self._run_command(11, 29, message)
 
     def get_optimal_retention_parameters(self, search: str) -> anki.scheduler_pb2.OptimalRetentionParameters:
         message = anki.scheduler_pb2.GetOptimalRetentionParametersRequest(search=search)
-        raw_bytes = self._run_command(11, 28, message.SerializeToString())
+        raw_bytes = self._run_command(11, 29, message.SerializeToString())
         output = anki.scheduler_pb2.GetOptimalRetentionParametersResponse()
         output.ParseFromString(raw_bytes)
         return output.params
 
     def compute_optimal_retention_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 29, message)
+        return self._run_command(11, 30, message)
 
-    def compute_optimal_retention(self, *, weights: Iterable[float], deck_size: int, days_to_simulate: int, max_minutes_of_study_per_day: int, max_interval: int, search: str, loss_aversion: float) -> float:
-        message = anki.scheduler_pb2.ComputeOptimalRetentionRequest(weights=weights, deck_size=deck_size, days_to_simulate=days_to_simulate, max_minutes_of_study_per_day=max_minutes_of_study_per_day, max_interval=max_interval, search=search, loss_aversion=loss_aversion)
-        raw_bytes = self._run_command(11, 29, message.SerializeToString())
+    def compute_optimal_retention(self, *, weights: Iterable[float], days_to_simulate: int, max_interval: int, search: str, loss_aversion: float) -> float:
+        message = anki.scheduler_pb2.ComputeOptimalRetentionRequest(weights=weights, days_to_simulate=days_to_simulate, max_interval=max_interval, search=search, loss_aversion=loss_aversion)
+        raw_bytes = self._run_command(11, 30, message.SerializeToString())
         output = anki.scheduler_pb2.ComputeOptimalRetentionResponse()
         output.ParseFromString(raw_bytes)
         return output.optimal_retention
 
-    def evaluate_weights_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 30, message)
+    def simulate_fsrs_review_raw(self, message: bytes) -> bytes:
+        return self._run_command(11, 31, message)
 
-    def evaluate_weights(self, *, weights: Iterable[float], search: str) -> anki.scheduler_pb2.EvaluateWeightsResponse:
-        message = anki.scheduler_pb2.EvaluateWeightsRequest(weights=weights, search=search)
-        raw_bytes = self._run_command(11, 30, message.SerializeToString())
+    def simulate_fsrs_review(self, *, weights: Iterable[float], desired_retention: float, deck_size: int, days_to_simulate: int, new_limit: int, review_limit: int, max_interval: int, search: str) -> anki.scheduler_pb2.SimulateFsrsReviewResponse:
+        message = anki.scheduler_pb2.SimulateFsrsReviewRequest(weights=weights, desired_retention=desired_retention, deck_size=deck_size, days_to_simulate=days_to_simulate, new_limit=new_limit, review_limit=review_limit, max_interval=max_interval, search=search)
+        raw_bytes = self._run_command(11, 31, message.SerializeToString())
+        output = anki.scheduler_pb2.SimulateFsrsReviewResponse()
+        output.ParseFromString(raw_bytes)
+        return output
+
+    def evaluate_weights_raw(self, message: bytes) -> bytes:
+        return self._run_command(11, 32, message)
+
+    def evaluate_weights(self, *, weights: Iterable[float], search: str, ignore_revlogs_before_ms: int) -> anki.scheduler_pb2.EvaluateWeightsResponse:
+        message = anki.scheduler_pb2.EvaluateWeightsRequest(weights=weights, search=search, ignore_revlogs_before_ms=ignore_revlogs_before_ms)
+        raw_bytes = self._run_command(11, 32, message.SerializeToString())
         output = anki.scheduler_pb2.EvaluateWeightsResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def compute_memory_state_raw(self, message: bytes) -> bytes:
-        return self._run_command(11, 31, message)
+        return self._run_command(11, 33, message)
 
     def compute_memory_state(self, cid: int) -> anki.scheduler_pb2.ComputeMemoryStateResponse:
         message = anki.cards_pb2.CardId(cid=cid)
-        raw_bytes = self._run_command(11, 31, message.SerializeToString())
+        raw_bytes = self._run_command(11, 33, message.SerializeToString())
         output = anki.scheduler_pb2.ComputeMemoryStateResponse()
         output.ParseFromString(raw_bytes)
         return output
 
     def fuzz_delta_raw(self, message: bytes) -> bytes:
-        """The number of days the calculated interval will be fuzzed by. Utilized by
- the FSRS add-on."""
-        return self._run_command(11, 32, message)
+        """The number of days the calculated interval was fuzzed by on the previous
+ review (if any). Utilized by the FSRS add-on."""
+        return self._run_command(11, 34, message)
 
     def fuzz_delta(self, *, card_id: int, interval: int) -> int:
-        """The number of days the calculated interval will be fuzzed by. Utilized by
- the FSRS add-on."""
+        """The number of days the calculated interval was fuzzed by on the previous
+ review (if any). Utilized by the FSRS add-on."""
         message = anki.scheduler_pb2.FuzzDeltaRequest(card_id=card_id, interval=interval)
-        raw_bytes = self._run_command(11, 32, message.SerializeToString())
+        raw_bytes = self._run_command(11, 34, message.SerializeToString())
         output = anki.scheduler_pb2.FuzzDeltaResponse()
         output.ParseFromString(raw_bytes)
         return output.delta_days

@@ -75,6 +75,8 @@ class CardStatsResponse(google.protobuf.message.Message):
     MEMORY_STATE_FIELD_NUMBER: builtins.int
     FSRS_RETRIEVABILITY_FIELD_NUMBER: builtins.int
     CUSTOM_DATA_FIELD_NUMBER: builtins.int
+    PRESET_FIELD_NUMBER: builtins.int
+    ORIGINAL_DECK_FIELD_NUMBER: builtins.int
     @property
     def revlog(self) -> google.protobuf.internal.containers.RepeatedCompositeFieldContainer[global___CardStatsResponse.StatsRevlogEntry]: ...
     card_id: builtins.int
@@ -101,6 +103,8 @@ class CardStatsResponse(google.protobuf.message.Message):
     fsrs_retrievability: builtins.float
     """not set if due date/state not available"""
     custom_data: builtins.str
+    preset: builtins.str
+    original_deck: builtins.str
     def __init__(
         self,
         *,
@@ -124,9 +128,11 @@ class CardStatsResponse(google.protobuf.message.Message):
         memory_state: anki.cards_pb2.FsrsMemoryState | None = ...,
         fsrs_retrievability: builtins.float | None = ...,
         custom_data: builtins.str = ...,
+        preset: builtins.str = ...,
+        original_deck: builtins.str | None = ...,
     ) -> None: ...
-    def HasField(self, field_name: typing_extensions.Literal["_due_date", b"_due_date", "_due_position", b"_due_position", "_first_review", b"_first_review", "_fsrs_retrievability", b"_fsrs_retrievability", "_latest_review", b"_latest_review", "_memory_state", b"_memory_state", "due_date", b"due_date", "due_position", b"due_position", "first_review", b"first_review", "fsrs_retrievability", b"fsrs_retrievability", "latest_review", b"latest_review", "memory_state", b"memory_state"]) -> builtins.bool: ...
-    def ClearField(self, field_name: typing_extensions.Literal["_due_date", b"_due_date", "_due_position", b"_due_position", "_first_review", b"_first_review", "_fsrs_retrievability", b"_fsrs_retrievability", "_latest_review", b"_latest_review", "_memory_state", b"_memory_state", "added", b"added", "average_secs", b"average_secs", "card_id", b"card_id", "card_type", b"card_type", "custom_data", b"custom_data", "deck", b"deck", "due_date", b"due_date", "due_position", b"due_position", "ease", b"ease", "first_review", b"first_review", "fsrs_retrievability", b"fsrs_retrievability", "interval", b"interval", "lapses", b"lapses", "latest_review", b"latest_review", "memory_state", b"memory_state", "note_id", b"note_id", "notetype", b"notetype", "reviews", b"reviews", "revlog", b"revlog", "total_secs", b"total_secs"]) -> None: ...
+    def HasField(self, field_name: typing_extensions.Literal["_due_date", b"_due_date", "_due_position", b"_due_position", "_first_review", b"_first_review", "_fsrs_retrievability", b"_fsrs_retrievability", "_latest_review", b"_latest_review", "_memory_state", b"_memory_state", "_original_deck", b"_original_deck", "due_date", b"due_date", "due_position", b"due_position", "first_review", b"first_review", "fsrs_retrievability", b"fsrs_retrievability", "latest_review", b"latest_review", "memory_state", b"memory_state", "original_deck", b"original_deck"]) -> builtins.bool: ...
+    def ClearField(self, field_name: typing_extensions.Literal["_due_date", b"_due_date", "_due_position", b"_due_position", "_first_review", b"_first_review", "_fsrs_retrievability", b"_fsrs_retrievability", "_latest_review", b"_latest_review", "_memory_state", b"_memory_state", "_original_deck", b"_original_deck", "added", b"added", "average_secs", b"average_secs", "card_id", b"card_id", "card_type", b"card_type", "custom_data", b"custom_data", "deck", b"deck", "due_date", b"due_date", "due_position", b"due_position", "ease", b"ease", "first_review", b"first_review", "fsrs_retrievability", b"fsrs_retrievability", "interval", b"interval", "lapses", b"lapses", "latest_review", b"latest_review", "memory_state", b"memory_state", "note_id", b"note_id", "notetype", b"notetype", "original_deck", b"original_deck", "preset", b"preset", "reviews", b"reviews", "revlog", b"revlog", "total_secs", b"total_secs"]) -> None: ...
     @typing.overload
     def WhichOneof(self, oneof_group: typing_extensions.Literal["_due_date", b"_due_date"]) -> typing_extensions.Literal["due_date"] | None: ...
     @typing.overload
@@ -139,6 +145,8 @@ class CardStatsResponse(google.protobuf.message.Message):
     def WhichOneof(self, oneof_group: typing_extensions.Literal["_latest_review", b"_latest_review"]) -> typing_extensions.Literal["latest_review"] | None: ...
     @typing.overload
     def WhichOneof(self, oneof_group: typing_extensions.Literal["_memory_state", b"_memory_state"]) -> typing_extensions.Literal["memory_state"] | None: ...
+    @typing.overload
+    def WhichOneof(self, oneof_group: typing_extensions.Literal["_original_deck", b"_original_deck"]) -> typing_extensions.Literal["original_deck"] | None: ...
 
 global___CardStatsResponse = CardStatsResponse
 

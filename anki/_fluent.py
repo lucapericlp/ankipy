@@ -169,249 +169,254 @@ class GeneratedTranslations:
         return self._translate(1, 20, {})
 
 
+    def actions_discard(self, ) -> str:
+        r''' Discard '''
+        return self._translate(1, 21, {})
+
+
     def actions_export(self, ) -> str:
         r''' Export '''
-        return self._translate(1, 21, {})
+        return self._translate(1, 22, {})
 
 
     def actions_filter(self, ) -> str:
         r''' Filter '''
-        return self._translate(1, 22, {})
+        return self._translate(1, 23, {})
 
 
     def actions_flag_blue(self, ) -> str:
         r''' Blue '''
-        return self._translate(1, 23, {})
+        return self._translate(1, 24, {})
 
 
     def actions_flag_green(self, ) -> str:
         r''' Green '''
-        return self._translate(1, 24, {})
+        return self._translate(1, 25, {})
 
 
     def actions_flag_number(self, number: FluentVariable) -> str:
         r''' Flag {$number} '''
-        return self._translate(1, 25, {"number": number})
+        return self._translate(1, 26, {"number": number})
 
 
     def actions_flag_orange(self, ) -> str:
         r''' Orange '''
-        return self._translate(1, 26, {})
+        return self._translate(1, 27, {})
 
 
     def actions_flag_pink(self, ) -> str:
         r''' Pink '''
-        return self._translate(1, 27, {})
+        return self._translate(1, 28, {})
 
 
     def actions_flag_purple(self, ) -> str:
         r''' Purple '''
-        return self._translate(1, 28, {})
+        return self._translate(1, 29, {})
 
 
     def actions_flag_red(self, ) -> str:
         r''' Red '''
-        return self._translate(1, 29, {})
+        return self._translate(1, 30, {})
 
 
     def actions_flag_turquoise(self, ) -> str:
         r''' Turquoise '''
-        return self._translate(1, 30, {})
+        return self._translate(1, 31, {})
 
 
     def actions_forget_card(self, ) -> str:
-        r''' Forget Card '''
-        return self._translate(1, 31, {})
+        r''' Reset Card '''
+        return self._translate(1, 32, {})
 
 
     def actions_fullscreen_unsupported(self, ) -> str:
         r''' Full screen mode is not supported for your video driver. Try switching to a different one from the preferences screen. '''
-        return self._translate(1, 32, {})
+        return self._translate(1, 33, {})
 
 
     def actions_help(self, ) -> str:
         r''' Help '''
-        return self._translate(1, 33, {})
+        return self._translate(1, 34, {})
 
 
     def actions_import(self, ) -> str:
         r''' Import '''
-        return self._translate(1, 34, {})
+        return self._translate(1, 35, {})
 
 
     def actions_increment_value(self, ) -> str:
         r''' Increment value '''
-        return self._translate(1, 35, {})
+        return self._translate(1, 36, {})
 
 
     def actions_manage(self, ) -> str:
         r''' Manage... '''
-        return self._translate(1, 36, {})
+        return self._translate(1, 37, {})
 
 
     def actions_name(self, ) -> str:
         r''' Name: '''
-        return self._translate(1, 37, {})
+        return self._translate(1, 38, {})
 
 
     def actions_new(self, ) -> str:
         r''' New '''
-        return self._translate(1, 38, {})
+        return self._translate(1, 39, {})
 
 
     def actions_new_name(self, ) -> str:
         r''' New name: '''
-        return self._translate(1, 39, {})
+        return self._translate(1, 40, {})
 
 
     def actions_nothing_to_redo(self, ) -> str:
         r''' Nothing to redo '''
-        return self._translate(1, 40, {})
+        return self._translate(1, 41, {})
 
 
     def actions_nothing_to_undo(self, ) -> str:
         r''' Nothing to undo '''
-        return self._translate(1, 41, {})
+        return self._translate(1, 42, {})
 
 
     def actions_options(self, ) -> str:
         r''' Options '''
-        return self._translate(1, 42, {})
+        return self._translate(1, 43, {})
 
 
     def actions_options_for(self, val: FluentVariable) -> str:
         r''' Options for {$val} '''
-        return self._translate(1, 43, {"val": val})
+        return self._translate(1, 44, {"val": val})
 
 
     def actions_preview(self, ) -> str:
         r''' Preview '''
-        return self._translate(1, 44, {})
+        return self._translate(1, 45, {})
 
 
     def actions_previous_card_info(self, ) -> str:
         r''' Previous Card Info '''
-        return self._translate(1, 45, {})
+        return self._translate(1, 46, {})
 
 
     def actions_rebuild(self, ) -> str:
         r''' Rebuild '''
-        return self._translate(1, 46, {})
+        return self._translate(1, 47, {})
 
 
     def actions_remove_notetype(self, ) -> str:
         r''' Remove Notetype '''
-        return self._translate(1, 47, {})
+        return self._translate(1, 48, {})
 
 
     def actions_remove_tag(self, ) -> str:
         r''' Remove Tag '''
-        return self._translate(1, 48, {})
+        return self._translate(1, 49, {})
 
 
     def actions_rename(self, ) -> str:
         r''' Rename '''
-        return self._translate(1, 49, {})
+        return self._translate(1, 50, {})
 
 
     def actions_rename_deck(self, ) -> str:
         r''' Rename Deck '''
-        return self._translate(1, 50, {})
+        return self._translate(1, 51, {})
 
 
     def actions_rename_tag(self, ) -> str:
         r''' Rename Tag '''
-        return self._translate(1, 51, {})
+        return self._translate(1, 52, {})
 
 
     def actions_rename_with_parents(self, ) -> str:
         r''' Rename with Parents '''
-        return self._translate(1, 52, {})
+        return self._translate(1, 53, {})
 
 
     def actions_replay_audio(self, ) -> str:
         r''' Replay Audio '''
-        return self._translate(1, 53, {})
+        return self._translate(1, 54, {})
 
 
     def actions_reposition(self, ) -> str:
         r''' Reposition '''
-        return self._translate(1, 54, {})
+        return self._translate(1, 55, {})
 
 
     def actions_save(self, ) -> str:
         r''' Save '''
-        return self._translate(1, 55, {})
+        return self._translate(1, 56, {})
 
 
     def actions_search(self, ) -> str:
         r''' Search '''
-        return self._translate(1, 56, {})
+        return self._translate(1, 57, {})
 
 
     def actions_select(self, ) -> str:
         r''' Select '''
-        return self._translate(1, 57, {})
+        return self._translate(1, 58, {})
 
 
     def actions_set_due_date(self, ) -> str:
         r''' Set Due Date '''
-        return self._translate(1, 58, {})
+        return self._translate(1, 59, {})
 
 
     def actions_set_flag(self, ) -> str:
         r''' Set Flag '''
-        return self._translate(1, 59, {})
+        return self._translate(1, 60, {})
 
 
     def actions_shortcut_key(self, val: FluentVariable) -> str:
         r''' Shortcut key: {$val} '''
-        return self._translate(1, 60, {"val": val})
+        return self._translate(1, 61, {"val": val})
 
 
     def actions_suspend_card(self, ) -> str:
         r''' Suspend Card '''
-        return self._translate(1, 61, {})
+        return self._translate(1, 62, {})
 
 
     def actions_unbury_unsuspend(self, ) -> str:
         r''' Unbury/Unsuspend '''
-        return self._translate(1, 62, {})
+        return self._translate(1, 63, {})
 
 
     def actions_update_card(self, ) -> str:
         r''' Update Card '''
-        return self._translate(1, 63, {})
+        return self._translate(1, 64, {})
 
 
     def actions_update_config(self, ) -> str:
         r''' Update Config '''
-        return self._translate(1, 64, {})
+        return self._translate(1, 65, {})
 
 
     def actions_update_deck(self, ) -> str:
         r''' Update Deck '''
-        return self._translate(1, 65, {})
+        return self._translate(1, 66, {})
 
 
     def actions_update_note(self, ) -> str:
         r''' Update Note '''
-        return self._translate(1, 66, {})
+        return self._translate(1, 67, {})
 
 
     def actions_update_notetype(self, ) -> str:
         r''' Update Notetype '''
-        return self._translate(1, 67, {})
+        return self._translate(1, 68, {})
 
 
     def actions_update_tag(self, ) -> str:
         r''' Update Tag '''
-        return self._translate(1, 68, {})
+        return self._translate(1, 69, {})
 
 
     def actions_with_ellipsis(self, action: str) -> str:
         r''' {$action}... '''
-        return self._translate(1, 69, {"action": action})
+        return self._translate(1, 70, {"action": action})
 
 
     def adding_add_shortcut_ctrlandenter(self, ) -> str:
@@ -887,584 +892,589 @@ message from appearing. '''
         return self._translate(4, 19, {"count": count})
 
 
+    def browsing_cards_deleted_with_deckname(self, count: int, deck_name: str) -> str:
+        r''' {$count} cards deleted from {$deck_name}. '''
+        return self._translate(4, 20, {"count": count, "deck_name": deck_name})
+
+
     def browsing_cards_updated(self, count: int) -> str:
         r''' {$count} cards updated. '''
-        return self._translate(4, 20, {"count": count})
+        return self._translate(4, 21, {"count": count})
 
 
     def browsing_change_deck(self, ) -> str:
         r''' Change Deck '''
-        return self._translate(4, 21, {})
+        return self._translate(4, 22, {})
 
 
     def browsing_change_deck2(self, ) -> str:
         r''' Change Deck... '''
-        return self._translate(4, 22, {})
+        return self._translate(4, 23, {})
 
 
     def browsing_change_note_type(self, ) -> str:
         r''' Change Note Type '''
-        return self._translate(4, 23, {})
+        return self._translate(4, 24, {})
 
 
     def browsing_change_note_type2(self, ) -> str:
         r''' Change Note Type... '''
-        return self._translate(4, 24, {})
+        return self._translate(4, 25, {})
 
 
     def browsing_change_notetype(self, ) -> str:
         r''' Change Notetype '''
-        return self._translate(4, 25, {})
+        return self._translate(4, 26, {})
 
 
     def browsing_changed_new_position(self, count: int) -> str:
         r''' Changed position of {$count} new cards. '''
-        return self._translate(4, 26, {"count": count})
+        return self._translate(4, 27, {"count": count})
 
 
     def browsing_clear_unused_tags(self, ) -> str:
         r''' Clear Unused Tags '''
-        return self._translate(4, 27, {})
+        return self._translate(4, 28, {})
 
 
     def browsing_confirm_saved_search_overwrite(self, name: str) -> str:
         r''' A saved search with the name {$name} already exists. Do you want to overwrite it? '''
-        return self._translate(4, 28, {"name": name})
+        return self._translate(4, 29, {"name": name})
 
 
     def browsing_created(self, ) -> str:
         r''' Created '''
-        return self._translate(4, 29, {})
+        return self._translate(4, 30, {})
 
 
     def browsing_current_deck(self, ) -> str:
         r''' Current Deck '''
-        return self._translate(4, 30, {})
+        return self._translate(4, 31, {})
 
 
     def browsing_current_note_type(self, ) -> str:
         r''' Current note type: '''
-        return self._translate(4, 31, {})
+        return self._translate(4, 32, {})
 
 
     def browsing_delete_notes(self, ) -> str:
         r''' Delete Notes '''
-        return self._translate(4, 32, {})
+        return self._translate(4, 33, {})
 
 
     def browsing_duplicate(self, ) -> str:
         r''' duplicate '''
-        return self._translate(4, 33, {})
+        return self._translate(4, 34, {})
 
 
     def browsing_ease(self, ) -> str:
         r''' Ease '''
-        return self._translate(4, 34, {})
+        return self._translate(4, 35, {})
 
 
     def browsing_edited_today(self, ) -> str:
         r''' Edited '''
-        return self._translate(4, 35, {})
+        return self._translate(4, 36, {})
 
 
     def browsing_enter_tags_to_add(self, ) -> str:
         r''' Enter tags to add: '''
-        return self._translate(4, 36, {})
+        return self._translate(4, 37, {})
 
 
     def browsing_enter_tags_to_delete(self, ) -> str:
         r''' Enter tags to delete: '''
-        return self._translate(4, 37, {})
+        return self._translate(4, 38, {})
 
 
     def browsing_filtered(self, ) -> str:
         r''' (filtered) '''
-        return self._translate(4, 38, {})
+        return self._translate(4, 39, {})
 
 
     def browsing_find(self, ) -> str:
         r''' <b>Find</b>: '''
-        return self._translate(4, 39, {})
+        return self._translate(4, 40, {})
 
 
     def browsing_find_and_replace(self, ) -> str:
         r''' Find and Replace '''
-        return self._translate(4, 40, {})
+        return self._translate(4, 41, {})
 
 
     def browsing_find_duplicates(self, ) -> str:
         r''' Find Duplicates '''
-        return self._translate(4, 41, {})
+        return self._translate(4, 42, {})
 
 
     def browsing_first_card(self, ) -> str:
         r''' First Card '''
-        return self._translate(4, 42, {})
+        return self._translate(4, 43, {})
 
 
     def browsing_flag(self, ) -> str:
         r''' Flag '''
-        return self._translate(4, 43, {})
+        return self._translate(4, 44, {})
 
 
     def browsing_font(self, ) -> str:
         r''' <b>Font</b>: '''
-        return self._translate(4, 44, {})
+        return self._translate(4, 45, {})
 
 
     def browsing_font_size(self, ) -> str:
         r''' <b>Font Size</b>: '''
-        return self._translate(4, 45, {})
+        return self._translate(4, 46, {})
 
 
     def browsing_found_as_across_bs(self, part: FluentVariable, whole: str) -> str:
         r''' Found {$part} across {$whole}. '''
-        return self._translate(4, 46, {"part": part, "whole": whole})
+        return self._translate(4, 47, {"part": part, "whole": whole})
 
 
     def browsing_group(self, count: int) -> str:
         r''' {$count} groups '''
-        return self._translate(4, 47, {"count": count})
+        return self._translate(4, 48, {"count": count})
 
 
     def browsing_ignore_case(self, ) -> str:
         r''' Ignore case '''
-        return self._translate(4, 48, {})
+        return self._translate(4, 49, {})
 
 
     def browsing_in(self, ) -> str:
         r''' <b>In</b>: '''
-        return self._translate(4, 49, {})
+        return self._translate(4, 50, {})
 
 
     def browsing_interval(self, ) -> str:
         r''' Interval '''
-        return self._translate(4, 50, {})
+        return self._translate(4, 51, {})
 
 
     def browsing_last_card(self, ) -> str:
         r''' Last Card '''
-        return self._translate(4, 51, {})
+        return self._translate(4, 52, {})
 
 
     def browsing_learning(self, ) -> str:
         r''' (learning) '''
-        return self._translate(4, 52, {})
+        return self._translate(4, 53, {})
 
 
     def browsing_line_size(self, ) -> str:
         r''' <b>Line Size</b>: '''
-        return self._translate(4, 53, {})
+        return self._translate(4, 54, {})
 
 
     def browsing_manage_note_types(self, ) -> str:
         r''' Manage Note Types '''
-        return self._translate(4, 54, {})
+        return self._translate(4, 55, {})
 
 
     def browsing_move_cards(self, ) -> str:
         r''' Move Cards '''
-        return self._translate(4, 55, {})
+        return self._translate(4, 56, {})
 
 
     def browsing_move_cards_to_deck(self, ) -> str:
         r''' Move cards to deck: '''
-        return self._translate(4, 56, {})
+        return self._translate(4, 57, {})
 
 
     def browsing_new(self, ) -> str:
         r''' (new) '''
-        return self._translate(4, 57, {})
+        return self._translate(4, 58, {})
 
 
     def browsing_new_note_type(self, ) -> str:
         r''' New note type: '''
-        return self._translate(4, 58, {})
+        return self._translate(4, 59, {})
 
 
     def browsing_no_flag(self, ) -> str:
         r''' No Flag '''
-        return self._translate(4, 59, {})
+        return self._translate(4, 60, {})
 
 
     def browsing_no_selection(self, ) -> str:
         r''' No cards or notes selected. '''
-        return self._translate(4, 60, {})
+        return self._translate(4, 61, {})
 
 
     def browsing_note(self, ) -> str:
         r''' Note '''
-        return self._translate(4, 61, {})
+        return self._translate(4, 62, {})
 
 
     def browsing_note_count(self, count: int) -> str:
         r''' {$count} notes '''
-        return self._translate(4, 62, {"count": count})
+        return self._translate(4, 63, {"count": count})
 
 
     def browsing_note_initial(self, ) -> str:
         r''' N '''
-        return self._translate(4, 63, {})
+        return self._translate(4, 64, {})
 
 
     def browsing_notes(self, ) -> str:
         r''' Notes '''
-        return self._translate(4, 64, {})
+        return self._translate(4, 65, {})
 
 
     def browsing_notes_updated(self, count: int) -> str:
         r''' {$count} notes updated. '''
-        return self._translate(4, 65, {"count": count})
+        return self._translate(4, 66, {"count": count})
 
 
     def browsing_optional_filter(self, ) -> str:
         r''' Optional filter: '''
-        return self._translate(4, 66, {})
+        return self._translate(4, 67, {})
 
 
     def browsing_override_back_template(self, ) -> str:
         r''' Override back template: '''
-        return self._translate(4, 67, {})
+        return self._translate(4, 68, {})
 
 
     def browsing_override_font(self, ) -> str:
         r''' Override font: '''
-        return self._translate(4, 68, {})
+        return self._translate(4, 69, {})
 
 
     def browsing_override_front_template(self, ) -> str:
         r''' Override front template: '''
-        return self._translate(4, 69, {})
+        return self._translate(4, 70, {})
 
 
     def browsing_please_give_your_filter_a_name(self, ) -> str:
         r''' Please give your filter a name: '''
-        return self._translate(4, 70, {})
+        return self._translate(4, 71, {})
 
 
     def browsing_preview_selected_card(self, val: FluentVariable) -> str:
         r''' Preview Selected Card ({$val}) '''
-        return self._translate(4, 71, {"val": val})
+        return self._translate(4, 72, {"val": val})
 
 
     def browsing_question(self, ) -> str:
         r''' Question '''
-        return self._translate(4, 72, {})
+        return self._translate(4, 73, {})
 
 
     def browsing_queue_bottom(self, val: FluentVariable) -> str:
         r''' Queue bottom: {$val} '''
-        return self._translate(4, 73, {"val": val})
+        return self._translate(4, 74, {"val": val})
 
 
     def browsing_queue_top(self, val: FluentVariable) -> str:
         r''' Queue top: {$val} '''
-        return self._translate(4, 74, {"val": val})
+        return self._translate(4, 75, {"val": val})
 
 
     def browsing_randomize_order(self, ) -> str:
         r''' Randomize order '''
-        return self._translate(4, 75, {})
+        return self._translate(4, 76, {})
 
 
     def browsing_remove_from_selected_notes(self, ) -> str:
         r''' Remove from Selected Notes '''
-        return self._translate(4, 76, {})
+        return self._translate(4, 77, {})
 
 
     def browsing_remove_tags(self, ) -> str:
         r''' Remove Tags... '''
-        return self._translate(4, 77, {})
+        return self._translate(4, 78, {})
 
 
     def browsing_removed_unused_tags_count(self, count: int) -> str:
         r''' Removed {$count} unused tags. '''
-        return self._translate(4, 78, {"count": count})
+        return self._translate(4, 79, {"count": count})
 
 
     def browsing_reparented_decks(self, count: int) -> str:
         r''' Renamed {$count} decks. '''
-        return self._translate(4, 79, {"count": count})
+        return self._translate(4, 80, {"count": count})
 
 
     def browsing_replace_with(self, ) -> str:
         r''' <b>Replace With</b>: '''
-        return self._translate(4, 80, {})
+        return self._translate(4, 81, {})
 
 
     def browsing_reposition(self, ) -> str:
         r''' Reposition... '''
-        return self._translate(4, 81, {})
+        return self._translate(4, 82, {})
 
 
     def browsing_reposition_new_cards(self, ) -> str:
         r''' Reposition New Cards '''
-        return self._translate(4, 82, {})
+        return self._translate(4, 83, {})
 
 
     def browsing_reschedule(self, ) -> str:
         r''' Reschedule '''
-        return self._translate(4, 83, {})
+        return self._translate(4, 84, {})
 
 
     def browsing_row_deleted(self, ) -> str:
         r''' (deleted) '''
-        return self._translate(4, 84, {})
+        return self._translate(4, 85, {})
 
 
     def browsing_search_bar_hint(self, ) -> str:
         r''' Search cards/notes (type text, then press Enter) '''
-        return self._translate(4, 85, {})
+        return self._translate(4, 86, {})
 
 
     def browsing_search_in(self, ) -> str:
         r''' Search in: '''
-        return self._translate(4, 86, {})
+        return self._translate(4, 87, {})
 
 
     def browsing_search_within_formatting_slow(self, ) -> str:
         r''' Search within formatting (slow) '''
-        return self._translate(4, 87, {})
+        return self._translate(4, 88, {})
 
 
     def browsing_selected_notes_only(self, ) -> str:
         r''' Selected notes only '''
-        return self._translate(4, 88, {})
+        return self._translate(4, 89, {})
 
 
     def browsing_shift_position_of_existing_cards(self, ) -> str:
         r''' Shift position of existing cards '''
-        return self._translate(4, 89, {})
+        return self._translate(4, 90, {})
 
 
     def browsing_sidebar(self, ) -> str:
         r''' Sidebar '''
-        return self._translate(4, 90, {})
+        return self._translate(4, 91, {})
 
 
     def browsing_sidebar_card_state(self, ) -> str:
         r''' Card State '''
-        return self._translate(4, 91, {})
+        return self._translate(4, 92, {})
 
 
     def browsing_sidebar_card_state_review(self, ) -> str:
         r''' Review '''
-        return self._translate(4, 92, {})
+        return self._translate(4, 93, {})
 
 
     def browsing_sidebar_collapse(self, ) -> str:
         r''' Collapse '''
-        return self._translate(4, 93, {})
+        return self._translate(4, 94, {})
 
 
     def browsing_sidebar_collapse_children(self, ) -> str:
         r''' Collapse Children '''
-        return self._translate(4, 94, {})
+        return self._translate(4, 95, {})
 
 
     def browsing_sidebar_decks(self, ) -> str:
         r''' Decks '''
-        return self._translate(4, 95, {})
+        return self._translate(4, 96, {})
 
 
     def browsing_sidebar_due_today(self, ) -> str:
         r''' Due '''
-        return self._translate(4, 96, {})
+        return self._translate(4, 97, {})
 
 
     def browsing_sidebar_expand(self, ) -> str:
         r''' Expand '''
-        return self._translate(4, 97, {})
+        return self._translate(4, 98, {})
 
 
     def browsing_sidebar_expand_children(self, ) -> str:
         r''' Expand Children '''
-        return self._translate(4, 98, {})
+        return self._translate(4, 99, {})
 
 
     def browsing_sidebar_filter(self, ) -> str:
         r''' Sidebar filter '''
-        return self._translate(4, 99, {})
+        return self._translate(4, 100, {})
 
 
     def browsing_sidebar_first_review(self, ) -> str:
         r''' First Review '''
-        return self._translate(4, 100, {})
+        return self._translate(4, 101, {})
 
 
     def browsing_sidebar_flags(self, ) -> str:
         r''' Flags '''
-        return self._translate(4, 101, {})
+        return self._translate(4, 102, {})
 
 
     def browsing_sidebar_notetypes(self, ) -> str:
         r''' Note Types '''
-        return self._translate(4, 102, {})
+        return self._translate(4, 103, {})
 
 
     def browsing_sidebar_overdue(self, ) -> str:
         r''' Overdue '''
-        return self._translate(4, 103, {})
+        return self._translate(4, 104, {})
 
 
     def browsing_sidebar_rescheduled(self, ) -> str:
         r''' Rescheduled '''
-        return self._translate(4, 104, {})
+        return self._translate(4, 105, {})
 
 
     def browsing_sidebar_save_current_search(self, ) -> str:
         r''' Save Current Search '''
-        return self._translate(4, 105, {})
+        return self._translate(4, 106, {})
 
 
     def browsing_sidebar_saved_searches(self, ) -> str:
         r''' Saved Searches '''
-        return self._translate(4, 106, {})
+        return self._translate(4, 107, {})
 
 
     def browsing_sidebar_tags(self, ) -> str:
         r''' Tags '''
-        return self._translate(4, 107, {})
+        return self._translate(4, 108, {})
 
 
     def browsing_sidebar_untagged(self, ) -> str:
         r''' Untagged '''
-        return self._translate(4, 108, {})
+        return self._translate(4, 109, {})
 
 
     def browsing_sort_field(self, ) -> str:
         r''' Sort Field '''
-        return self._translate(4, 109, {})
+        return self._translate(4, 110, {})
 
 
     def browsing_sorting_on_this_column_is_not(self, ) -> str:
         r''' Sorting on this column is not supported. Please choose another. '''
-        return self._translate(4, 110, {})
+        return self._translate(4, 111, {})
 
 
     def browsing_start_position(self, ) -> str:
         r''' Start position: '''
-        return self._translate(4, 111, {})
+        return self._translate(4, 112, {})
 
 
     def browsing_step(self, ) -> str:
         r''' Step: '''
-        return self._translate(4, 112, {})
+        return self._translate(4, 113, {})
 
 
     def browsing_studied_today(self, ) -> str:
         r''' Studied '''
-        return self._translate(4, 113, {})
+        return self._translate(4, 114, {})
 
 
     def browsing_suspended(self, ) -> str:
         r''' Suspended '''
-        return self._translate(4, 114, {})
+        return self._translate(4, 115, {})
 
 
     def browsing_tag_duplicates(self, ) -> str:
         r''' Tag Duplicates '''
-        return self._translate(4, 115, {})
+        return self._translate(4, 116, {})
 
 
     def browsing_tag_rename_warning_empty(self, ) -> str:
         r''' You can't rename a tag that has no notes. '''
-        return self._translate(4, 116, {})
+        return self._translate(4, 117, {})
 
 
     def browsing_target_field(self, ) -> str:
         r''' Target field: '''
-        return self._translate(4, 117, {})
+        return self._translate(4, 118, {})
 
 
     def browsing_today(self, ) -> str:
         r''' Today '''
-        return self._translate(4, 118, {})
+        return self._translate(4, 119, {})
 
 
     def browsing_toggle_bury(self, ) -> str:
         r''' Toggle Bury '''
-        return self._translate(4, 119, {})
+        return self._translate(4, 120, {})
 
 
     def browsing_toggle_mark(self, ) -> str:
         r''' Toggle Mark '''
-        return self._translate(4, 120, {})
+        return self._translate(4, 121, {})
 
 
     def browsing_toggle_showing_cards_notes(self, ) -> str:
         r''' Toggle Cards/Notes '''
-        return self._translate(4, 121, {})
+        return self._translate(4, 122, {})
 
 
     def browsing_toggle_suspend(self, ) -> str:
         r''' Toggle Suspend '''
-        return self._translate(4, 122, {})
+        return self._translate(4, 123, {})
 
 
     def browsing_tooltip_answer(self, ) -> str:
         r''' The back side of a card, customisable in the card template editor '''
-        return self._translate(4, 123, {})
+        return self._translate(4, 124, {})
 
 
     def browsing_tooltip_card(self, ) -> str:
         r''' The name of a card's card template '''
-        return self._translate(4, 124, {})
+        return self._translate(4, 125, {})
 
 
     def browsing_tooltip_card_modified(self, ) -> str:
         r''' The last time changes were made to a card, including reviews, flags and deck changes '''
-        return self._translate(4, 125, {})
+        return self._translate(4, 126, {})
 
 
     def browsing_tooltip_cards(self, ) -> str:
         r''' The number of cards a note has '''
-        return self._translate(4, 126, {})
+        return self._translate(4, 127, {})
 
 
     def browsing_tooltip_note_modified(self, ) -> str:
         r''' The last time changes were made to a note, usually field content or tag edits '''
-        return self._translate(4, 127, {})
+        return self._translate(4, 128, {})
 
 
     def browsing_tooltip_notetype(self, ) -> str:
         r''' The name of a note's notetype '''
-        return self._translate(4, 128, {})
+        return self._translate(4, 129, {})
 
 
     def browsing_tooltip_question(self, ) -> str:
         r''' The front side of a card, customisable in the card template editor '''
-        return self._translate(4, 129, {})
+        return self._translate(4, 130, {})
 
 
     def browsing_treat_input_as_regular_expression(self, ) -> str:
         r''' Treat input as regular expression '''
-        return self._translate(4, 130, {})
+        return self._translate(4, 131, {})
 
 
     def browsing_update_saved_search(self, ) -> str:
         r''' Update with Current Search '''
-        return self._translate(4, 131, {})
+        return self._translate(4, 132, {})
 
 
     def browsing_whole_collection(self, ) -> str:
         r''' Whole Collection '''
-        return self._translate(4, 132, {})
+        return self._translate(4, 133, {})
 
 
     def browsing_window_title(self, selected: int, total: int) -> str:
         r''' Browse ({$selected} of {$total} cards selected) '''
-        return self._translate(4, 133, {"selected": selected, "total": total})
+        return self._translate(4, 134, {"selected": selected, "total": total})
 
 
     def browsing_window_title_notes(self, selected: int, total: int) -> str:
         r''' Browse ({$selected} of {$total} notes selected) '''
-        return self._translate(4, 134, {"selected": selected, "total": total})
+        return self._translate(4, 135, {"selected": selected, "total": total})
 
 
     def browsing_you_must_have_at_least_one(self, ) -> str:
         r''' You must have at least one column. '''
-        return self._translate(4, 135, {})
+        return self._translate(4, 136, {})
 
 
     def card_stats_added(self, ) -> str:
@@ -1562,64 +1572,69 @@ message from appearing. '''
         return self._translate(5, 18, {})
 
 
+    def card_stats_preset(self, ) -> str:
+        r''' Preset '''
+        return self._translate(5, 19, {})
+
+
     def card_stats_previous_card(self, context: str) -> str:
         r''' Previous Card ({$context}) '''
-        return self._translate(5, 19, {"context": context})
+        return self._translate(5, 20, {"context": context})
 
 
     def card_stats_review_count(self, ) -> str:
         r''' Reviews '''
-        return self._translate(5, 20, {})
+        return self._translate(5, 21, {})
 
 
     def card_stats_review_log_date(self, ) -> str:
         r''' Date '''
-        return self._translate(5, 21, {})
+        return self._translate(5, 22, {})
 
 
     def card_stats_review_log_rating(self, ) -> str:
         r''' Rating '''
-        return self._translate(5, 22, {})
+        return self._translate(5, 23, {})
 
 
     def card_stats_review_log_time_taken(self, ) -> str:
         r''' Time '''
-        return self._translate(5, 23, {})
+        return self._translate(5, 24, {})
 
 
     def card_stats_review_log_type(self, ) -> str:
         r''' Type '''
-        return self._translate(5, 24, {})
+        return self._translate(5, 25, {})
 
 
     def card_stats_review_log_type_filtered(self, ) -> str:
         r''' Filtered '''
-        return self._translate(5, 25, {})
+        return self._translate(5, 26, {})
 
 
     def card_stats_review_log_type_learn(self, ) -> str:
         r''' Learn '''
-        return self._translate(5, 26, {})
+        return self._translate(5, 27, {})
 
 
     def card_stats_review_log_type_manual(self, ) -> str:
         r''' Manual '''
-        return self._translate(5, 27, {})
+        return self._translate(5, 28, {})
 
 
     def card_stats_review_log_type_relearn(self, ) -> str:
         r''' Relearn '''
-        return self._translate(5, 28, {})
+        return self._translate(5, 29, {})
 
 
     def card_stats_review_log_type_review(self, ) -> str:
         r''' Review '''
-        return self._translate(5, 29, {})
+        return self._translate(5, 30, {})
 
 
     def card_stats_total_time(self, ) -> str:
         r''' Total Time '''
-        return self._translate(5, 30, {})
+        return self._translate(5, 31, {})
 
 
     def card_template_rendering_back_side_problem(self, ) -> str:
@@ -1788,135 +1803,140 @@ Please either add a cloze deletion, or use the Empty Cards tool. '''
         return self._translate(7, 20, {})
 
 
+    def card_templates_field_not_found(self, field: str) -> str:
+        r''' Field '{$field}' not found. '''
+        return self._translate(7, 21, {"field": field})
+
+
     def card_templates_fill_empty(self, ) -> str:
         r''' Fill Empty Fields '''
-        return self._translate(7, 21, {})
+        return self._translate(7, 22, {})
 
 
     def card_templates_flip(self, ) -> str:
         r''' Flip '''
-        return self._translate(7, 22, {})
+        return self._translate(7, 23, {})
 
 
     def card_templates_form(self, ) -> str:
         r''' Form '''
-        return self._translate(7, 23, {})
+        return self._translate(7, 24, {})
 
 
     def card_templates_front_preview(self, ) -> str:
         r''' Front Preview '''
-        return self._translate(7, 24, {})
+        return self._translate(7, 25, {})
 
 
     def card_templates_front_template(self, ) -> str:
         r''' Front Template '''
-        return self._translate(7, 25, {})
+        return self._translate(7, 26, {})
 
 
     def card_templates_identical_front(self, number: FluentVariable) -> str:
         r''' The front side is identical to card template {$number}. '''
-        return self._translate(7, 26, {"number": number})
+        return self._translate(7, 27, {"number": number})
 
 
     def card_templates_invalid_template_number(self, number: FluentVariable, notetype: str) -> str:
         r''' Card template {$number} in notetype '{$notetype}' has a problem. '''
-        return self._translate(7, 27, {"number": number, "notetype": notetype})
+        return self._translate(7, 28, {"number": number, "notetype": notetype})
 
 
     def card_templates_missing_cloze(self, ) -> str:
         r''' Expected to find 'cloze:Text' or similar on the front and back of the card template. '''
-        return self._translate(7, 28, {})
+        return self._translate(7, 29, {})
 
 
     def card_templates_night_mode(self, ) -> str:
         r''' Night Mode '''
-        return self._translate(7, 29, {})
+        return self._translate(7, 30, {})
 
 
     def card_templates_no_front_field(self, ) -> str:
         r''' Expected to find a field replacement on the front of the card template. '''
-        return self._translate(7, 30, {})
+        return self._translate(7, 31, {})
 
 
     def card_templates_off(self, ) -> str:
         r''' (off) '''
-        return self._translate(7, 31, {})
+        return self._translate(7, 32, {})
 
 
     def card_templates_on(self, ) -> str:
         r''' (on) '''
-        return self._translate(7, 32, {})
+        return self._translate(7, 33, {})
 
 
     def card_templates_preview_box(self, ) -> str:
         r''' Preview '''
-        return self._translate(7, 33, {})
+        return self._translate(7, 34, {})
 
 
     def card_templates_preview_settings(self, ) -> str:
         r''' Options '''
-        return self._translate(7, 34, {})
+        return self._translate(7, 35, {})
 
 
     def card_templates_remove_card_type(self, ) -> str:
         r''' Remove Card Type... '''
-        return self._translate(7, 35, {})
+        return self._translate(7, 36, {})
 
 
     def card_templates_rename_card_type(self, ) -> str:
         r''' Rename Card Type... '''
-        return self._translate(7, 36, {})
+        return self._translate(7, 37, {})
 
 
     def card_templates_reposition_card_type(self, ) -> str:
         r''' Reposition Card Type... '''
-        return self._translate(7, 37, {})
+        return self._translate(7, 38, {})
 
 
     def card_templates_restore_to_default(self, ) -> str:
         r''' Restore to Default '''
-        return self._translate(7, 38, {})
+        return self._translate(7, 39, {})
 
 
     def card_templates_restore_to_default_confirmation(self, ) -> str:
         r''' This will reset all fields and templates in this notetype to their default
 values, removing any extra fields/templates and their content, and any custom styling. Do you wish to proceed? '''
-        return self._translate(7, 39, {})
+        return self._translate(7, 40, {})
 
 
     def card_templates_restored_to_default(self, ) -> str:
         r''' Notetype has been restored to its original state. '''
-        return self._translate(7, 40, {})
+        return self._translate(7, 41, {})
 
 
     def card_templates_sample_cloze(self, ) -> str:
         r''' This is a sample cloze deletion. '''
-        return self._translate(7, 41, {})
+        return self._translate(7, 42, {})
 
 
     def card_templates_see_preview(self, ) -> str:
         r''' See the preview for more information. '''
-        return self._translate(7, 42, {})
+        return self._translate(7, 43, {})
 
 
     def card_templates_template_box(self, ) -> str:
         r''' Template '''
-        return self._translate(7, 43, {})
+        return self._translate(7, 44, {})
 
 
     def card_templates_template_styling(self, ) -> str:
         r''' Styling '''
-        return self._translate(7, 44, {})
+        return self._translate(7, 45, {})
 
 
     def card_templates_this_will_create_card_proceed(self, count: int) -> str:
         r''' This will create {$count} cards. Proceed? '''
-        return self._translate(7, 45, {"count": count})
+        return self._translate(7, 46, {"count": count})
 
 
     def card_templates_type_boxes_warning(self, ) -> str:
         r''' Only one typing box per card template is supported. '''
-        return self._translate(7, 46, {})
+        return self._translate(7, 47, {})
 
 
     def change_notetype_collapse(self, ) -> str:
@@ -2391,9 +2411,14 @@ learning cards are cards with a current learning step of one or more days. '''
         return self._translate(11, 28, {})
 
 
-    def deck_config_compute_optimal_retention(self, ) -> str:
-        r''' Compute optimal retention '''
+    def deck_config_compute_minimum_recommended_retention(self, ) -> str:
+        r''' Minimum recommended retention '''
         return self._translate(11, 29, {})
+
+
+    def deck_config_compute_optimal_retention(self, ) -> str:
+        r''' Compute minimum recommended retention '''
+        return self._translate(11, 30, {})
 
 
     def deck_config_compute_optimal_retention_tooltip(self, ) -> str:
@@ -2402,12 +2427,40 @@ be able to retain in the given time frame. The estimated retention will greatly 
 if it significantly differs from 0.9, it's a sign that the time you've allocated each day is either too low
 or too high for the amount of cards you're trying to learn. This number can be useful as a reference, but it
 is not recommended to copy it into the desired retention field. '''
-        return self._translate(11, 30, {})
+        return self._translate(11, 31, {})
+
+
+    def deck_config_compute_optimal_retention_tooltip2(self, ) -> str:
+        r''' This tool assumes that you’re starting with 0 learned cards, and will attempt to find the desired retention
+value that will lead to the most material learnt, in the least amount of time. This number can be used as a
+reference when deciding what to set your desired retention to. You may wish to choose a higher desired retention,
+if you’re willing to trade more study time for a greater recall rate. Setting your desired retention lower than
+the minimum is not recommended, as it will lead to more work without benefit. '''
+        return self._translate(11, 32, {})
+
+
+    def deck_config_compute_optimal_retention_tooltip3(self, ) -> str:
+        r''' This tool assumes that you’re starting with 0 learned cards, and will attempt to find the desired retention value 
+that will lead to the most material learnt, in the least amount of time. To accurately simulate your learning process, 
+this feature requires a minimum of 400+ reviews. The calculated number can serve as a reference when deciding what to 
+set your desired retention to. You may wish to choose a higher desired retention, if you’re willing to trade more study 
+time for a greater recall rate. Setting your desired retention lower than the minimum is not recommended, as it will 
+lead to a higher workload, because of the high forgetting rate. '''
+        return self._translate(11, 33, {})
+
+
+    def deck_config_compute_optimal_retention_tooltip4(self, ) -> str:
+        r''' This tool will attempt to find the desired retention value 
+that will lead to the most material learnt, in the least amount of time. The calculated number can serve as a reference
+when deciding what to set your desired retention to. You may wish to choose a higher desired retention, if you’re 
+willing to trade more study time for a greater recall rate. Setting your desired retention lower than the minimum
+is not recommended, as it will lead to a higher workload, because of the high forgetting rate. '''
+        return self._translate(11, 34, {})
 
 
     def deck_config_compute_optimal_weights(self, ) -> str:
         r''' Optimize FSRS parameters '''
-        return self._translate(11, 31, {})
+        return self._translate(11, 35, {})
 
 
     def deck_config_compute_optimal_weights_tooltip(self, ) -> str:
@@ -2420,59 +2473,81 @@ frequently - once every few months is sufficient.
 By default, parameters will be calculated from the review history of all decks using the current preset. You can
 optionally adjust the search before calculating the parameters, if you'd like to alter which cards are used for
 optimizing the parameters. '''
-        return self._translate(11, 32, {})
+        return self._translate(11, 36, {})
+
+
+    def deck_config_compute_optimal_weights_tooltip2(self, ) -> str:
+        r''' When you click the Optimize button, FSRS will analyze your review history, and generate parameters that are 
+optimal for your memory and the content you're studying. If your decks vary wildly in subjective difficulty, it 
+is recommended to assign them separate presets, as the parameters for easy decks and hard decks will be different. 
+You don't need to optimize your parameters frequently - once every few months is sufficient.
+
+By default, parameters will be calculated from the review history of all decks using the current preset. You can
+optionally adjust the search before calculating the parameters, if you'd like to alter which cards are used for
+optimizing the parameters. '''
+        return self._translate(11, 37, {})
 
 
     def deck_config_confirm_remove_name(self, name: str) -> str:
         r''' Remove {$name}? '''
-        return self._translate(11, 33, {"name": name})
+        return self._translate(11, 38, {"name": name})
 
 
     def deck_config_custom_scheduling(self, ) -> str:
         r''' Custom scheduling '''
-        return self._translate(11, 34, {})
+        return self._translate(11, 39, {})
 
 
     def deck_config_custom_scheduling_tooltip(self, ) -> str:
         r''' Affects the entire collection. Use at your own risk! '''
-        return self._translate(11, 35, {})
+        return self._translate(11, 40, {})
 
 
     def deck_config_daily_limit_will_be_capped(self, cards: int) -> str:
         r''' A parent deck has a limit of {$cards} cards, which will override this limit. '''
-        return self._translate(11, 36, {"cards": cards})
+        return self._translate(11, 41, {"cards": cards})
 
 
     def deck_config_daily_limits(self, ) -> str:
         r''' Daily Limits '''
-        return self._translate(11, 37, {})
+        return self._translate(11, 42, {})
+
+
+    def deck_config_days_to_simulate(self, ) -> str:
+        r''' Days to simulate '''
+        return self._translate(11, 43, {})
 
 
     def deck_config_deck_only(self, ) -> str:
         r''' This deck '''
-        return self._translate(11, 38, {})
+        return self._translate(11, 44, {})
 
 
     def deck_config_default_name(self, ) -> str:
         r''' Default '''
-        return self._translate(11, 39, {})
+        return self._translate(11, 45, {})
 
 
     def deck_config_description_new_handling(self, ) -> str:
         r''' Anki 2.1.41+ handling '''
-        return self._translate(11, 40, {})
+        return self._translate(11, 46, {})
 
 
     def deck_config_description_new_handling_hint(self, ) -> str:
         r''' Treats input as markdown, and cleans HTML input. When enabled, the
 description will also be shown on the congratulations screen.
 Markdown will appear as text on Anki 2.1.40 and below. '''
-        return self._translate(11, 41, {})
+        return self._translate(11, 47, {})
 
 
     def deck_config_desired_retention(self, ) -> str:
         r''' Desired retention '''
-        return self._translate(11, 42, {})
+        return self._translate(11, 48, {})
+
+
+    def deck_config_desired_retention_below_optimal(self, ) -> str:
+        r''' Your desired retention is below optimal. Increasing it is recommended. '''
+        return self._translate(11, 49, {})
 
 
     def deck_config_desired_retention_tooltip(self, ) -> str:
@@ -2482,62 +2557,62 @@ to increase the chances of you remembering them. If you decrease the value, Anki
 less frequently, and you will forget more of them. Be conservative when adjusting this - higher
 values will greatly increase your workload, and lower values can be demoralizing when you forget
 a lot of material. '''
-        return self._translate(11, 43, {})
+        return self._translate(11, 50, {})
 
 
     def deck_config_disable_autoplay(self, ) -> str:
         r''' Don't play audio automatically '''
-        return self._translate(11, 44, {})
+        return self._translate(11, 51, {})
 
 
     def deck_config_disable_autoplay_tooltip(self, ) -> str:
         r''' When enabled, Anki will not play audio automatically.
 It can be played manually by clicking/tapping on an audio icon, or by using the replay audio action. '''
-        return self._translate(11, 45, {})
+        return self._translate(11, 52, {})
 
 
     def deck_config_display_order_will_use_current_deck(self, ) -> str:
         r''' Anki will use the display order from the deck you 
 select to study, and not any subdecks it may have. '''
-        return self._translate(11, 46, {})
+        return self._translate(11, 53, {})
 
 
     def deck_config_do_not_bury(self, ) -> str:
         r''' Do not bury siblings '''
-        return self._translate(11, 47, {})
+        return self._translate(11, 54, {})
 
 
     def deck_config_easy_bonus_tooltip(self, ) -> str:
         r''' An extra multiplier that is applied to a review card's interval when you rate
 it `Easy`. '''
-        return self._translate(11, 48, {})
+        return self._translate(11, 55, {})
 
 
     def deck_config_easy_interval_tooltip(self, ) -> str:
         r''' The number of days to wait before showing a card again, after the `Easy` button
 is used to immediately remove a card from learning. '''
-        return self._translate(11, 49, {})
-
-
-    def deck_config_estimated_retention(self, num: FluentVariable) -> str:
-        r''' Estimated retention: {$num} '''
-        return self._translate(11, 50, {"num": num})
+        return self._translate(11, 56, {})
 
 
     def deck_config_evaluate_button(self, ) -> str:
         r''' Evaluate '''
-        return self._translate(11, 51, {})
+        return self._translate(11, 57, {})
 
 
     def deck_config_fsrs_must_be_enabled(self, ) -> str:
         r''' FSRS must be enabled first. '''
-        return self._translate(11, 52, {})
+        return self._translate(11, 58, {})
 
 
     def deck_config_fsrs_on_all_clients(self, ) -> str:
         r''' Please ensure all of your Anki clients are Anki(Mobile) 23.10+ or AnkiDroid 2.17+. FSRS will
 not work correctly if one of your clients is older. '''
-        return self._translate(11, 53, {})
+        return self._translate(11, 59, {})
+
+
+    def deck_config_fsrs_params_optimal(self, ) -> str:
+        r''' The FSRS parameters currently appear to be optimal. '''
+        return self._translate(11, 60, {})
 
 
     def deck_config_fsrs_tooltip(self, ) -> str:
@@ -2549,33 +2624,65 @@ more material in the same amount of time. This setting is shared by all deck pre
 
 If you previously used the 'custom scheduling' version of FSRS, please make
 sure you clear out the custom scheduling section before enabling this option. '''
-        return self._translate(11, 54, {})
+        return self._translate(11, 61, {})
 
 
     def deck_config_get_params(self, ) -> str:
         r''' Get Params '''
-        return self._translate(11, 55, {})
+        return self._translate(11, 62, {})
 
 
     def deck_config_good_above_easy(self, ) -> str:
         r''' The easy interval should be at least as long as the graduating interval. '''
-        return self._translate(11, 56, {})
+        return self._translate(11, 63, {})
 
 
     def deck_config_graduating_interval_tooltip(self, ) -> str:
         r''' The number of days to wait before showing a card again, after the `Good` button
 is pressed on the final learning step. '''
-        return self._translate(11, 57, {})
+        return self._translate(11, 64, {})
 
 
     def deck_config_hard_interval_tooltip(self, ) -> str:
         r''' The multiplier applied to a review interval when answering `Hard`. '''
-        return self._translate(11, 58, {})
+        return self._translate(11, 65, {})
+
+
+    def deck_config_historical_retention(self, ) -> str:
+        r''' Historical retention '''
+        return self._translate(11, 66, {})
+
+
+    def deck_config_historical_retention_tooltip(self, ) -> str:
+        r''' When some of your review history is missing, FSRS needs to fill in the gaps. By default, it will
+assume that when you did those old reviews, you remembered 90% of the material. If your old retention
+was appreciably higher or lower than 90%, adjusting this option will allow FSRS to better approximate
+the missing reviews.
+
+Your review history may be incomplete for two reasons:
+1. Because you've used the 'ignore reviews before' option.
+2. Because you previously deleted review logs to free up space, or imported material from a different
+SRS program.
+
+The latter is quite rare, so unless you've used the former option, you probably don't need to adjust
+this setting. '''
+        return self._translate(11, 67, {})
+
+
+    def deck_config_ignore_before(self, ) -> str:
+        r''' Ignore reviews before '''
+        return self._translate(11, 68, {})
+
+
+    def deck_config_ignore_before_tooltip(self, ) -> str:
+        r''' If set, reviews before the provided date will be ignored when optimizing & evaluating FSRS parameters.
+This can be useful if you imported someone else's scheduling data, or have changed the way you use the answer buttons. '''
+        return self._translate(11, 69, {})
 
 
     def deck_config_interday_step_priority(self, ) -> str:
         r''' Interday learning/review order '''
-        return self._translate(11, 59, {})
+        return self._translate(11, 70, {})
 
 
     def deck_config_interday_step_priority_tooltip(self, ) -> str:
@@ -2584,34 +2691,34 @@ is pressed on the final learning step. '''
 The review limit is always applied first to interday learning cards, and
 then reviews. This option will control the order the gathered cards are shown in,
 but interday learning cards will always be gathered first. '''
-        return self._translate(11, 60, {})
+        return self._translate(11, 71, {})
 
 
     def deck_config_interval_modifier_tooltip(self, ) -> str:
         r''' This multiplier is applied to all reviews, and minor adjustments can be used
 to make Anki more conservative or aggressive in its scheduling. Please see
 the manual before changing this option. '''
-        return self._translate(11, 61, {})
+        return self._translate(11, 72, {})
 
 
     def deck_config_invalid_weights(self, ) -> str:
         r''' Parameters must be either left blank to use the defaults, or must be 17 comma-separated numbers. '''
-        return self._translate(11, 62, {})
+        return self._translate(11, 73, {})
 
 
     def deck_config_iterations(self, count: int) -> str:
         r''' Iteration: {$count}... '''
-        return self._translate(11, 63, {"count": count})
+        return self._translate(11, 74, {"count": count})
 
 
     def deck_config_learning_step_above_graduating_interval(self, ) -> str:
         r''' The graduating interval should be at least as long as your final learning step. '''
-        return self._translate(11, 64, {})
+        return self._translate(11, 75, {})
 
 
     def deck_config_learning_steps(self, ) -> str:
         r''' Learning steps '''
-        return self._translate(11, 65, {})
+        return self._translate(11, 76, {})
 
 
     def deck_config_learning_steps_tooltip(self, ) -> str:
@@ -2620,7 +2727,7 @@ when you press the `Again` button on a new card, and is 1 minute by default.
 The `Good` button will advance to the next step, which is 10 minutes by default.
 Once all steps have been passed, the card will become a review card, and
 will appear on a different day.  '''
-        return self._translate(11, 66, {})
+        return self._translate(11, 77, {})
 
 
     def deck_config_leech_action_tooltip(self, ) -> str:
@@ -2628,7 +2735,7 @@ will appear on a different day.  '''
 
 `Suspend Card`: In addition to tagging the note, hide the card until it is
 manually unsuspended. '''
-        return self._translate(11, 67, {})
+        return self._translate(11, 78, {})
 
 
     def deck_config_leech_threshold_tooltip(self, ) -> str:
@@ -2636,20 +2743,20 @@ manually unsuspended. '''
 marked as a leech. Leeches are cards that consume a lot of your time, and
 when a card is marked as a leech, it's a good idea to rewrite it, delete it, or
 think of a mnemonic to help you remember it. '''
-        return self._translate(11, 68, {})
+        return self._translate(11, 79, {})
 
 
     def deck_config_limit_deck_v3(self, ) -> str:
         r''' When studying a deck that has subdecks inside it, the limits set on each
 subdeck control the maximum number of cards drawn from that particular deck.
 The selected deck's limits control the total cards that will be shown. '''
-        return self._translate(11, 69, {})
+        return self._translate(11, 80, {})
 
 
     def deck_config_limit_interday_bound_by_reviews(self, ) -> str:
         r''' The review limit also affects interday learning cards. When applying the limit,
 interday learning cards are fetched first, then reviews. '''
-        return self._translate(11, 70, {})
+        return self._translate(11, 81, {})
 
 
     def deck_config_limit_new_bound_by_reviews(self, ) -> str:
@@ -2657,51 +2764,51 @@ interday learning cards are fetched first, then reviews. '''
 set to 200, and you have 190 reviews waiting, a maximum of 10 new cards will
 be introduced. If your review limit has been reached, no new cards will be
 shown. '''
-        return self._translate(11, 71, {})
+        return self._translate(11, 82, {})
 
 
     def deck_config_maximum_answer_secs(self, ) -> str:
         r''' Maximum answer seconds '''
-        return self._translate(11, 72, {})
+        return self._translate(11, 83, {})
 
 
     def deck_config_maximum_answer_secs_above_recommended(self, ) -> str:
         r''' Anki can schedule your reviews more efficiently when you keep each question short. '''
-        return self._translate(11, 73, {})
+        return self._translate(11, 84, {})
 
 
     def deck_config_maximum_answer_secs_tooltip(self, ) -> str:
         r''' The maximum number of seconds to record for a single review. If an answer
 exceeds this time (because you stepped away from the screen for example),
 the time taken will be recorded as the limit you have set. '''
-        return self._translate(11, 74, {})
+        return self._translate(11, 85, {})
 
 
     def deck_config_maximum_interval_tooltip(self, ) -> str:
         r''' The maximum number of days a review card will wait. When reviews have
 reached the limit, `Hard`, `Good` and `Easy` will all give the same delay.
 The shorter you set this, the greater your workload will be. '''
-        return self._translate(11, 75, {})
+        return self._translate(11, 86, {})
 
 
     def deck_config_minimum_interval_tooltip(self, ) -> str:
         r''' The minimum interval given to a review card after answering `Again`. '''
-        return self._translate(11, 76, {})
+        return self._translate(11, 87, {})
 
 
-    def deck_config_must_have_1000_reviews(self, count: int) -> str:
-        r''' Only {$count} reviews were found. You must have at least 1000 reviews to generate custom parameters. '''
-        return self._translate(11, 77, {"count": count})
+    def deck_config_must_have_400_reviews(self, count: int) -> str:
+        r''' Only {$count} reviews were found. You must have at least 400 reviews for this operation. '''
+        return self._translate(11, 88, {"count": count})
 
 
     def deck_config_name_prompt(self, ) -> str:
         r''' Name '''
-        return self._translate(11, 78, {})
+        return self._translate(11, 89, {})
 
 
     def deck_config_new_card_sort_order(self, ) -> str:
         r''' New card sort order '''
-        return self._translate(11, 79, {})
+        return self._translate(11, 90, {})
 
 
     def deck_config_new_card_sort_order_tooltip_2(self, ) -> str:
@@ -2722,54 +2829,54 @@ note do not end up too close to one another.
 in order.
 
 `Random`: Fully shuffles the gathered cards. '''
-        return self._translate(11, 80, {})
+        return self._translate(11, 91, {})
 
 
     def deck_config_new_cards_ignore_review_limit(self, ) -> str:
         r''' New cards ignore review limit '''
-        return self._translate(11, 81, {})
+        return self._translate(11, 92, {})
 
 
     def deck_config_new_cards_ignore_review_limit_tooltip(self, ) -> str:
         r''' By default, the review limit also applies to new cards, and no new cards will be
 shown when the review limit has been reached. If this option is enabled, new cards
 will be shown regardless of the review limit. '''
-        return self._translate(11, 82, {})
+        return self._translate(11, 93, {})
 
 
     def deck_config_new_gather_priority(self, ) -> str:
         r''' New card gather order '''
-        return self._translate(11, 83, {})
+        return self._translate(11, 94, {})
 
 
     def deck_config_new_gather_priority_deck(self, ) -> str:
         r''' Deck '''
-        return self._translate(11, 84, {})
+        return self._translate(11, 95, {})
 
 
     def deck_config_new_gather_priority_deck_then_random_notes(self, ) -> str:
         r''' Deck then random notes '''
-        return self._translate(11, 85, {})
+        return self._translate(11, 96, {})
 
 
     def deck_config_new_gather_priority_position_highest_first(self, ) -> str:
         r''' Descending position '''
-        return self._translate(11, 86, {})
+        return self._translate(11, 97, {})
 
 
     def deck_config_new_gather_priority_position_lowest_first(self, ) -> str:
         r''' Ascending position '''
-        return self._translate(11, 87, {})
+        return self._translate(11, 98, {})
 
 
     def deck_config_new_gather_priority_random_cards(self, ) -> str:
         r''' Random cards '''
-        return self._translate(11, 88, {})
+        return self._translate(11, 99, {})
 
 
     def deck_config_new_gather_priority_random_notes(self, ) -> str:
         r''' Random notes '''
-        return self._translate(11, 89, {})
+        return self._translate(11, 100, {})
 
 
     def deck_config_new_gather_priority_tooltip_2(self, ) -> str:
@@ -2789,102 +2896,132 @@ disabled, this allows all cards of a note to be seen in a session (eg. both a fr
 and back->front card)
 
 `Random cards`: gathers cards completely randomly. '''
-        return self._translate(11, 90, {})
+        return self._translate(11, 101, {})
 
 
     def deck_config_new_insertion_order(self, ) -> str:
         r''' Insertion order '''
-        return self._translate(11, 91, {})
+        return self._translate(11, 102, {})
 
 
     def deck_config_new_insertion_order_random(self, ) -> str:
         r''' Random '''
-        return self._translate(11, 92, {})
+        return self._translate(11, 103, {})
 
 
     def deck_config_new_insertion_order_random_with_v3(self, ) -> str:
         r''' With the V3 scheduler, it is better to leave this set to sequential, and
 adjust the new card gather order instead. '''
-        return self._translate(11, 93, {})
+        return self._translate(11, 104, {})
 
 
     def deck_config_new_insertion_order_sequential(self, ) -> str:
         r''' Sequential (oldest cards first) '''
-        return self._translate(11, 94, {})
+        return self._translate(11, 105, {})
 
 
     def deck_config_new_insertion_order_tooltip(self, ) -> str:
         r''' Controls the position (due #) new cards are assigned when you add new cards.
 Cards with a lower due number will be shown first when studying. Changing
 this option will automatically update the existing position of new cards. '''
-        return self._translate(11, 95, {})
+        return self._translate(11, 106, {})
 
 
     def deck_config_new_interval_tooltip(self, ) -> str:
         r''' The multiplier applied to a review interval when answering `Again`. '''
-        return self._translate(11, 96, {})
+        return self._translate(11, 107, {})
 
 
     def deck_config_new_limit_tooltip(self, ) -> str:
         r''' The maximum number of new cards to introduce in a day, if new cards are available.
 Because new material will increase your short-term review workload, this should typically
 be at least 10x smaller than your review limit. '''
-        return self._translate(11, 97, {})
+        return self._translate(11, 108, {})
 
 
     def deck_config_new_review_priority(self, ) -> str:
         r''' New/review order '''
-        return self._translate(11, 98, {})
+        return self._translate(11, 109, {})
 
 
     def deck_config_new_review_priority_tooltip(self, ) -> str:
         r''' When to show new cards in relation to review cards. '''
-        return self._translate(11, 99, {})
+        return self._translate(11, 110, {})
 
 
     def deck_config_not_enough_history(self, ) -> str:
         r''' Insufficient review history to perform this operation. '''
-        return self._translate(11, 100, {})
+        return self._translate(11, 111, {})
 
 
     def deck_config_optimize_all_tip(self, ) -> str:
-        r''' You can optimize all presets at once by using the button at the top. '''
-        return self._translate(11, 101, {})
+        r''' You can optimize all presets at once by using the dropdown button next to "Save". '''
+        return self._translate(11, 112, {})
 
 
     def deck_config_optimize_button(self, ) -> str:
         r''' Optimize '''
-        return self._translate(11, 102, {})
+        return self._translate(11, 113, {})
 
 
     def deck_config_optimizing_preset(self, current_count: int, total_count: int) -> str:
         r''' Optimizing preset {$current_count}/{$total_count}... '''
-        return self._translate(11, 103, {"current_count": current_count, "total_count": total_count})
+        return self._translate(11, 114, {"current_count": current_count, "total_count": total_count})
 
 
     def deck_config_ordering_title(self, ) -> str:
         r''' Display Order '''
-        return self._translate(11, 104, {})
+        return self._translate(11, 115, {})
 
 
     def deck_config_percent_of_reviews(self, reviews: int, pct: str) -> str:
         r''' {$pct}% of {$reviews} reviews '''
-        return self._translate(11, 105, {"reviews": reviews, "pct": pct})
+        return self._translate(11, 116, {"reviews": reviews, "pct": pct})
 
 
     def deck_config_please_save_your_changes_first(self, ) -> str:
         r''' Please save your changes first. '''
-        return self._translate(11, 106, {})
+        return self._translate(11, 117, {})
+
+
+    def deck_config_predicted_minimum_recommended_retention(self, num: FluentVariable) -> str:
+        r''' Minimum recommended retention: {$num} '''
+        return self._translate(11, 118, {"num": num})
+
+
+    def deck_config_predicted_optimal_retention(self, num: FluentVariable) -> str:
+        r''' Minimum recommended retention: {$num} '''
+        return self._translate(11, 119, {"num": num})
+
+
+    def deck_config_question_action(self, ) -> str:
+        r''' Question action '''
+        return self._translate(11, 120, {})
+
+
+    def deck_config_question_action_show_answer(self, ) -> str:
+        r''' Show Answer '''
+        return self._translate(11, 121, {})
+
+
+    def deck_config_question_action_show_reminder(self, ) -> str:
+        r''' Show Reminder '''
+        return self._translate(11, 122, {})
+
+
+    def deck_config_question_action_tool_tip(self, ) -> str:
+        r''' The action to perform after the question is shown, and time has elapsed. '''
+        return self._translate(11, 123, {})
 
 
     def deck_config_relearning_steps(self, ) -> str:
         r''' Relearning steps '''
-        return self._translate(11, 107, {})
+        return self._translate(11, 124, {})
 
 
     def deck_config_relearning_steps_above_minimum_interval(self, ) -> str:
         r''' The minimum lapse interval should be at least as long as your final relearning step. '''
-        return self._translate(11, 108, {})
+        return self._translate(11, 125, {})
 
 
     def deck_config_relearning_steps_tooltip(self, ) -> str:
@@ -2892,22 +3029,22 @@ be at least 10x smaller than your review limit. '''
 button on a review card will show it again 10 minutes later. If no delays
 are provided, the card will have its interval changed, without entering
 relearning.  '''
-        return self._translate(11, 109, {})
+        return self._translate(11, 126, {})
 
 
     def deck_config_remove_group(self, ) -> str:
         r''' Remove Preset '''
-        return self._translate(11, 110, {})
+        return self._translate(11, 127, {})
 
 
     def deck_config_rename_group(self, ) -> str:
         r''' Rename Preset '''
-        return self._translate(11, 111, {})
+        return self._translate(11, 128, {})
 
 
     def deck_config_reschedule_cards_on_change(self, ) -> str:
         r''' Reschedule cards on change '''
-        return self._translate(11, 112, {})
+        return self._translate(11, 129, {})
 
 
     def deck_config_reschedule_cards_on_change_tooltip(self, ) -> str:
@@ -2917,7 +3054,7 @@ This option controls whether the due dates of cards will be changed when you ena
 the parameters. The default is not to reschedule cards: future reviews will use the new scheduling, but
 there will be no immediate change to your workload. If rescheduling is enabled, the due dates of cards
 will be changed. '''
-        return self._translate(11, 113, {})
+        return self._translate(11, 130, {})
 
 
     def deck_config_reschedule_cards_warning(self, ) -> str:
@@ -2926,38 +3063,38 @@ due, so is not recommended when first switching from SM2.
 
 Use this option sparingly, as it will add a review entry to each of your cards, and
 increase the size of your collection. '''
-        return self._translate(11, 114, {})
+        return self._translate(11, 131, {})
 
 
     def deck_config_revert_button_tooltip(self, ) -> str:
         r''' Restore this setting to its default value. '''
-        return self._translate(11, 115, {})
+        return self._translate(11, 132, {})
 
 
     def deck_config_review_limit_tooltip(self, ) -> str:
         r''' The maximum number of review cards to show in a day,
 if cards are ready for review. '''
-        return self._translate(11, 116, {})
+        return self._translate(11, 133, {})
 
 
     def deck_config_review_mix_mix_with_reviews(self, ) -> str:
         r''' Mix with reviews '''
-        return self._translate(11, 117, {})
+        return self._translate(11, 134, {})
 
 
     def deck_config_review_mix_show_after_reviews(self, ) -> str:
         r''' Show after reviews '''
-        return self._translate(11, 118, {})
+        return self._translate(11, 135, {})
 
 
     def deck_config_review_mix_show_before_reviews(self, ) -> str:
         r''' Show before reviews '''
-        return self._translate(11, 119, {})
+        return self._translate(11, 136, {})
 
 
     def deck_config_review_sort_order(self, ) -> str:
         r''' Review sort order '''
-        return self._translate(11, 120, {})
+        return self._translate(11, 137, {})
 
 
     def deck_config_review_sort_order_tooltip(self, ) -> str:
@@ -2966,254 +3103,247 @@ if you have a backlog of reviews, the longest-waiting ones will appear
 first. If you have a large backlog that will take more than a few days to
 clear, or wish to see cards in subdeck order, you may find the alternate
 sort orders preferable. '''
-        return self._translate(11, 121, {})
+        return self._translate(11, 138, {})
 
 
     def deck_config_reviews_too_low(self, cards: int, expected: FluentVariable) -> str:
         r''' If adding {$cards} new cards each day, your review limit should be at least {$expected}. '''
-        return self._translate(11, 122, {"cards": cards, "expected": expected})
+        return self._translate(11, 139, {"cards": cards, "expected": expected})
 
 
     def deck_config_save_and_optimize(self, ) -> str:
         r''' Optimize All Presets '''
-        return self._translate(11, 123, {})
+        return self._translate(11, 140, {})
 
 
     def deck_config_save_button(self, ) -> str:
         r''' Save '''
-        return self._translate(11, 124, {})
+        return self._translate(11, 141, {})
 
 
     def deck_config_save_to_all_subdecks(self, ) -> str:
         r''' Save to All Subdecks '''
-        return self._translate(11, 125, {})
+        return self._translate(11, 142, {})
 
 
     def deck_config_seconds_to_show_answer(self, ) -> str:
         r''' Seconds to show answer for '''
-        return self._translate(11, 126, {})
+        return self._translate(11, 143, {})
 
 
     def deck_config_seconds_to_show_answer_tooltip_2(self, ) -> str:
         r''' When auto advance is activated, the number of seconds to wait before applying the answer action. Set to 0 to disable. '''
-        return self._translate(11, 127, {})
+        return self._translate(11, 144, {})
 
 
     def deck_config_seconds_to_show_question(self, ) -> str:
         r''' Seconds to show question for '''
-        return self._translate(11, 128, {})
+        return self._translate(11, 145, {})
 
 
     def deck_config_seconds_to_show_question_tooltip_2(self, ) -> str:
         r''' When auto advance is activated, the number of seconds to wait before revealing the answer. Set to 0 to disable. '''
-        return self._translate(11, 129, {})
+        return self._translate(11, 146, {})
 
 
     def deck_config_shared_preset(self, ) -> str:
         r''' Preset '''
-        return self._translate(11, 130, {})
+        return self._translate(11, 147, {})
 
 
     def deck_config_show_answer_timer_tooltip(self, ) -> str:
         r''' In the review screen, show a timer that counts the number of seconds you're
 taking to review each card. '''
-        return self._translate(11, 131, {})
+        return self._translate(11, 148, {})
 
 
     def deck_config_show_reminder(self, ) -> str:
         r''' Show Reminder '''
-        return self._translate(11, 132, {})
+        return self._translate(11, 149, {})
 
 
     def deck_config_skip_question_when_replaying(self, ) -> str:
         r''' Skip question when replaying answer '''
-        return self._translate(11, 133, {})
-
-
-    def deck_config_sm2_retention(self, ) -> str:
-        r''' SM2 retention '''
-        return self._translate(11, 134, {})
-
-
-    def deck_config_sm2_retention_tooltip(self, ) -> str:
-        r''' If your actual retention before switching to FSRS was significantly different from 0.9, adjusting
-this value will allow Anki to better estimate your memory state when it encounters cards that are
-missing review logs. Since review logs typically won't be missing unless you explicitly deleted them
-to free up space, most users will not need to adjust this. '''
-        return self._translate(11, 135, {})
+        return self._translate(11, 150, {})
 
 
     def deck_config_smaller_is_better(self, ) -> str:
         r''' Smaller numbers indicate a better fit to your review history. '''
-        return self._translate(11, 136, {})
+        return self._translate(11, 151, {})
 
 
     def deck_config_sort_order_ascending_difficulty(self, ) -> str:
         r''' Ascending difficulty '''
-        return self._translate(11, 137, {})
+        return self._translate(11, 152, {})
 
 
     def deck_config_sort_order_ascending_ease(self, ) -> str:
         r''' Ascending ease '''
-        return self._translate(11, 138, {})
+        return self._translate(11, 153, {})
 
 
     def deck_config_sort_order_ascending_intervals(self, ) -> str:
         r''' Ascending intervals '''
-        return self._translate(11, 139, {})
+        return self._translate(11, 154, {})
 
 
     def deck_config_sort_order_card_template_then_random(self, ) -> str:
         r''' Card type, then random '''
-        return self._translate(11, 140, {})
+        return self._translate(11, 155, {})
 
 
     def deck_config_sort_order_deck_then_due_date(self, ) -> str:
         r''' Deck, then due date '''
-        return self._translate(11, 141, {})
+        return self._translate(11, 156, {})
 
 
     def deck_config_sort_order_descending_difficulty(self, ) -> str:
         r''' Descending difficulty '''
-        return self._translate(11, 142, {})
+        return self._translate(11, 157, {})
 
 
     def deck_config_sort_order_descending_ease(self, ) -> str:
         r''' Descending ease '''
-        return self._translate(11, 143, {})
+        return self._translate(11, 158, {})
 
 
     def deck_config_sort_order_descending_intervals(self, ) -> str:
         r''' Descending intervals '''
-        return self._translate(11, 144, {})
+        return self._translate(11, 159, {})
 
 
     def deck_config_sort_order_due_date_then_deck(self, ) -> str:
         r''' Due date, then deck '''
-        return self._translate(11, 145, {})
+        return self._translate(11, 160, {})
 
 
     def deck_config_sort_order_due_date_then_random(self, ) -> str:
         r''' Due date, then random '''
-        return self._translate(11, 146, {})
+        return self._translate(11, 161, {})
 
 
     def deck_config_sort_order_gather(self, ) -> str:
         r''' Order gathered '''
-        return self._translate(11, 147, {})
+        return self._translate(11, 162, {})
 
 
     def deck_config_sort_order_random(self, ) -> str:
         r''' Random '''
-        return self._translate(11, 148, {})
+        return self._translate(11, 163, {})
 
 
     def deck_config_sort_order_random_note_then_template(self, ) -> str:
         r''' Random note, then card type '''
-        return self._translate(11, 149, {})
+        return self._translate(11, 164, {})
 
 
     def deck_config_sort_order_relative_overdueness(self, ) -> str:
         r''' Relative overdueness '''
-        return self._translate(11, 150, {})
+        return self._translate(11, 165, {})
 
 
     def deck_config_sort_order_template_then_gather(self, ) -> str:
         r''' Card type '''
-        return self._translate(11, 151, {})
+        return self._translate(11, 166, {})
 
 
     def deck_config_starting_ease_tooltip(self, ) -> str:
         r''' The ease multiplier new cards start with. By default, the `Good` button on a
 newly-learned card will delay the next review by 2.5x the previous delay. '''
-        return self._translate(11, 152, {})
+        return self._translate(11, 167, {})
 
 
     def deck_config_steps_too_large_for_fsrs(self, ) -> str:
         r''' When FSRS is enabled, steps of 1 day or more are not recommended. '''
-        return self._translate(11, 153, {})
+        return self._translate(11, 168, {})
 
 
     def deck_config_stop_timer_on_answer(self, ) -> str:
         r''' Stop timer on answer '''
-        return self._translate(11, 154, {})
+        return self._translate(11, 169, {})
 
 
     def deck_config_stop_timer_on_answer_tooltip(self, ) -> str:
         r''' Whether to stop the timer when the answer is revealed.
 This doesn't affect statistics. '''
-        return self._translate(11, 155, {})
+        return self._translate(11, 170, {})
 
 
     def deck_config_tab_description(self, ) -> str:
         r''' - `Preset`: The limit is shared with all decks using this preset.
 - `This deck`: The limit is specific to this deck.
 - `Today only`: Make a temporary change to this deck's limit. '''
-        return self._translate(11, 156, {})
+        return self._translate(11, 171, {})
 
 
     def deck_config_timer_title(self, ) -> str:
         r''' Timer '''
-        return self._translate(11, 157, {})
+        return self._translate(11, 172, {})
 
 
     def deck_config_title(self, ) -> str:
         r''' Deck Options '''
-        return self._translate(11, 158, {})
+        return self._translate(11, 173, {})
 
 
     def deck_config_today_only(self, ) -> str:
         r''' Today only '''
-        return self._translate(11, 159, {})
+        return self._translate(11, 174, {})
 
 
     def deck_config_unable_to_determine_desired_retention(self, ) -> str:
-        r''' Unable to determine an optimal retention. '''
-        return self._translate(11, 160, {})
+        r''' Unable to determine a minimum recommended retention. '''
+        return self._translate(11, 175, {})
 
 
     def deck_config_updating_cards(self, current_cards_count: int, total_cards_count: int) -> str:
         r''' Updating cards: {$current_cards_count}/{$total_cards_count}... '''
-        return self._translate(11, 161, {"current_cards_count": current_cards_count, "total_cards_count": total_cards_count})
+        return self._translate(11, 176, {"current_cards_count": current_cards_count, "total_cards_count": total_cards_count})
 
 
     def deck_config_used_by_decks(self, decks: int) -> str:
         r''' used by {$decks} decks '''
-        return self._translate(11, 162, {"decks": decks})
+        return self._translate(11, 177, {"decks": decks})
 
 
     def deck_config_wait_for_audio(self, ) -> str:
         r''' Wait for audio '''
-        return self._translate(11, 163, {})
+        return self._translate(11, 178, {})
 
 
     def deck_config_wait_for_audio_tooltip(self, ) -> str:
-        r''' Wait for audio to finish before automatically revealing answer or next question '''
-        return self._translate(11, 164, {})
+        r''' Wait for audio to finish before automatically revealing answer or next question. '''
+        return self._translate(11, 179, {})
 
 
     def deck_config_weights(self, ) -> str:
         r''' FSRS parameters '''
-        return self._translate(11, 165, {})
+        return self._translate(11, 180, {})
 
 
     def deck_config_weights_tooltip(self, ) -> str:
         r''' FSRS parameters affect how cards are scheduled. Anki will start with default parameters. Once
 you've accumulated 1000+ reviews, you can use the option below to optimize the parameters to best
 match your performance in decks using this preset. '''
-        return self._translate(11, 166, {})
+        return self._translate(11, 181, {})
+
+
+    def deck_config_weights_tooltip2(self, ) -> str:
+        r''' FSRS parameters affect how cards are scheduled. Anki will start with default parameters. You can use 
+the option below to optimize the parameters to best match your performance in decks using this preset. '''
+        return self._translate(11, 182, {})
 
 
     def deck_config_which_deck(self, ) -> str:
         r''' Which deck would you like to display options for? '''
-        return self._translate(11, 167, {})
+        return self._translate(11, 183, {})
 
 
     def deck_config_will_require_full_sync(self, ) -> str:
         r''' The requested change will require a one-way sync. If you have made changes
 on another device, and not synced them to this device yet, please do so before
 you proceed. '''
-        return self._translate(11, 168, {})
+        return self._translate(11, 184, {})
 
 
     def decks_add_new_deck_ctrlandn(self, ) -> str:
@@ -3651,244 +3781,249 @@ you proceed. '''
         return self._translate(13, 49, {})
 
 
+    def editing_image_occlusion_select_all(self, ) -> str:
+        r''' Select All '''
+        return self._translate(13, 50, {})
+
+
     def editing_image_occlusion_select_tool(self, ) -> str:
         r''' Select '''
-        return self._translate(13, 50, {})
+        return self._translate(13, 51, {})
 
 
     def editing_image_occlusion_text_tool(self, ) -> str:
         r''' Text '''
-        return self._translate(13, 51, {})
+        return self._translate(13, 52, {})
 
 
     def editing_image_occlusion_toggle_mask_editor(self, ) -> str:
         r''' Toggle Mask Editor '''
-        return self._translate(13, 52, {})
+        return self._translate(13, 53, {})
 
 
     def editing_image_occlusion_toggle_translucent(self, ) -> str:
         r''' Toggle Translucency '''
-        return self._translate(13, 53, {})
+        return self._translate(13, 54, {})
 
 
     def editing_image_occlusion_ungroup(self, ) -> str:
         r''' Ungroup Selection '''
-        return self._translate(13, 54, {})
+        return self._translate(13, 55, {})
 
 
     def editing_image_occlusion_zoom_in(self, ) -> str:
         r''' Zoom In '''
-        return self._translate(13, 55, {})
+        return self._translate(13, 56, {})
 
 
     def editing_image_occlusion_zoom_out(self, ) -> str:
         r''' Zoom Out '''
-        return self._translate(13, 56, {})
+        return self._translate(13, 57, {})
 
 
     def editing_image_occlusion_zoom_reset(self, ) -> str:
         r''' Reset Zoom '''
-        return self._translate(13, 57, {})
+        return self._translate(13, 58, {})
 
 
     def editing_image_occlusion_zoom_tool(self, ) -> str:
         r''' Zoom '''
-        return self._translate(13, 58, {})
+        return self._translate(13, 59, {})
 
 
     def editing_indent(self, ) -> str:
         r''' Increase indent '''
-        return self._translate(13, 59, {})
+        return self._translate(13, 60, {})
 
 
     def editing_italic_text(self, ) -> str:
         r''' Italic text '''
-        return self._translate(13, 60, {})
+        return self._translate(13, 61, {})
 
 
     def editing_jump_to_tags_with_ctrlandshiftandt(self, ) -> str:
         r''' Jump to tags with Ctrl+Shift+T '''
-        return self._translate(13, 61, {})
+        return self._translate(13, 62, {})
 
 
     def editing_justify(self, ) -> str:
         r''' Justify '''
-        return self._translate(13, 62, {})
+        return self._translate(13, 63, {})
 
 
     def editing_latex(self, ) -> str:
         r''' LaTeX '''
-        return self._translate(13, 63, {})
+        return self._translate(13, 64, {})
 
 
     def editing_latex_equation(self, ) -> str:
         r''' LaTeX equation '''
-        return self._translate(13, 64, {})
+        return self._translate(13, 65, {})
 
 
     def editing_latex_math_env(self, ) -> str:
         r''' LaTeX math env. '''
-        return self._translate(13, 65, {})
+        return self._translate(13, 66, {})
 
 
     def editing_mathjax_block(self, ) -> str:
         r''' MathJax block '''
-        return self._translate(13, 66, {})
+        return self._translate(13, 67, {})
 
 
     def editing_mathjax_chemistry(self, ) -> str:
         r''' MathJax chemistry '''
-        return self._translate(13, 67, {})
+        return self._translate(13, 68, {})
 
 
     def editing_mathjax_inline(self, ) -> str:
         r''' MathJax inline '''
-        return self._translate(13, 68, {})
+        return self._translate(13, 69, {})
 
 
     def editing_mathjax_placeholder(self, accept: str, newline: str) -> str:
         r''' Press {$accept} to accept, {$newline} for new line. '''
-        return self._translate(13, 69, {"accept": accept, "newline": newline})
+        return self._translate(13, 70, {"accept": accept, "newline": newline})
 
 
     def editing_mathjax_preview(self, ) -> str:
         r''' MathJax Preview '''
-        return self._translate(13, 70, {})
+        return self._translate(13, 71, {})
 
 
     def editing_media(self, ) -> str:
         r''' Media '''
-        return self._translate(13, 71, {})
+        return self._translate(13, 72, {})
 
 
     def editing_no_image_found_on_clipboard(self, ) -> str:
         r''' No image found on clipboard. '''
-        return self._translate(13, 72, {})
+        return self._translate(13, 73, {})
 
 
     def editing_ordered_list(self, ) -> str:
         r''' Ordered list '''
-        return self._translate(13, 73, {})
+        return self._translate(13, 74, {})
 
 
     def editing_outdent(self, ) -> str:
         r''' Decrease indent '''
-        return self._translate(13, 74, {})
+        return self._translate(13, 75, {})
 
 
     def editing_paste(self, ) -> str:
         r''' Paste '''
-        return self._translate(13, 75, {})
+        return self._translate(13, 76, {})
 
 
     def editing_record_audio(self, ) -> str:
         r''' Record audio '''
-        return self._translate(13, 76, {})
+        return self._translate(13, 77, {})
 
 
     def editing_remove_formatting(self, ) -> str:
         r''' Remove formatting '''
-        return self._translate(13, 77, {})
+        return self._translate(13, 78, {})
 
 
     def editing_restore_original_size(self, ) -> str:
         r''' Restore original size '''
-        return self._translate(13, 78, {})
+        return self._translate(13, 79, {})
 
 
     def editing_select_remove_formatting(self, ) -> str:
         r''' Select formatting to remove '''
-        return self._translate(13, 79, {})
+        return self._translate(13, 80, {})
 
 
     def editing_show_duplicates(self, ) -> str:
         r''' Show Duplicates '''
-        return self._translate(13, 80, {})
+        return self._translate(13, 81, {})
 
 
     def editing_shrink_images(self, ) -> str:
         r''' Shrink Images '''
-        return self._translate(13, 81, {})
+        return self._translate(13, 82, {})
 
 
     def editing_subscript(self, ) -> str:
         r''' Subscript '''
-        return self._translate(13, 82, {})
+        return self._translate(13, 83, {})
 
 
     def editing_superscript(self, ) -> str:
         r''' Superscript '''
-        return self._translate(13, 83, {})
+        return self._translate(13, 84, {})
 
 
     def editing_tags(self, ) -> str:
         r''' Tags '''
-        return self._translate(13, 84, {})
+        return self._translate(13, 85, {})
 
 
     def editing_tags_add(self, ) -> str:
         r''' Add tag '''
-        return self._translate(13, 85, {})
+        return self._translate(13, 86, {})
 
 
     def editing_tags_copy(self, ) -> str:
         r''' Copy tags '''
-        return self._translate(13, 86, {})
+        return self._translate(13, 87, {})
 
 
     def editing_tags_remove(self, ) -> str:
         r''' Remove tags '''
-        return self._translate(13, 87, {})
+        return self._translate(13, 88, {})
 
 
     def editing_tags_select_all(self, ) -> str:
         r''' Select all tags '''
-        return self._translate(13, 88, {})
+        return self._translate(13, 89, {})
 
 
     def editing_text_color(self, ) -> str:
         r''' Text color '''
-        return self._translate(13, 89, {})
+        return self._translate(13, 90, {})
 
 
     def editing_text_highlight_color(self, ) -> str:
         r''' Text highlight color '''
-        return self._translate(13, 90, {})
+        return self._translate(13, 91, {})
 
 
     def editing_to_make_a_cloze_deletion_on(self, ) -> str:
         r''' To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type' '''
-        return self._translate(13, 91, {})
+        return self._translate(13, 92, {})
 
 
     def editing_toggle_html_editor(self, ) -> str:
         r''' Toggle HTML Editor '''
-        return self._translate(13, 92, {})
+        return self._translate(13, 93, {})
 
 
     def editing_toggle_sticky(self, ) -> str:
         r''' Toggle sticky '''
-        return self._translate(13, 93, {})
+        return self._translate(13, 94, {})
 
 
     def editing_toggle_visual_editor(self, ) -> str:
         r''' Toggle Visual Editor '''
-        return self._translate(13, 94, {})
+        return self._translate(13, 95, {})
 
 
     def editing_underline_text(self, ) -> str:
         r''' Underline text '''
-        return self._translate(13, 95, {})
+        return self._translate(13, 96, {})
 
 
     def editing_unordered_list(self, ) -> str:
         r''' Unordered list '''
-        return self._translate(13, 96, {})
+        return self._translate(13, 97, {})
 
 
     def editing_warning_cloze_deletions_will_not_work(self, ) -> str:
         r''' Warning, cloze deletions will not work until you switch the type at the top to Cloze. '''
-        return self._translate(13, 97, {})
+        return self._translate(13, 98, {})
 
 
     def empty_cards_count_line(self, empty_count: int, existing_count: int, template_names: str) -> str:
@@ -4372,127 +4507,132 @@ You can help us complete this help page on {$link}. '''
         return self._translate(20, 0, {"val": val})
 
 
+    def importing_added(self, ) -> str:
+        r''' Added '''
+        return self._translate(20, 1, {})
+
+
     def importing_added_duplicate_with_first_field(self, val: FluentVariable) -> str:
         r''' Added duplicate with first field: {$val} '''
-        return self._translate(20, 1, {"val": val})
+        return self._translate(20, 2, {"val": val})
 
 
     def importing_added_new_note(self, ) -> str:
         r''' New note added '''
-        return self._translate(20, 2, {})
+        return self._translate(20, 3, {})
 
 
     def importing_all_supported_formats(self, val: FluentVariable) -> str:
         r''' All supported formats {$val} '''
-        return self._translate(20, 3, {"val": val})
+        return self._translate(20, 4, {"val": val})
 
 
     def importing_allow_html_in_fields(self, ) -> str:
         r''' Allow HTML in fields '''
-        return self._translate(20, 4, {})
+        return self._translate(20, 5, {})
 
 
     def importing_allow_html_in_fields_help(self, ) -> str:
         r''' Enable this if the file contains HTML formatting. E.g. if the file contains the string
 '&lt;br&gt;', it will appear as a line break on your card. On the other hand, with this
 option disabled, the literal characters '&lt;br&gt;' will be rendered. '''
-        return self._translate(20, 5, {})
+        return self._translate(20, 6, {})
 
 
     def importing_also_import_progress(self, ) -> str:
         r''' Import any learning progress '''
-        return self._translate(20, 6, {})
+        return self._translate(20, 7, {})
 
 
     def importing_anki_files_are_from_a_very(self, ) -> str:
         r''' .anki files are from a very old version of Anki. You can import them with add-on 175027074 or with Anki 2.0, available on the Anki website. '''
-        return self._translate(20, 7, {})
+        return self._translate(20, 8, {})
 
 
     def importing_anki2_files_are_not_directly_importable(self, ) -> str:
         r''' .anki2 files are not directly importable - please import the .apkg or .zip file you have received instead. '''
-        return self._translate(20, 8, {})
+        return self._translate(20, 9, {})
 
 
     def importing_appeared_twice_in_file(self, val: FluentVariable) -> str:
         r''' Appeared twice in file: {$val} '''
-        return self._translate(20, 9, {"val": val})
+        return self._translate(20, 10, {"val": val})
 
 
     def importing_by_default_anki_will_detect_the(self, ) -> str:
         r''' By default, Anki will detect the character between fields, such as a tab, comma, and so on. If Anki is detecting the character incorrectly, you can enter it here. Use \t to represent tab. '''
-        return self._translate(20, 10, {})
+        return self._translate(20, 11, {})
 
 
     def importing_cannot_merge_notetypes_of_different_kinds(self, ) -> str:
         r''' Cloze notetypes cannot be merged with regular notetypes.
 You may still import the file with '' disabled. '''
-        return self._translate(20, 11, {})
+        return self._translate(20, 12, {})
 
 
     def importing_cards_added(self, count: int) -> str:
         r''' {$count} cards added. '''
-        return self._translate(20, 12, {"count": count})
+        return self._translate(20, 13, {"count": count})
 
 
     def importing_change(self, ) -> str:
         r''' Change '''
-        return self._translate(20, 13, {})
+        return self._translate(20, 14, {})
 
 
     def importing_colon(self, ) -> str:
         r''' Colon '''
-        return self._translate(20, 14, {})
+        return self._translate(20, 15, {})
 
 
     def importing_comma(self, ) -> str:
         r''' Comma '''
-        return self._translate(20, 15, {})
+        return self._translate(20, 16, {})
 
 
     def importing_conflicting_notes_skipped(self, count: int) -> str:
         r''' {$count} notes were not imported, because their note type has changed. '''
-        return self._translate(20, 16, {"count": count})
+        return self._translate(20, 17, {"count": count})
 
 
     def importing_conflicting_notes_skipped2(self, count: int) -> str:
         r''' {$count} notes were not imported, because their notetype has changed, and '' was not enabled. '''
-        return self._translate(20, 17, {"count": count})
+        return self._translate(20, 18, {"count": count})
 
 
     def importing_deck_help(self, ) -> str:
         r''' Imported cards will be placed in this deck. '''
-        return self._translate(20, 18, {})
+        return self._translate(20, 19, {})
 
 
     def importing_details(self, ) -> str:
         r''' Details '''
-        return self._translate(20, 19, {})
+        return self._translate(20, 20, {})
 
 
     def importing_duplicate(self, ) -> str:
         r''' Duplicate '''
-        return self._translate(20, 20, {})
+        return self._translate(20, 21, {})
 
 
     def importing_duplicate_note_added(self, ) -> str:
         r''' Duplicate note added '''
-        return self._translate(20, 21, {})
+        return self._translate(20, 22, {})
 
 
     def importing_empty_first_field(self, val: FluentVariable) -> str:
         r''' Empty first field: {$val} '''
-        return self._translate(20, 22, {"val": val})
+        return self._translate(20, 23, {"val": val})
 
 
     def importing_existing_note_skipped(self, ) -> str:
         r''' Note skipped, as an up-to-date copy is already in your collection '''
-        return self._translate(20, 23, {})
+        return self._translate(20, 24, {})
 
 
     def importing_existing_notes(self, ) -> str:
         r''' Existing notes '''
-        return self._translate(20, 24, {})
+        return self._translate(20, 25, {})
 
 
     def importing_existing_notes_help(self, ) -> str:
@@ -4501,42 +4641,42 @@ You may still import the file with '' disabled. '''
 - ``: Update the existing note.
 - ``: Do nothing.
 - ``: Create a new note. '''
-        return self._translate(20, 25, {})
+        return self._translate(20, 26, {})
 
 
     def importing_existing_notes_skipped(self, count: int) -> str:
         r''' {$count} notes already present in your collection. '''
-        return self._translate(20, 26, {"count": count})
+        return self._translate(20, 27, {"count": count})
 
 
     def importing_extracting(self, ) -> str:
         r''' Extracting data... '''
-        return self._translate(20, 27, {})
+        return self._translate(20, 28, {})
 
 
     def importing_failed_debug_info(self, ) -> str:
         r''' Import failed. Debugging info: '''
-        return self._translate(20, 28, {})
+        return self._translate(20, 29, {})
 
 
     def importing_failed_to_import_media_file(self, debug_info: str) -> str:
         r''' Failed to import media file: {$debugInfo} '''
-        return self._translate(20, 29, {"debugInfo": debug_info})
+        return self._translate(20, 30, {"debugInfo": debug_info})
 
 
     def importing_field_mapping(self, ) -> str:
         r''' Field mapping '''
-        return self._translate(20, 30, {})
+        return self._translate(20, 31, {})
 
 
     def importing_field_of_file_is(self, val: FluentVariable) -> str:
         r''' Field <b>{$val}</b> of file is: '''
-        return self._translate(20, 31, {"val": val})
+        return self._translate(20, 32, {"val": val})
 
 
     def importing_field_separator(self, ) -> str:
         r''' Field separator '''
-        return self._translate(20, 32, {})
+        return self._translate(20, 33, {})
 
 
     def importing_field_separator_help(self, ) -> str:
@@ -4546,144 +4686,145 @@ if the fields are separated correctly.
 Please note that if this character appears in any field itself, the field has to be
 quoted accordingly to the CSV standard. Spreadsheet programs like LibreOffice will
 do this automatically. '''
-        return self._translate(20, 33, {})
+        return self._translate(20, 34, {})
 
 
     def importing_fields_separated_by(self, val: FluentVariable) -> str:
         r''' Fields separated by: {$val} '''
-        return self._translate(20, 34, {"val": val})
+        return self._translate(20, 35, {"val": val})
 
 
     def importing_file(self, ) -> str:
         r''' File '''
-        return self._translate(20, 35, {})
+        return self._translate(20, 36, {})
 
 
     def importing_file_empty(self, ) -> str:
         r''' The file you selected is empty. '''
-        return self._translate(20, 36, {})
+        return self._translate(20, 37, {})
 
 
     def importing_file_must_contain_field_column(self, ) -> str:
         r''' File must contain at least one column that can be mapped to a note field. '''
-        return self._translate(20, 37, {})
+        return self._translate(20, 38, {})
 
 
     def importing_file_version_unknown_trying_import_anyway(self, ) -> str:
         r''' File version unknown, trying import anyway. '''
-        return self._translate(20, 38, {})
+        return self._translate(20, 39, {})
 
 
     def importing_first_field_matched(self, val: FluentVariable) -> str:
         r''' First field matched: {$val} '''
-        return self._translate(20, 39, {"val": val})
+        return self._translate(20, 40, {"val": val})
 
 
     def importing_gathering(self, ) -> str:
         r''' Gathering data... '''
-        return self._translate(20, 40, {})
+        return self._translate(20, 41, {})
 
 
     def importing_identical(self, ) -> str:
         r''' Identical '''
-        return self._translate(20, 41, {})
+        return self._translate(20, 42, {})
 
 
     def importing_ignore_field(self, ) -> str:
         r''' Ignore field '''
-        return self._translate(20, 42, {})
+        return self._translate(20, 43, {})
 
 
     def importing_ignore_lines_where_first_field_matches(self, ) -> str:
         r''' Ignore lines where first field matches existing note '''
-        return self._translate(20, 43, {})
+        return self._translate(20, 44, {})
 
 
     def importing_ignored(self, ) -> str:
         r''' <ignored> '''
-        return self._translate(20, 44, {})
+        return self._translate(20, 45, {})
 
 
     def importing_import_even_if_existing_note_has(self, ) -> str:
         r''' Import even if existing note has same first field '''
-        return self._translate(20, 45, {})
+        return self._translate(20, 46, {})
 
 
     def importing_import_log(self, ) -> str:
         r''' Import Log '''
-        return self._translate(20, 46, {})
+        return self._translate(20, 47, {})
 
 
     def importing_import_options(self, ) -> str:
         r''' Import options '''
-        return self._translate(20, 47, {})
+        return self._translate(20, 48, {})
 
 
     def importing_importing_collection(self, ) -> str:
         r''' Importing collection... '''
-        return self._translate(20, 48, {})
+        return self._translate(20, 49, {})
 
 
     def importing_importing_complete(self, ) -> str:
         r''' Importing complete. '''
-        return self._translate(20, 49, {})
+        return self._translate(20, 50, {})
 
 
     def importing_importing_file(self, ) -> str:
         r''' Importing file... '''
-        return self._translate(20, 50, {})
+        return self._translate(20, 51, {})
 
 
     def importing_include_reviews(self, ) -> str:
         r''' Include reviews '''
-        return self._translate(20, 51, {})
+        return self._translate(20, 52, {})
 
 
     def importing_include_reviews_help(self, ) -> str:
         r''' If enabled, any previous reviews that the deck sharer included will also be imported.
-Otherwise, all cards will be imported as new cards. '''
-        return self._translate(20, 52, {})
+Otherwise, all cards will be imported as new cards, and any "leech" or "marked"
+tags will be removed. '''
+        return self._translate(20, 53, {})
 
 
     def importing_invalid_file_please_restore_from_backup(self, ) -> str:
         r''' Invalid file. Please restore from backup. '''
-        return self._translate(20, 53, {})
+        return self._translate(20, 54, {})
 
 
     def importing_map_to(self, val: FluentVariable) -> str:
         r''' Map to {$val} '''
-        return self._translate(20, 54, {"val": val})
+        return self._translate(20, 55, {"val": val})
 
 
     def importing_map_to_tags(self, ) -> str:
         r''' Map to Tags '''
-        return self._translate(20, 55, {})
+        return self._translate(20, 56, {})
 
 
     def importing_mapped_to(self, val: FluentVariable) -> str:
         r''' mapped to <b>{$val}</b> '''
-        return self._translate(20, 56, {"val": val})
+        return self._translate(20, 57, {"val": val})
 
 
     def importing_mapped_to_tags(self, ) -> str:
         r''' mapped to <b>Tags</b> '''
-        return self._translate(20, 57, {})
+        return self._translate(20, 58, {})
 
 
     def importing_match_scope(self, ) -> str:
         r''' Match scope '''
-        return self._translate(20, 58, {})
+        return self._translate(20, 59, {})
 
 
     def importing_match_scope_help(self, ) -> str:
         r''' Only existing notes with the same notetype will be checked for duplicates. This can
 additionally be restricted to notes with cards in the same deck. '''
-        return self._translate(20, 59, {})
+        return self._translate(20, 60, {})
 
 
     def importing_merge_notetypes(self, ) -> str:
         r''' Merge notetypes '''
-        return self._translate(20, 60, {})
+        return self._translate(20, 61, {})
 
 
     def importing_merge_notetypes_help(self, ) -> str:
@@ -4696,117 +4837,127 @@ As a counterexample, changing the front side of an existing template does *not* 
 a schema change.
 
 Warning: This will require a one-way sync, and may mark existing notes as modified. '''
-        return self._translate(20, 61, {})
+        return self._translate(20, 62, {})
 
 
     def importing_mnemosyne_20_deck_db(self, ) -> str:
         r''' Mnemosyne 2.0 Deck (*.db) '''
-        return self._translate(20, 62, {})
+        return self._translate(20, 63, {})
 
 
     def importing_multicharacter_separators_are_not_supported_please(self, ) -> str:
         r''' Multi-character separators are not supported. Please enter one character only. '''
-        return self._translate(20, 63, {})
+        return self._translate(20, 64, {})
 
 
     def importing_no_notes_in_file(self, ) -> str:
         r''' No notes found in file. '''
-        return self._translate(20, 64, {})
+        return self._translate(20, 65, {})
 
 
     def importing_note_added(self, count: int) -> str:
         r''' {$count} notes added '''
-        return self._translate(20, 65, {"count": count})
+        return self._translate(20, 66, {"count": count})
 
 
     def importing_note_imported(self, count: int) -> str:
         r''' {$count} notes imported. '''
-        return self._translate(20, 66, {"count": count})
+        return self._translate(20, 67, {"count": count})
 
 
     def importing_note_skipped_due_to_empty_first_field(self, ) -> str:
         r''' Note skipped, as its first field is empty '''
-        return self._translate(20, 67, {})
+        return self._translate(20, 68, {})
 
 
     def importing_note_skipped_due_to_missing_deck(self, ) -> str:
         r''' Note skipped, as its deck was missing '''
-        return self._translate(20, 68, {})
+        return self._translate(20, 69, {})
 
 
     def importing_note_skipped_due_to_missing_notetype(self, ) -> str:
         r''' Note skipped, as its notetype was missing '''
-        return self._translate(20, 69, {})
+        return self._translate(20, 70, {})
 
 
     def importing_note_skipped_update_due_to_notetype(self, ) -> str:
         r''' Note not updated, as notetype has been modified since you first imported the note '''
-        return self._translate(20, 70, {})
+        return self._translate(20, 71, {})
+
+
+    def importing_note_skipped_update_due_to_notetype2(self, ) -> str:
+        r''' Note not updated, as notetype has been modified since you first imported the note, and '' was not enabled '''
+        return self._translate(20, 72, {})
 
 
     def importing_note_unchanged(self, count: int) -> str:
         r''' {$count} notes unchanged '''
-        return self._translate(20, 71, {"count": count})
+        return self._translate(20, 73, {"count": count})
 
 
     def importing_note_updated(self, count: int) -> str:
         r''' {$count} notes updated '''
-        return self._translate(20, 72, {"count": count})
+        return self._translate(20, 74, {"count": count})
 
 
     def importing_note_updated_as_file_had_newer(self, ) -> str:
         r''' Note updated, as file had newer version '''
-        return self._translate(20, 73, {})
+        return self._translate(20, 75, {})
 
 
     def importing_notes_added(self, count: int) -> str:
         r''' {$count} new notes imported. '''
-        return self._translate(20, 74, {"count": count})
+        return self._translate(20, 76, {"count": count})
 
 
     def importing_notes_added_from_file(self, val: FluentVariable) -> str:
         r''' Notes added from file: {$val} '''
-        return self._translate(20, 75, {"val": val})
+        return self._translate(20, 77, {"val": val})
+
+
+    def importing_notes_failed(self, count: int) -> str:
+        r''' {$count} notes could not be imported. '''
+        return self._translate(20, 78, {"count": count})
 
 
     def importing_notes_found_in_file(self, val: FluentVariable) -> str:
         r''' Notes found in file: {$val} '''
-        return self._translate(20, 76, {"val": val})
+        return self._translate(20, 79, {"val": val})
 
 
     def importing_notes_found_in_file2(self, notes: int) -> str:
         r''' {$notes} notes found in file. Of those: '''
-        return self._translate(20, 77, {"notes": notes})
+        return self._translate(20, 80, {"notes": notes})
 
 
     def importing_notes_skipped_as_theyre_already_in(self, val: FluentVariable) -> str:
         r''' Notes skipped, as up-to-date copies are already in your collection: {$val} '''
-        return self._translate(20, 78, {"val": val})
+        return self._translate(20, 81, {"val": val})
 
 
     def importing_notes_skipped_update_due_to_notetype(self, val: FluentVariable) -> str:
         r''' Notes not updated, as notetype has been modified since you first imported the notes: {$val} '''
-        return self._translate(20, 79, {"val": val})
+        return self._translate(20, 82, {"val": val})
 
 
     def importing_notes_that_could_not_be_imported(self, val: FluentVariable) -> str:
         r''' Notes that could not be imported as note type has changed: {$val} '''
-        return self._translate(20, 80, {"val": val})
+        return self._translate(20, 83, {"val": val})
 
 
     def importing_notes_updated(self, count: int) -> str:
         r''' {$count} notes were used to update existing ones. '''
-        return self._translate(20, 81, {"count": count})
+        return self._translate(20, 84, {"count": count})
 
 
     def importing_notes_updated_as_file_had_newer(self, val: FluentVariable) -> str:
         r''' Notes updated, as file had newer version: {$val} '''
-        return self._translate(20, 82, {"val": val})
+        return self._translate(20, 85, {"val": val})
 
 
     def importing_notetype_and_deck(self, ) -> str:
         r''' Notetype and deck '''
-        return self._translate(20, 83, {})
+        return self._translate(20, 86, {})
 
 
     def importing_notetype_help(self, ) -> str:
@@ -4815,188 +4966,193 @@ notetype will be updated.
 
 You can choose which fields in the file correspond to which notetype fields with the
 mapping tool. '''
-        return self._translate(20, 84, {})
+        return self._translate(20, 87, {})
+
+
+    def importing_overview(self, ) -> str:
+        r''' Overview '''
+        return self._translate(20, 88, {})
 
 
     def importing_packaged_anki_deckcollection_apkg_colpkg_zip(self, ) -> str:
         r''' Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip) '''
-        return self._translate(20, 85, {})
+        return self._translate(20, 89, {})
 
 
     def importing_pauker_18_lesson_paugz(self, ) -> str:
         r''' Pauker 1.8 Lesson (*.pau.gz) '''
-        return self._translate(20, 86, {})
+        return self._translate(20, 90, {})
 
 
     def importing_pipe(self, ) -> str:
         r''' Pipe '''
-        return self._translate(20, 87, {})
+        return self._translate(20, 91, {})
 
 
     def importing_preserve(self, ) -> str:
         r''' Preserve '''
-        return self._translate(20, 88, {})
+        return self._translate(20, 92, {})
 
 
     def importing_processed_cards(self, count: int) -> str:
         r''' Processed {$count} cards... '''
-        return self._translate(20, 89, {"count": count})
+        return self._translate(20, 93, {"count": count})
 
 
     def importing_processed_media_file(self, count: int) -> str:
         r''' Imported {$count} media files '''
-        return self._translate(20, 90, {"count": count})
+        return self._translate(20, 94, {"count": count})
 
 
     def importing_processed_notes(self, count: int) -> str:
         r''' Processed {$count} notes... '''
-        return self._translate(20, 91, {"count": count})
+        return self._translate(20, 95, {"count": count})
 
 
     def importing_rows_had_num1d_fields_expected_num2d(self, row: str, found: FluentVariable, expected: FluentVariable) -> str:
         r''' '{$row}' had {$found} fields, expected {$expected} '''
-        return self._translate(20, 92, {"row": row, "found": found, "expected": expected})
+        return self._translate(20, 96, {"row": row, "found": found, "expected": expected})
 
 
     def importing_selected_file_was_not_in_utf8(self, ) -> str:
         r''' Selected file was not in UTF-8 format. Please see the importing section of the manual. '''
-        return self._translate(20, 93, {})
+        return self._translate(20, 97, {})
 
 
     def importing_semicolon(self, ) -> str:
         r''' Semicolon '''
-        return self._translate(20, 94, {})
+        return self._translate(20, 98, {})
 
 
     def importing_show(self, ) -> str:
         r''' Show '''
-        return self._translate(20, 95, {})
+        return self._translate(20, 99, {})
 
 
     def importing_skipped(self, ) -> str:
         r''' Skipped '''
-        return self._translate(20, 96, {})
+        return self._translate(20, 100, {})
 
 
     def importing_status(self, ) -> str:
         r''' Status '''
-        return self._translate(20, 97, {})
+        return self._translate(20, 101, {})
 
 
     def importing_supermemo_xml_export_xml(self, ) -> str:
         r''' Supermemo XML export (*.xml) '''
-        return self._translate(20, 98, {})
+        return self._translate(20, 102, {})
 
 
     def importing_tab(self, ) -> str:
         r''' Tab '''
-        return self._translate(20, 99, {})
+        return self._translate(20, 103, {})
 
 
     def importing_tag_all_notes(self, ) -> str:
         r''' Tag all notes '''
-        return self._translate(20, 100, {})
+        return self._translate(20, 104, {})
 
 
     def importing_tag_all_notes_help(self, ) -> str:
         r''' These tags will be added to both newly-imported and updated notes. '''
-        return self._translate(20, 101, {})
+        return self._translate(20, 105, {})
 
 
     def importing_tag_modified_notes(self, ) -> str:
         r''' Tag modified notes: '''
-        return self._translate(20, 102, {})
+        return self._translate(20, 106, {})
 
 
     def importing_tag_updated_notes(self, ) -> str:
         r''' Tag updated notes '''
-        return self._translate(20, 103, {})
+        return self._translate(20, 107, {})
 
 
     def importing_tag_updated_notes_help(self, ) -> str:
         r''' These tags will be added to any updated notes. '''
-        return self._translate(20, 104, {})
+        return self._translate(20, 108, {})
 
 
     def importing_text_separated_by_tabs_or_semicolons(self, ) -> str:
         r''' Text separated by tabs or semicolons (*) '''
-        return self._translate(20, 105, {})
+        return self._translate(20, 109, {})
 
 
     def importing_the_first_field_of_the_note(self, ) -> str:
         r''' The first field of the note type must be mapped. '''
-        return self._translate(20, 106, {})
+        return self._translate(20, 110, {})
 
 
     def importing_the_provided_file_is_not_a(self, ) -> str:
         r''' The provided file is not a valid .apkg file. '''
-        return self._translate(20, 107, {})
+        return self._translate(20, 111, {})
 
 
     def importing_this_file_does_not_appear_to(self, ) -> str:
         r''' This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser. '''
-        return self._translate(20, 108, {})
+        return self._translate(20, 112, {})
 
 
     def importing_this_will_delete_your_existing_collection(self, ) -> str:
         r''' This will delete your existing collection and replace it with the data in the file you're importing. Are you sure? '''
-        return self._translate(20, 109, {})
+        return self._translate(20, 113, {})
 
 
     def importing_unable_to_import_filename(self, filename: str) -> str:
         r''' Unable to import {$filename}: file type not supported '''
-        return self._translate(20, 110, {"filename": filename})
+        return self._translate(20, 114, {"filename": filename})
 
 
     def importing_unable_to_import_from_a_readonly(self, ) -> str:
         r''' Unable to import from a read-only file. '''
-        return self._translate(20, 111, {})
+        return self._translate(20, 115, {})
 
 
     def importing_unknown_file_format(self, ) -> str:
         r''' Unknown file format. '''
-        return self._translate(20, 112, {})
+        return self._translate(20, 116, {})
 
 
     def importing_update(self, ) -> str:
         r''' Update '''
-        return self._translate(20, 113, {})
+        return self._translate(20, 117, {})
 
 
     def importing_update_always(self, ) -> str:
         r''' Always '''
-        return self._translate(20, 114, {})
+        return self._translate(20, 118, {})
 
 
     def importing_update_existing_notes_when_first_field(self, ) -> str:
         r''' Update existing notes when first field matches '''
-        return self._translate(20, 115, {})
+        return self._translate(20, 119, {})
 
 
     def importing_update_if_newer(self, ) -> str:
         r''' If newer '''
-        return self._translate(20, 116, {})
+        return self._translate(20, 120, {})
 
 
     def importing_update_never(self, ) -> str:
         r''' Never '''
-        return self._translate(20, 117, {})
+        return self._translate(20, 121, {})
 
 
     def importing_update_notes(self, ) -> str:
         r''' Update notes '''
-        return self._translate(20, 118, {})
+        return self._translate(20, 122, {})
 
 
     def importing_update_notes_help(self, ) -> str:
         r''' When to update an existing note in your collection. By default, this is only done
 if the matching imported note was more recently modified. '''
-        return self._translate(20, 119, {})
+        return self._translate(20, 123, {})
 
 
     def importing_update_notetypes(self, ) -> str:
         r''' Update notetypes '''
-        return self._translate(20, 120, {})
+        return self._translate(20, 124, {})
 
 
     def importing_update_notetypes_help(self, ) -> str:
@@ -5004,28 +5160,28 @@ if the matching imported note was more recently modified. '''
 if the matching imported notetype was more recently modified. Changes to template text
 and styling can always be imported, but for schema changes (e.g. the number or order of
 fields has changed), the '' option will also need to be enabled. '''
-        return self._translate(20, 121, {})
+        return self._translate(20, 125, {})
 
 
     def importing_updated(self, ) -> str:
         r''' Updated '''
-        return self._translate(20, 122, {})
+        return self._translate(20, 126, {})
 
 
     def importing_updates(self, ) -> str:
         r''' Updates '''
-        return self._translate(20, 123, {})
+        return self._translate(20, 127, {})
 
 
     def importing_with_deck_configs(self, ) -> str:
         r''' Import any deck presets '''
-        return self._translate(20, 124, {})
+        return self._translate(20, 128, {})
 
 
     def importing_with_deck_configs_help(self, ) -> str:
         r''' If enabled, any deck options that the deck sharer included will also be imported.
 Otherwise, all decks will be assigned the default preset. '''
-        return self._translate(20, 125, {})
+        return self._translate(20, 129, {})
 
 
     def keyboard_ctrl(self, ) -> str:
@@ -5601,314 +5757,334 @@ Anki will start removing some of them to free up disk space. '''
         return self._translate(26, 20, {})
 
 
+    def preferences_generate_latex_images_automatically(self, ) -> str:
+        r''' Generate LaTeX images (security risk) '''
+        return self._translate(26, 21, {})
+
+
     def preferences_hide_bottom_bar_during_review(self, ) -> str:
         r''' Hide bottom bar during review '''
-        return self._translate(26, 21, {})
+        return self._translate(26, 22, {})
 
 
     def preferences_hide_top_bar_during_review(self, ) -> str:
         r''' Hide top bar during review '''
-        return self._translate(26, 22, {})
+        return self._translate(26, 23, {})
 
 
     def preferences_hours_past_midnight(self, ) -> str:
         r''' hours past midnight '''
-        return self._translate(26, 23, {})
+        return self._translate(26, 24, {})
 
 
     def preferences_ignore_accents_in_search(self, ) -> str:
         r''' Ignore accents in search (slower) '''
-        return self._translate(26, 24, {})
+        return self._translate(26, 25, {})
 
 
     def preferences_import_export(self, ) -> str:
         r''' Import/Export '''
-        return self._translate(26, 25, {})
+        return self._translate(26, 26, {})
 
 
     def preferences_interrupt_current_audio_when_answering(self, ) -> str:
         r''' Interrupt current audio when answering '''
-        return self._translate(26, 26, {})
+        return self._translate(26, 27, {})
 
 
     def preferences_language(self, ) -> str:
         r''' Language '''
-        return self._translate(26, 27, {})
+        return self._translate(26, 28, {})
+
+
+    def preferences_latex_generation_disabled(self, ) -> str:
+        r''' LaTeX image generation is disabled in the preferences. '''
+        return self._translate(26, 29, {})
 
 
     def preferences_learn_ahead_limit(self, ) -> str:
         r''' Learn ahead limit '''
-        return self._translate(26, 28, {})
+        return self._translate(26, 30, {})
 
 
     def preferences_legacy_timezone_handling(self, ) -> str:
         r''' Legacy timezone handling (buggy, but required for AnkiDroid <= 2.14) '''
-        return self._translate(26, 29, {})
+        return self._translate(26, 31, {})
+
+
+    def preferences_login_successful_sync_now(self, ) -> str:
+        r''' Log-in successful. Save preferences and sync now? '''
+        return self._translate(26, 32, {})
 
 
     def preferences_media(self, ) -> str:
         r''' Media '''
-        return self._translate(26, 30, {})
+        return self._translate(26, 33, {})
 
 
     def preferences_media_is_not_backed_up(self, ) -> str:
         r''' Media is not backed up. Please create a periodic backup of your Anki folder to be safe. '''
-        return self._translate(26, 31, {})
+        return self._translate(26, 34, {})
 
 
     def preferences_minimalist_mode(self, ) -> str:
         r''' Minimalist mode '''
-        return self._translate(26, 32, {})
+        return self._translate(26, 35, {})
+
+
+    def preferences_minimalist_mode_tooltip(self, ) -> str:
+        r''' Make the interface more compact/less fancy '''
+        return self._translate(26, 36, {})
 
 
     def preferences_mins(self, ) -> str:
         r''' mins '''
-        return self._translate(26, 33, {})
+        return self._translate(26, 37, {})
 
 
     def preferences_minutes_between_backups(self, ) -> str:
         r''' Minutes between automatic backups: '''
-        return self._translate(26, 34, {})
+        return self._translate(26, 38, {})
 
 
     def preferences_monthly_backups(self, ) -> str:
         r''' Monthly backups to keep: '''
-        return self._translate(26, 35, {})
+        return self._translate(26, 39, {})
 
 
     def preferences_network(self, ) -> str:
         r''' Syncing '''
-        return self._translate(26, 36, {})
+        return self._translate(26, 40, {})
 
 
     def preferences_network_timeout(self, ) -> str:
         r''' Network timeout '''
-        return self._translate(26, 37, {})
+        return self._translate(26, 41, {})
 
 
     def preferences_next_day_starts_at(self, ) -> str:
         r''' Next day starts at '''
-        return self._translate(26, 38, {})
+        return self._translate(26, 42, {})
+
+
+    def preferences_not_logged_in(self, ) -> str:
+        r''' Not currently logged in to AnkiWeb. '''
+        return self._translate(26, 43, {})
 
 
     def preferences_note(self, ) -> str:
         r''' Note '''
-        return self._translate(26, 39, {})
+        return self._translate(26, 44, {})
 
 
     def preferences_on_next_sync_force_changes_in(self, ) -> str:
         r''' On next sync, force changes in one direction '''
-        return self._translate(26, 40, {})
+        return self._translate(26, 45, {})
 
 
     def preferences_paste_clipboard_images_as_png(self, ) -> str:
         r''' Paste clipboard images as PNG '''
-        return self._translate(26, 41, {})
+        return self._translate(26, 46, {})
 
 
     def preferences_paste_without_shift_key_strips_formatting(self, ) -> str:
         r''' Paste without shift key strips formatting '''
-        return self._translate(26, 42, {})
+        return self._translate(26, 47, {})
 
 
     def preferences_periodically_sync_media(self, ) -> str:
         r''' Periodically sync media '''
-        return self._translate(26, 43, {})
+        return self._translate(26, 48, {})
 
 
     def preferences_please_restart_anki_to_complete_language(self, ) -> str:
         r''' Please restart Anki to complete language change. '''
-        return self._translate(26, 44, {})
+        return self._translate(26, 49, {})
 
 
     def preferences_preferences(self, ) -> str:
         r''' Preferences '''
-        return self._translate(26, 45, {})
+        return self._translate(26, 50, {})
 
 
     def preferences_reduce_motion(self, ) -> str:
         r''' Reduce motion '''
-        return self._translate(26, 46, {})
+        return self._translate(26, 51, {})
 
 
     def preferences_reduce_motion_tooltip(self, ) -> str:
         r''' Disable various animations and transitions of the user interface '''
-        return self._translate(26, 47, {})
+        return self._translate(26, 52, {})
 
 
     def preferences_reset_window_sizes(self, ) -> str:
         r''' Reset Window Sizes '''
-        return self._translate(26, 48, {})
+        return self._translate(26, 53, {})
 
 
     def preferences_reset_window_sizes_complete(self, ) -> str:
         r''' Window sizes and locations have been reset. '''
-        return self._translate(26, 49, {})
+        return self._translate(26, 54, {})
 
 
     def preferences_review(self, ) -> str:
         r''' Review '''
-        return self._translate(26, 50, {})
+        return self._translate(26, 55, {})
 
 
     def preferences_reviewer(self, ) -> str:
         r''' Reviewer '''
-        return self._translate(26, 51, {})
+        return self._translate(26, 56, {})
 
 
     def preferences_scheduler(self, ) -> str:
         r''' Scheduler '''
-        return self._translate(26, 52, {})
+        return self._translate(26, 57, {})
 
 
     def preferences_scheduling(self, ) -> str:
         r''' Scheduling '''
-        return self._translate(26, 53, {})
+        return self._translate(26, 58, {})
 
 
     def preferences_shortcut_placeholder(self, ) -> str:
         r''' Enter an unused shortcut key, or leave empty to disable. '''
-        return self._translate(26, 54, {})
+        return self._translate(26, 59, {})
 
 
     def preferences_show_learning_cards_with_larger_steps(self, ) -> str:
         r''' Show learning cards with larger steps before reviews '''
-        return self._translate(26, 55, {})
+        return self._translate(26, 60, {})
 
 
     def preferences_show_next_review_time_above_answer(self, ) -> str:
         r''' Show next review time above answer buttons '''
-        return self._translate(26, 56, {})
+        return self._translate(26, 61, {})
 
 
     def preferences_show_play_buttons_on_cards_with(self, ) -> str:
         r''' Show play buttons on cards with audio '''
-        return self._translate(26, 57, {})
+        return self._translate(26, 62, {})
 
 
     def preferences_show_remaining_card_count(self, ) -> str:
         r''' Show remaining card count '''
-        return self._translate(26, 58, {})
+        return self._translate(26, 63, {})
 
 
     def preferences_some_settings_will_take_effect_after(self, ) -> str:
         r''' Some settings will take effect after you restart Anki. '''
-        return self._translate(26, 59, {})
+        return self._translate(26, 64, {})
 
 
     def preferences_spacebar_rates_card(self, ) -> str:
         r''' Spacebar (or enter) also answers card '''
-        return self._translate(26, 60, {})
+        return self._translate(26, 65, {})
 
 
     def preferences_style(self, ) -> str:
         r''' Style '''
-        return self._translate(26, 61, {})
-
-
-    def preferences_synchronizationnot_currently_enabled_click_the_sync(self, ) -> str:
-        r''' <b>Synchronization</b><br> Not currently enabled; click the sync button in the main window to enable. '''
-        return self._translate(26, 62, {})
+        return self._translate(26, 66, {})
 
 
     def preferences_synchronize_audio_and_images_too(self, ) -> str:
         r''' Synchronize audio and images too '''
-        return self._translate(26, 63, {})
+        return self._translate(26, 67, {})
 
 
     def preferences_tab_synchronisation(self, ) -> str:
-        r''' Synchronisation '''
-        return self._translate(26, 64, {})
+        r''' Synchronization '''
+        return self._translate(26, 68, {})
 
 
     def preferences_theme(self, ) -> str:
         r''' Theme '''
-        return self._translate(26, 65, {})
+        return self._translate(26, 69, {})
 
 
     def preferences_theme_dark(self, ) -> str:
         r''' Dark '''
-        return self._translate(26, 66, {})
+        return self._translate(26, 70, {})
 
 
     def preferences_theme_follow_system(self, ) -> str:
         r''' Follow System '''
-        return self._translate(26, 67, {})
+        return self._translate(26, 71, {})
 
 
     def preferences_theme_light(self, ) -> str:
         r''' Light '''
-        return self._translate(26, 68, {})
+        return self._translate(26, 72, {})
 
 
     def preferences_timebox_time_limit(self, ) -> str:
         r''' Timebox time limit '''
-        return self._translate(26, 69, {})
+        return self._translate(26, 73, {})
 
 
     def preferences_user_interface(self, ) -> str:
         r''' User Interface '''
-        return self._translate(26, 70, {})
+        return self._translate(26, 74, {})
 
 
     def preferences_user_interface_size(self, ) -> str:
         r''' User interface size '''
-        return self._translate(26, 71, {})
+        return self._translate(26, 75, {})
 
 
     def preferences_v3_scheduler(self, ) -> str:
         r''' V3 scheduler '''
-        return self._translate(26, 72, {})
+        return self._translate(26, 76, {})
 
 
     def preferences_video_driver(self, ) -> str:
         r''' Video driver '''
-        return self._translate(26, 73, {})
+        return self._translate(26, 77, {})
 
 
     def preferences_video_driver_angle(self, ) -> str:
         r''' ANGLE (may work better than OpenGL) '''
-        return self._translate(26, 74, {})
+        return self._translate(26, 78, {})
 
 
     def preferences_video_driver_default(self, ) -> str:
         r''' default '''
-        return self._translate(26, 75, {})
+        return self._translate(26, 79, {})
 
 
     def preferences_video_driver_opengl_mac(self, ) -> str:
         r''' OpenGL (recommended on Macs) '''
-        return self._translate(26, 76, {})
+        return self._translate(26, 80, {})
 
 
     def preferences_video_driver_opengl_other(self, ) -> str:
         r''' OpenGL (faster, may cause issues) '''
-        return self._translate(26, 77, {})
+        return self._translate(26, 81, {})
 
 
     def preferences_video_driver_software_mac(self, ) -> str:
         r''' Software (not recommended) '''
-        return self._translate(26, 78, {})
+        return self._translate(26, 82, {})
 
 
     def preferences_video_driver_software_other(self, ) -> str:
         r''' Software (slower) '''
-        return self._translate(26, 79, {})
+        return self._translate(26, 83, {})
 
 
     def preferences_weekly_backups(self, ) -> str:
         r''' Weekly backups to keep: '''
-        return self._translate(26, 80, {})
+        return self._translate(26, 84, {})
 
 
     def preferences_when_adding_default_to_current_deck(self, ) -> str:
         r''' When adding, default to current deck '''
-        return self._translate(26, 81, {})
+        return self._translate(26, 85, {})
 
 
     def preferences_you_can_restore_backups_via_fileswitch(self, ) -> str:
         r''' You can restore backups via File > Switch Profile. '''
-        return self._translate(26, 82, {})
+        return self._translate(26, 86, {})
 
 
     def profiles_anki_could_not_read_your_profile(self, ) -> str:
@@ -6091,7 +6267,7 @@ please see:
 
 
     def qt_accel_forget(self, ) -> str:
-        r''' &Forget '''
+        r''' &Reset '''
         return self._translate(28, 14, {})
 
 
@@ -6679,7 +6855,7 @@ Original error: {$error} '''
 
 
     def scheduling_forgot_cards(self, cards: int) -> str:
-        r''' Forgot {$cards} cards. '''
+        r''' Reset {$cards} cards. '''
         return self._translate(30, 20, {"cards": cards})
 
 
@@ -7808,69 +7984,74 @@ Please select  before proceeding. '''
         return self._translate(33, 33, {})
 
 
+    def studying_question_time_elapsed(self, ) -> str:
+        r''' Question time elapsed '''
+        return self._translate(33, 34, {})
+
+
     def studying_record_own_voice(self, ) -> str:
         r''' Record Own Voice '''
-        return self._translate(33, 34, {})
+        return self._translate(33, 35, {})
 
 
     def studying_replay_own_voice(self, ) -> str:
         r''' Replay Own Voice '''
-        return self._translate(33, 35, {})
+        return self._translate(33, 36, {})
 
 
     def studying_show_answer(self, ) -> str:
         r''' Show Answer '''
-        return self._translate(33, 36, {})
+        return self._translate(33, 37, {})
 
 
     def studying_space(self, ) -> str:
         r''' Space '''
-        return self._translate(33, 37, {})
+        return self._translate(33, 38, {})
 
 
     def studying_study_now(self, ) -> str:
         r''' Study Now '''
-        return self._translate(33, 38, {})
+        return self._translate(33, 39, {})
 
 
     def studying_suspend(self, ) -> str:
         r''' Suspend '''
-        return self._translate(33, 39, {})
+        return self._translate(33, 40, {})
 
 
     def studying_suspend_note(self, ) -> str:
         r''' Suspend Note '''
-        return self._translate(33, 40, {})
+        return self._translate(33, 41, {})
 
 
     def studying_this_is_a_special_deck_for(self, ) -> str:
         r''' This is a special deck for studying outside of the normal schedule. '''
-        return self._translate(33, 41, {})
+        return self._translate(33, 42, {})
 
 
     def studying_to_review(self, ) -> str:
         r''' To Review '''
-        return self._translate(33, 42, {})
+        return self._translate(33, 43, {})
 
 
     def studying_type_answer_unknown_field(self, val: FluentVariable) -> str:
         r''' Type answer: unknown field {$val} '''
-        return self._translate(33, 43, {"val": val})
+        return self._translate(33, 44, {"val": val})
 
 
     def studying_unbury(self, ) -> str:
         r''' Unbury '''
-        return self._translate(33, 44, {})
+        return self._translate(33, 45, {})
 
 
     def studying_what_would_you_like_to_unbury(self, ) -> str:
         r''' What would you like to unbury? '''
-        return self._translate(33, 45, {})
+        return self._translate(33, 46, {})
 
 
     def studying_you_havent_recorded_your_voice_yet(self, ) -> str:
         r''' You haven't recorded your voice yet. '''
-        return self._translate(33, 46, {})
+        return self._translate(33, 47, {})
 
 
     def sync_abort_button(self, ) -> str:
@@ -7945,131 +8126,146 @@ After all devices are in sync, future reviews and added cards can be merged auto
         return self._translate(34, 12, {})
 
 
+    def sync_conflict_explanation2(self, ) -> str:
+        r''' There is a conflict between decks on this device and AnkiWeb. You must choose which version to keep:
+
+- Select **** to replace decks here with AnkiWeb’s version. You will lose any changes you made on this device since your last sync.
+- Select **** to overwrite AnkiWeb’s versions with decks from this device, and delete any changes on AnkiWeb.
+
+Once the conflict is resolved, syncing will work as usual. '''
+        return self._translate(34, 13, {})
+
+
     def sync_connecting(self, ) -> str:
         r''' Connecting... '''
-        return self._translate(34, 13, {})
+        return self._translate(34, 14, {})
 
 
     def sync_download_from_ankiweb(self, ) -> str:
         r''' Download from AnkiWeb '''
-        return self._translate(34, 14, {})
+        return self._translate(34, 15, {})
 
 
     def sync_downloading_from_ankiweb(self, ) -> str:
         r''' Downloading from AnkiWeb... '''
-        return self._translate(34, 15, {})
+        return self._translate(34, 16, {})
+
+
+    def sync_log_in_button(self, ) -> str:
+        r''' Log In '''
+        return self._translate(34, 17, {})
 
 
     def sync_log_out_button(self, ) -> str:
         r''' Log Out '''
-        return self._translate(34, 16, {})
+        return self._translate(34, 18, {})
 
 
     def sync_media_aborted(self, ) -> str:
         r''' Media sync aborted. '''
-        return self._translate(34, 17, {})
+        return self._translate(34, 19, {})
 
 
     def sync_media_aborting(self, ) -> str:
         r''' Media sync aborting... '''
-        return self._translate(34, 18, {})
+        return self._translate(34, 20, {})
 
 
     def sync_media_added_count(self, up: FluentVariable, down: FluentVariable) -> str:
         r''' Added: {$up}↑ {$down}↓ '''
-        return self._translate(34, 19, {"up": up, "down": down})
+        return self._translate(34, 21, {"up": up, "down": down})
 
 
     def sync_media_checked_count(self, count: int) -> str:
         r''' Checked: {$count} '''
-        return self._translate(34, 20, {"count": count})
+        return self._translate(34, 22, {"count": count})
 
 
     def sync_media_complete(self, ) -> str:
         r''' Media sync complete. '''
-        return self._translate(34, 21, {})
+        return self._translate(34, 23, {})
 
 
     def sync_media_disabled(self, ) -> str:
         r''' Media sync disabled. '''
-        return self._translate(34, 22, {})
+        return self._translate(34, 24, {})
 
 
     def sync_media_failed(self, ) -> str:
         r''' Media sync failed. '''
-        return self._translate(34, 23, {})
+        return self._translate(34, 25, {})
 
 
     def sync_media_log_button(self, ) -> str:
         r''' Media Log '''
-        return self._translate(34, 24, {})
+        return self._translate(34, 26, {})
 
 
     def sync_media_log_title(self, ) -> str:
         r''' Media Sync Log '''
-        return self._translate(34, 25, {})
+        return self._translate(34, 27, {})
 
 
     def sync_media_removed_count(self, up: FluentVariable, down: FluentVariable) -> str:
         r''' Removed: {$up}↑ {$down}↓ '''
-        return self._translate(34, 26, {"up": up, "down": down})
+        return self._translate(34, 28, {"up": up, "down": down})
 
 
     def sync_media_starting(self, ) -> str:
         r''' Media sync starting... '''
-        return self._translate(34, 27, {})
+        return self._translate(34, 29, {})
 
 
     def sync_must_wait_for_end(self, ) -> str:
         r''' Anki is currently syncing. Please wait for the sync to complete, then try again. '''
-        return self._translate(34, 28, {})
+        return self._translate(34, 30, {})
 
 
     def sync_password_label(self, ) -> str:
         r''' Password: '''
-        return self._translate(34, 29, {})
+        return self._translate(34, 31, {})
 
 
     def sync_resync_required(self, ) -> str:
         r''' Please sync again. If this message keeps appearing, please post on the support site. '''
-        return self._translate(34, 30, {})
+        return self._translate(34, 32, {})
 
 
     def sync_sanity_check_failed(self, ) -> str:
-        r''' Please use the Check Database function, then sync again. If problems persist, please force a full sync in the preferences screen. '''
-        return self._translate(34, 31, {})
+        r''' Please use the Check Database function, then sync again. If problems persist, please force a one-way sync in the preferences screen. '''
+        return self._translate(34, 33, {})
 
 
     def sync_server_error(self, ) -> str:
         r''' AnkiWeb encountered a problem. Please try again in a few minutes. '''
-        return self._translate(34, 32, {})
+        return self._translate(34, 34, {})
 
 
     def sync_syncing(self, ) -> str:
         r''' Syncing... '''
-        return self._translate(34, 33, {})
+        return self._translate(34, 35, {})
 
 
     def sync_upload_to_ankiweb(self, ) -> str:
         r''' Upload to AnkiWeb '''
-        return self._translate(34, 34, {})
+        return self._translate(34, 36, {})
 
 
     def sync_upload_too_large(self, details: str) -> str:
         r''' Your collection file is too large to send to AnkiWeb. You can reduce its
 size by removing any unwanted decks (optionally exporting them first), and
 then using Check Database to shrink the file size down. ({$details}) '''
-        return self._translate(34, 35, {"details": details})
+        return self._translate(34, 37, {"details": details})
 
 
     def sync_uploading_to_ankiweb(self, ) -> str:
         r''' Uploading to AnkiWeb... '''
-        return self._translate(34, 36, {})
+        return self._translate(34, 38, {})
 
 
     def sync_wrong_pass(self, ) -> str:
         r''' AnkiWeb ID or password was incorrect; please try again. '''
-        return self._translate(34, 37, {})
+        return self._translate(34, 39, {})
 
 
     def undo_action_redone(self, action: str) -> str:
@@ -8133,55 +8329,56 @@ class LegacyTranslationEnum:
     ACTIONS_DECKS = (1, 18)
     ACTIONS_DECREMENT_VALUE = (1, 19)
     ACTIONS_DELETE = (1, 20)
-    ACTIONS_EXPORT = (1, 21)
-    ACTIONS_FILTER = (1, 22)
-    ACTIONS_FLAG_BLUE = (1, 23)
-    ACTIONS_FLAG_GREEN = (1, 24)
-    ACTIONS_FLAG_NUMBER = (1, 25)
-    ACTIONS_FLAG_ORANGE = (1, 26)
-    ACTIONS_FLAG_PINK = (1, 27)
-    ACTIONS_FLAG_PURPLE = (1, 28)
-    ACTIONS_FLAG_RED = (1, 29)
-    ACTIONS_FLAG_TURQUOISE = (1, 30)
-    ACTIONS_FORGET_CARD = (1, 31)
-    ACTIONS_FULLSCREEN_UNSUPPORTED = (1, 32)
-    ACTIONS_HELP = (1, 33)
-    ACTIONS_IMPORT = (1, 34)
-    ACTIONS_INCREMENT_VALUE = (1, 35)
-    ACTIONS_MANAGE = (1, 36)
-    ACTIONS_NAME = (1, 37)
-    ACTIONS_NEW = (1, 38)
-    ACTIONS_NEW_NAME = (1, 39)
-    ACTIONS_NOTHING_TO_REDO = (1, 40)
-    ACTIONS_NOTHING_TO_UNDO = (1, 41)
-    ACTIONS_OPTIONS = (1, 42)
-    ACTIONS_OPTIONS_FOR = (1, 43)
-    ACTIONS_PREVIEW = (1, 44)
-    ACTIONS_PREVIOUS_CARD_INFO = (1, 45)
-    ACTIONS_REBUILD = (1, 46)
-    ACTIONS_REMOVE_NOTETYPE = (1, 47)
-    ACTIONS_REMOVE_TAG = (1, 48)
-    ACTIONS_RENAME = (1, 49)
-    ACTIONS_RENAME_DECK = (1, 50)
-    ACTIONS_RENAME_TAG = (1, 51)
-    ACTIONS_RENAME_WITH_PARENTS = (1, 52)
-    ACTIONS_REPLAY_AUDIO = (1, 53)
-    ACTIONS_REPOSITION = (1, 54)
-    ACTIONS_SAVE = (1, 55)
-    ACTIONS_SEARCH = (1, 56)
-    ACTIONS_SELECT = (1, 57)
-    ACTIONS_SET_DUE_DATE = (1, 58)
-    ACTIONS_SET_FLAG = (1, 59)
-    ACTIONS_SHORTCUT_KEY = (1, 60)
-    ACTIONS_SUSPEND_CARD = (1, 61)
-    ACTIONS_UNBURY_UNSUSPEND = (1, 62)
-    ACTIONS_UPDATE_CARD = (1, 63)
-    ACTIONS_UPDATE_CONFIG = (1, 64)
-    ACTIONS_UPDATE_DECK = (1, 65)
-    ACTIONS_UPDATE_NOTE = (1, 66)
-    ACTIONS_UPDATE_NOTETYPE = (1, 67)
-    ACTIONS_UPDATE_TAG = (1, 68)
-    ACTIONS_WITH_ELLIPSIS = (1, 69)
+    ACTIONS_DISCARD = (1, 21)
+    ACTIONS_EXPORT = (1, 22)
+    ACTIONS_FILTER = (1, 23)
+    ACTIONS_FLAG_BLUE = (1, 24)
+    ACTIONS_FLAG_GREEN = (1, 25)
+    ACTIONS_FLAG_NUMBER = (1, 26)
+    ACTIONS_FLAG_ORANGE = (1, 27)
+    ACTIONS_FLAG_PINK = (1, 28)
+    ACTIONS_FLAG_PURPLE = (1, 29)
+    ACTIONS_FLAG_RED = (1, 30)
+    ACTIONS_FLAG_TURQUOISE = (1, 31)
+    ACTIONS_FORGET_CARD = (1, 32)
+    ACTIONS_FULLSCREEN_UNSUPPORTED = (1, 33)
+    ACTIONS_HELP = (1, 34)
+    ACTIONS_IMPORT = (1, 35)
+    ACTIONS_INCREMENT_VALUE = (1, 36)
+    ACTIONS_MANAGE = (1, 37)
+    ACTIONS_NAME = (1, 38)
+    ACTIONS_NEW = (1, 39)
+    ACTIONS_NEW_NAME = (1, 40)
+    ACTIONS_NOTHING_TO_REDO = (1, 41)
+    ACTIONS_NOTHING_TO_UNDO = (1, 42)
+    ACTIONS_OPTIONS = (1, 43)
+    ACTIONS_OPTIONS_FOR = (1, 44)
+    ACTIONS_PREVIEW = (1, 45)
+    ACTIONS_PREVIOUS_CARD_INFO = (1, 46)
+    ACTIONS_REBUILD = (1, 47)
+    ACTIONS_REMOVE_NOTETYPE = (1, 48)
+    ACTIONS_REMOVE_TAG = (1, 49)
+    ACTIONS_RENAME = (1, 50)
+    ACTIONS_RENAME_DECK = (1, 51)
+    ACTIONS_RENAME_TAG = (1, 52)
+    ACTIONS_RENAME_WITH_PARENTS = (1, 53)
+    ACTIONS_REPLAY_AUDIO = (1, 54)
+    ACTIONS_REPOSITION = (1, 55)
+    ACTIONS_SAVE = (1, 56)
+    ACTIONS_SEARCH = (1, 57)
+    ACTIONS_SELECT = (1, 58)
+    ACTIONS_SET_DUE_DATE = (1, 59)
+    ACTIONS_SET_FLAG = (1, 60)
+    ACTIONS_SHORTCUT_KEY = (1, 61)
+    ACTIONS_SUSPEND_CARD = (1, 62)
+    ACTIONS_UNBURY_UNSUSPEND = (1, 63)
+    ACTIONS_UPDATE_CARD = (1, 64)
+    ACTIONS_UPDATE_CONFIG = (1, 65)
+    ACTIONS_UPDATE_DECK = (1, 66)
+    ACTIONS_UPDATE_NOTE = (1, 67)
+    ACTIONS_UPDATE_NOTETYPE = (1, 68)
+    ACTIONS_UPDATE_TAG = (1, 69)
+    ACTIONS_WITH_ELLIPSIS = (1, 70)
     ADDING_ADD_SHORTCUT_CTRLANDENTER = (2, 0)
     ADDING_ADDED = (2, 1)
     ADDING_CLOZE_OUTSIDE_CLOZE_FIELD = (2, 2)
@@ -8274,122 +8471,123 @@ class LegacyTranslationEnum:
     BROWSING_CARDS = (4, 17)
     BROWSING_CARDS_CANT_BE_MANUALLY_MOVED_INTO = (4, 18)
     BROWSING_CARDS_DELETED = (4, 19)
-    BROWSING_CARDS_UPDATED = (4, 20)
-    BROWSING_CHANGE_DECK = (4, 21)
-    BROWSING_CHANGE_DECK2 = (4, 22)
-    BROWSING_CHANGE_NOTE_TYPE = (4, 23)
-    BROWSING_CHANGE_NOTE_TYPE2 = (4, 24)
-    BROWSING_CHANGE_NOTETYPE = (4, 25)
-    BROWSING_CHANGED_NEW_POSITION = (4, 26)
-    BROWSING_CLEAR_UNUSED_TAGS = (4, 27)
-    BROWSING_CONFIRM_SAVED_SEARCH_OVERWRITE = (4, 28)
-    BROWSING_CREATED = (4, 29)
-    BROWSING_CURRENT_DECK = (4, 30)
-    BROWSING_CURRENT_NOTE_TYPE = (4, 31)
-    BROWSING_DELETE_NOTES = (4, 32)
-    BROWSING_DUPLICATE = (4, 33)
-    BROWSING_EASE = (4, 34)
-    BROWSING_EDITED_TODAY = (4, 35)
-    BROWSING_ENTER_TAGS_TO_ADD = (4, 36)
-    BROWSING_ENTER_TAGS_TO_DELETE = (4, 37)
-    BROWSING_FILTERED = (4, 38)
-    BROWSING_FIND = (4, 39)
-    BROWSING_FIND_AND_REPLACE = (4, 40)
-    BROWSING_FIND_DUPLICATES = (4, 41)
-    BROWSING_FIRST_CARD = (4, 42)
-    BROWSING_FLAG = (4, 43)
-    BROWSING_FONT = (4, 44)
-    BROWSING_FONT_SIZE = (4, 45)
-    BROWSING_FOUND_AS_ACROSS_BS = (4, 46)
-    BROWSING_GROUP = (4, 47)
-    BROWSING_IGNORE_CASE = (4, 48)
-    BROWSING_IN = (4, 49)
-    BROWSING_INTERVAL = (4, 50)
-    BROWSING_LAST_CARD = (4, 51)
-    BROWSING_LEARNING = (4, 52)
-    BROWSING_LINE_SIZE = (4, 53)
-    BROWSING_MANAGE_NOTE_TYPES = (4, 54)
-    BROWSING_MOVE_CARDS = (4, 55)
-    BROWSING_MOVE_CARDS_TO_DECK = (4, 56)
-    BROWSING_NEW = (4, 57)
-    BROWSING_NEW_NOTE_TYPE = (4, 58)
-    BROWSING_NO_FLAG = (4, 59)
-    BROWSING_NO_SELECTION = (4, 60)
-    BROWSING_NOTE = (4, 61)
-    BROWSING_NOTE_COUNT = (4, 62)
-    BROWSING_NOTE_INITIAL = (4, 63)
-    BROWSING_NOTES = (4, 64)
-    BROWSING_NOTES_UPDATED = (4, 65)
-    BROWSING_OPTIONAL_FILTER = (4, 66)
-    BROWSING_OVERRIDE_BACK_TEMPLATE = (4, 67)
-    BROWSING_OVERRIDE_FONT = (4, 68)
-    BROWSING_OVERRIDE_FRONT_TEMPLATE = (4, 69)
-    BROWSING_PLEASE_GIVE_YOUR_FILTER_A_NAME = (4, 70)
-    BROWSING_PREVIEW_SELECTED_CARD = (4, 71)
-    BROWSING_QUESTION = (4, 72)
-    BROWSING_QUEUE_BOTTOM = (4, 73)
-    BROWSING_QUEUE_TOP = (4, 74)
-    BROWSING_RANDOMIZE_ORDER = (4, 75)
-    BROWSING_REMOVE_FROM_SELECTED_NOTES = (4, 76)
-    BROWSING_REMOVE_TAGS = (4, 77)
-    BROWSING_REMOVED_UNUSED_TAGS_COUNT = (4, 78)
-    BROWSING_REPARENTED_DECKS = (4, 79)
-    BROWSING_REPLACE_WITH = (4, 80)
-    BROWSING_REPOSITION = (4, 81)
-    BROWSING_REPOSITION_NEW_CARDS = (4, 82)
-    BROWSING_RESCHEDULE = (4, 83)
-    BROWSING_ROW_DELETED = (4, 84)
-    BROWSING_SEARCH_BAR_HINT = (4, 85)
-    BROWSING_SEARCH_IN = (4, 86)
-    BROWSING_SEARCH_WITHIN_FORMATTING_SLOW = (4, 87)
-    BROWSING_SELECTED_NOTES_ONLY = (4, 88)
-    BROWSING_SHIFT_POSITION_OF_EXISTING_CARDS = (4, 89)
-    BROWSING_SIDEBAR = (4, 90)
-    BROWSING_SIDEBAR_CARD_STATE = (4, 91)
-    BROWSING_SIDEBAR_CARD_STATE_REVIEW = (4, 92)
-    BROWSING_SIDEBAR_COLLAPSE = (4, 93)
-    BROWSING_SIDEBAR_COLLAPSE_CHILDREN = (4, 94)
-    BROWSING_SIDEBAR_DECKS = (4, 95)
-    BROWSING_SIDEBAR_DUE_TODAY = (4, 96)
-    BROWSING_SIDEBAR_EXPAND = (4, 97)
-    BROWSING_SIDEBAR_EXPAND_CHILDREN = (4, 98)
-    BROWSING_SIDEBAR_FILTER = (4, 99)
-    BROWSING_SIDEBAR_FIRST_REVIEW = (4, 100)
-    BROWSING_SIDEBAR_FLAGS = (4, 101)
-    BROWSING_SIDEBAR_NOTETYPES = (4, 102)
-    BROWSING_SIDEBAR_OVERDUE = (4, 103)
-    BROWSING_SIDEBAR_RESCHEDULED = (4, 104)
-    BROWSING_SIDEBAR_SAVE_CURRENT_SEARCH = (4, 105)
-    BROWSING_SIDEBAR_SAVED_SEARCHES = (4, 106)
-    BROWSING_SIDEBAR_TAGS = (4, 107)
-    BROWSING_SIDEBAR_UNTAGGED = (4, 108)
-    BROWSING_SORT_FIELD = (4, 109)
-    BROWSING_SORTING_ON_THIS_COLUMN_IS_NOT = (4, 110)
-    BROWSING_START_POSITION = (4, 111)
-    BROWSING_STEP = (4, 112)
-    BROWSING_STUDIED_TODAY = (4, 113)
-    BROWSING_SUSPENDED = (4, 114)
-    BROWSING_TAG_DUPLICATES = (4, 115)
-    BROWSING_TAG_RENAME_WARNING_EMPTY = (4, 116)
-    BROWSING_TARGET_FIELD = (4, 117)
-    BROWSING_TODAY = (4, 118)
-    BROWSING_TOGGLE_BURY = (4, 119)
-    BROWSING_TOGGLE_MARK = (4, 120)
-    BROWSING_TOGGLE_SHOWING_CARDS_NOTES = (4, 121)
-    BROWSING_TOGGLE_SUSPEND = (4, 122)
-    BROWSING_TOOLTIP_ANSWER = (4, 123)
-    BROWSING_TOOLTIP_CARD = (4, 124)
-    BROWSING_TOOLTIP_CARD_MODIFIED = (4, 125)
-    BROWSING_TOOLTIP_CARDS = (4, 126)
-    BROWSING_TOOLTIP_NOTE_MODIFIED = (4, 127)
-    BROWSING_TOOLTIP_NOTETYPE = (4, 128)
-    BROWSING_TOOLTIP_QUESTION = (4, 129)
-    BROWSING_TREAT_INPUT_AS_REGULAR_EXPRESSION = (4, 130)
-    BROWSING_UPDATE_SAVED_SEARCH = (4, 131)
-    BROWSING_WHOLE_COLLECTION = (4, 132)
-    BROWSING_WINDOW_TITLE = (4, 133)
-    BROWSING_WINDOW_TITLE_NOTES = (4, 134)
-    BROWSING_YOU_MUST_HAVE_AT_LEAST_ONE = (4, 135)
+    BROWSING_CARDS_DELETED_WITH_DECKNAME = (4, 20)
+    BROWSING_CARDS_UPDATED = (4, 21)
+    BROWSING_CHANGE_DECK = (4, 22)
+    BROWSING_CHANGE_DECK2 = (4, 23)
+    BROWSING_CHANGE_NOTE_TYPE = (4, 24)
+    BROWSING_CHANGE_NOTE_TYPE2 = (4, 25)
+    BROWSING_CHANGE_NOTETYPE = (4, 26)
+    BROWSING_CHANGED_NEW_POSITION = (4, 27)
+    BROWSING_CLEAR_UNUSED_TAGS = (4, 28)
+    BROWSING_CONFIRM_SAVED_SEARCH_OVERWRITE = (4, 29)
+    BROWSING_CREATED = (4, 30)
+    BROWSING_CURRENT_DECK = (4, 31)
+    BROWSING_CURRENT_NOTE_TYPE = (4, 32)
+    BROWSING_DELETE_NOTES = (4, 33)
+    BROWSING_DUPLICATE = (4, 34)
+    BROWSING_EASE = (4, 35)
+    BROWSING_EDITED_TODAY = (4, 36)
+    BROWSING_ENTER_TAGS_TO_ADD = (4, 37)
+    BROWSING_ENTER_TAGS_TO_DELETE = (4, 38)
+    BROWSING_FILTERED = (4, 39)
+    BROWSING_FIND = (4, 40)
+    BROWSING_FIND_AND_REPLACE = (4, 41)
+    BROWSING_FIND_DUPLICATES = (4, 42)
+    BROWSING_FIRST_CARD = (4, 43)
+    BROWSING_FLAG = (4, 44)
+    BROWSING_FONT = (4, 45)
+    BROWSING_FONT_SIZE = (4, 46)
+    BROWSING_FOUND_AS_ACROSS_BS = (4, 47)
+    BROWSING_GROUP = (4, 48)
+    BROWSING_IGNORE_CASE = (4, 49)
+    BROWSING_IN = (4, 50)
+    BROWSING_INTERVAL = (4, 51)
+    BROWSING_LAST_CARD = (4, 52)
+    BROWSING_LEARNING = (4, 53)
+    BROWSING_LINE_SIZE = (4, 54)
+    BROWSING_MANAGE_NOTE_TYPES = (4, 55)
+    BROWSING_MOVE_CARDS = (4, 56)
+    BROWSING_MOVE_CARDS_TO_DECK = (4, 57)
+    BROWSING_NEW = (4, 58)
+    BROWSING_NEW_NOTE_TYPE = (4, 59)
+    BROWSING_NO_FLAG = (4, 60)
+    BROWSING_NO_SELECTION = (4, 61)
+    BROWSING_NOTE = (4, 62)
+    BROWSING_NOTE_COUNT = (4, 63)
+    BROWSING_NOTE_INITIAL = (4, 64)
+    BROWSING_NOTES = (4, 65)
+    BROWSING_NOTES_UPDATED = (4, 66)
+    BROWSING_OPTIONAL_FILTER = (4, 67)
+    BROWSING_OVERRIDE_BACK_TEMPLATE = (4, 68)
+    BROWSING_OVERRIDE_FONT = (4, 69)
+    BROWSING_OVERRIDE_FRONT_TEMPLATE = (4, 70)
+    BROWSING_PLEASE_GIVE_YOUR_FILTER_A_NAME = (4, 71)
+    BROWSING_PREVIEW_SELECTED_CARD = (4, 72)
+    BROWSING_QUESTION = (4, 73)
+    BROWSING_QUEUE_BOTTOM = (4, 74)
+    BROWSING_QUEUE_TOP = (4, 75)
+    BROWSING_RANDOMIZE_ORDER = (4, 76)
+    BROWSING_REMOVE_FROM_SELECTED_NOTES = (4, 77)
+    BROWSING_REMOVE_TAGS = (4, 78)
+    BROWSING_REMOVED_UNUSED_TAGS_COUNT = (4, 79)
+    BROWSING_REPARENTED_DECKS = (4, 80)
+    BROWSING_REPLACE_WITH = (4, 81)
+    BROWSING_REPOSITION = (4, 82)
+    BROWSING_REPOSITION_NEW_CARDS = (4, 83)
+    BROWSING_RESCHEDULE = (4, 84)
+    BROWSING_ROW_DELETED = (4, 85)
+    BROWSING_SEARCH_BAR_HINT = (4, 86)
+    BROWSING_SEARCH_IN = (4, 87)
+    BROWSING_SEARCH_WITHIN_FORMATTING_SLOW = (4, 88)
+    BROWSING_SELECTED_NOTES_ONLY = (4, 89)
+    BROWSING_SHIFT_POSITION_OF_EXISTING_CARDS = (4, 90)
+    BROWSING_SIDEBAR = (4, 91)
+    BROWSING_SIDEBAR_CARD_STATE = (4, 92)
+    BROWSING_SIDEBAR_CARD_STATE_REVIEW = (4, 93)
+    BROWSING_SIDEBAR_COLLAPSE = (4, 94)
+    BROWSING_SIDEBAR_COLLAPSE_CHILDREN = (4, 95)
+    BROWSING_SIDEBAR_DECKS = (4, 96)
+    BROWSING_SIDEBAR_DUE_TODAY = (4, 97)
+    BROWSING_SIDEBAR_EXPAND = (4, 98)
+    BROWSING_SIDEBAR_EXPAND_CHILDREN = (4, 99)
+    BROWSING_SIDEBAR_FILTER = (4, 100)
+    BROWSING_SIDEBAR_FIRST_REVIEW = (4, 101)
+    BROWSING_SIDEBAR_FLAGS = (4, 102)
+    BROWSING_SIDEBAR_NOTETYPES = (4, 103)
+    BROWSING_SIDEBAR_OVERDUE = (4, 104)
+    BROWSING_SIDEBAR_RESCHEDULED = (4, 105)
+    BROWSING_SIDEBAR_SAVE_CURRENT_SEARCH = (4, 106)
+    BROWSING_SIDEBAR_SAVED_SEARCHES = (4, 107)
+    BROWSING_SIDEBAR_TAGS = (4, 108)
+    BROWSING_SIDEBAR_UNTAGGED = (4, 109)
+    BROWSING_SORT_FIELD = (4, 110)
+    BROWSING_SORTING_ON_THIS_COLUMN_IS_NOT = (4, 111)
+    BROWSING_START_POSITION = (4, 112)
+    BROWSING_STEP = (4, 113)
+    BROWSING_STUDIED_TODAY = (4, 114)
+    BROWSING_SUSPENDED = (4, 115)
+    BROWSING_TAG_DUPLICATES = (4, 116)
+    BROWSING_TAG_RENAME_WARNING_EMPTY = (4, 117)
+    BROWSING_TARGET_FIELD = (4, 118)
+    BROWSING_TODAY = (4, 119)
+    BROWSING_TOGGLE_BURY = (4, 120)
+    BROWSING_TOGGLE_MARK = (4, 121)
+    BROWSING_TOGGLE_SHOWING_CARDS_NOTES = (4, 122)
+    BROWSING_TOGGLE_SUSPEND = (4, 123)
+    BROWSING_TOOLTIP_ANSWER = (4, 124)
+    BROWSING_TOOLTIP_CARD = (4, 125)
+    BROWSING_TOOLTIP_CARD_MODIFIED = (4, 126)
+    BROWSING_TOOLTIP_CARDS = (4, 127)
+    BROWSING_TOOLTIP_NOTE_MODIFIED = (4, 128)
+    BROWSING_TOOLTIP_NOTETYPE = (4, 129)
+    BROWSING_TOOLTIP_QUESTION = (4, 130)
+    BROWSING_TREAT_INPUT_AS_REGULAR_EXPRESSION = (4, 131)
+    BROWSING_UPDATE_SAVED_SEARCH = (4, 132)
+    BROWSING_WHOLE_COLLECTION = (4, 133)
+    BROWSING_WINDOW_TITLE = (4, 134)
+    BROWSING_WINDOW_TITLE_NOTES = (4, 135)
+    BROWSING_YOU_MUST_HAVE_AT_LEAST_ONE = (4, 136)
     CARD_STATS_ADDED = (5, 0)
     CARD_STATS_AVERAGE_TIME = (5, 1)
     CARD_STATS_CARD_ID = (5, 2)
@@ -8409,18 +8607,19 @@ class LegacyTranslationEnum:
     CARD_STATS_NO_CARD = (5, 16)
     CARD_STATS_NOTE_ID = (5, 17)
     CARD_STATS_NOTE_TYPE = (5, 18)
-    CARD_STATS_PREVIOUS_CARD = (5, 19)
-    CARD_STATS_REVIEW_COUNT = (5, 20)
-    CARD_STATS_REVIEW_LOG_DATE = (5, 21)
-    CARD_STATS_REVIEW_LOG_RATING = (5, 22)
-    CARD_STATS_REVIEW_LOG_TIME_TAKEN = (5, 23)
-    CARD_STATS_REVIEW_LOG_TYPE = (5, 24)
-    CARD_STATS_REVIEW_LOG_TYPE_FILTERED = (5, 25)
-    CARD_STATS_REVIEW_LOG_TYPE_LEARN = (5, 26)
-    CARD_STATS_REVIEW_LOG_TYPE_MANUAL = (5, 27)
-    CARD_STATS_REVIEW_LOG_TYPE_RELEARN = (5, 28)
-    CARD_STATS_REVIEW_LOG_TYPE_REVIEW = (5, 29)
-    CARD_STATS_TOTAL_TIME = (5, 30)
+    CARD_STATS_PRESET = (5, 19)
+    CARD_STATS_PREVIOUS_CARD = (5, 20)
+    CARD_STATS_REVIEW_COUNT = (5, 21)
+    CARD_STATS_REVIEW_LOG_DATE = (5, 22)
+    CARD_STATS_REVIEW_LOG_RATING = (5, 23)
+    CARD_STATS_REVIEW_LOG_TIME_TAKEN = (5, 24)
+    CARD_STATS_REVIEW_LOG_TYPE = (5, 25)
+    CARD_STATS_REVIEW_LOG_TYPE_FILTERED = (5, 26)
+    CARD_STATS_REVIEW_LOG_TYPE_LEARN = (5, 27)
+    CARD_STATS_REVIEW_LOG_TYPE_MANUAL = (5, 28)
+    CARD_STATS_REVIEW_LOG_TYPE_RELEARN = (5, 29)
+    CARD_STATS_REVIEW_LOG_TYPE_REVIEW = (5, 30)
+    CARD_STATS_TOTAL_TIME = (5, 31)
     CARD_TEMPLATE_RENDERING_BACK_SIDE_PROBLEM = (6, 0)
     CARD_TEMPLATE_RENDERING_BROWSER_BACK_SIDE_PROBLEM = (6, 1)
     CARD_TEMPLATE_RENDERING_BROWSER_FRONT_SIDE_PROBLEM = (6, 2)
@@ -8454,32 +8653,33 @@ class LegacyTranslationEnum:
     CARD_TEMPLATES_ENTER_DECK_TO_PLACE_NEW = (7, 18)
     CARD_TEMPLATES_ENTER_NEW_CARD_POSITION_1 = (7, 19)
     CARD_TEMPLATES_EXTRANEOUS_CLOZE = (7, 20)
-    CARD_TEMPLATES_FILL_EMPTY = (7, 21)
-    CARD_TEMPLATES_FLIP = (7, 22)
-    CARD_TEMPLATES_FORM = (7, 23)
-    CARD_TEMPLATES_FRONT_PREVIEW = (7, 24)
-    CARD_TEMPLATES_FRONT_TEMPLATE = (7, 25)
-    CARD_TEMPLATES_IDENTICAL_FRONT = (7, 26)
-    CARD_TEMPLATES_INVALID_TEMPLATE_NUMBER = (7, 27)
-    CARD_TEMPLATES_MISSING_CLOZE = (7, 28)
-    CARD_TEMPLATES_NIGHT_MODE = (7, 29)
-    CARD_TEMPLATES_NO_FRONT_FIELD = (7, 30)
-    CARD_TEMPLATES_OFF = (7, 31)
-    CARD_TEMPLATES_ON = (7, 32)
-    CARD_TEMPLATES_PREVIEW_BOX = (7, 33)
-    CARD_TEMPLATES_PREVIEW_SETTINGS = (7, 34)
-    CARD_TEMPLATES_REMOVE_CARD_TYPE = (7, 35)
-    CARD_TEMPLATES_RENAME_CARD_TYPE = (7, 36)
-    CARD_TEMPLATES_REPOSITION_CARD_TYPE = (7, 37)
-    CARD_TEMPLATES_RESTORE_TO_DEFAULT = (7, 38)
-    CARD_TEMPLATES_RESTORE_TO_DEFAULT_CONFIRMATION = (7, 39)
-    CARD_TEMPLATES_RESTORED_TO_DEFAULT = (7, 40)
-    CARD_TEMPLATES_SAMPLE_CLOZE = (7, 41)
-    CARD_TEMPLATES_SEE_PREVIEW = (7, 42)
-    CARD_TEMPLATES_TEMPLATE_BOX = (7, 43)
-    CARD_TEMPLATES_TEMPLATE_STYLING = (7, 44)
-    CARD_TEMPLATES_THIS_WILL_CREATE_CARD_PROCEED = (7, 45)
-    CARD_TEMPLATES_TYPE_BOXES_WARNING = (7, 46)
+    CARD_TEMPLATES_FIELD_NOT_FOUND = (7, 21)
+    CARD_TEMPLATES_FILL_EMPTY = (7, 22)
+    CARD_TEMPLATES_FLIP = (7, 23)
+    CARD_TEMPLATES_FORM = (7, 24)
+    CARD_TEMPLATES_FRONT_PREVIEW = (7, 25)
+    CARD_TEMPLATES_FRONT_TEMPLATE = (7, 26)
+    CARD_TEMPLATES_IDENTICAL_FRONT = (7, 27)
+    CARD_TEMPLATES_INVALID_TEMPLATE_NUMBER = (7, 28)
+    CARD_TEMPLATES_MISSING_CLOZE = (7, 29)
+    CARD_TEMPLATES_NIGHT_MODE = (7, 30)
+    CARD_TEMPLATES_NO_FRONT_FIELD = (7, 31)
+    CARD_TEMPLATES_OFF = (7, 32)
+    CARD_TEMPLATES_ON = (7, 33)
+    CARD_TEMPLATES_PREVIEW_BOX = (7, 34)
+    CARD_TEMPLATES_PREVIEW_SETTINGS = (7, 35)
+    CARD_TEMPLATES_REMOVE_CARD_TYPE = (7, 36)
+    CARD_TEMPLATES_RENAME_CARD_TYPE = (7, 37)
+    CARD_TEMPLATES_REPOSITION_CARD_TYPE = (7, 38)
+    CARD_TEMPLATES_RESTORE_TO_DEFAULT = (7, 39)
+    CARD_TEMPLATES_RESTORE_TO_DEFAULT_CONFIRMATION = (7, 40)
+    CARD_TEMPLATES_RESTORED_TO_DEFAULT = (7, 41)
+    CARD_TEMPLATES_SAMPLE_CLOZE = (7, 42)
+    CARD_TEMPLATES_SEE_PREVIEW = (7, 43)
+    CARD_TEMPLATES_TEMPLATE_BOX = (7, 44)
+    CARD_TEMPLATES_TEMPLATE_STYLING = (7, 45)
+    CARD_TEMPLATES_THIS_WILL_CREATE_CARD_PROCEED = (7, 46)
+    CARD_TEMPLATES_TYPE_BOXES_WARNING = (7, 47)
     CHANGE_NOTETYPE_COLLAPSE = (8, 0)
     CHANGE_NOTETYPE_CURRENT = (8, 1)
     CHANGE_NOTETYPE_EXPAND = (8, 2)
@@ -8569,146 +8769,162 @@ class LegacyTranslationEnum:
     DECK_CONFIG_CLONE_GROUP = (11, 26)
     DECK_CONFIG_COMPLETE = (11, 27)
     DECK_CONFIG_COMPUTE_BUTTON = (11, 28)
-    DECK_CONFIG_COMPUTE_OPTIMAL_RETENTION = (11, 29)
-    DECK_CONFIG_COMPUTE_OPTIMAL_RETENTION_TOOLTIP = (11, 30)
-    DECK_CONFIG_COMPUTE_OPTIMAL_WEIGHTS = (11, 31)
-    DECK_CONFIG_COMPUTE_OPTIMAL_WEIGHTS_TOOLTIP = (11, 32)
-    DECK_CONFIG_CONFIRM_REMOVE_NAME = (11, 33)
-    DECK_CONFIG_CUSTOM_SCHEDULING = (11, 34)
-    DECK_CONFIG_CUSTOM_SCHEDULING_TOOLTIP = (11, 35)
-    DECK_CONFIG_DAILY_LIMIT_WILL_BE_CAPPED = (11, 36)
-    DECK_CONFIG_DAILY_LIMITS = (11, 37)
-    DECK_CONFIG_DECK_ONLY = (11, 38)
-    DECK_CONFIG_DEFAULT_NAME = (11, 39)
-    DECK_CONFIG_DESCRIPTION_NEW_HANDLING = (11, 40)
-    DECK_CONFIG_DESCRIPTION_NEW_HANDLING_HINT = (11, 41)
-    DECK_CONFIG_DESIRED_RETENTION = (11, 42)
-    DECK_CONFIG_DESIRED_RETENTION_TOOLTIP = (11, 43)
-    DECK_CONFIG_DISABLE_AUTOPLAY = (11, 44)
-    DECK_CONFIG_DISABLE_AUTOPLAY_TOOLTIP = (11, 45)
-    DECK_CONFIG_DISPLAY_ORDER_WILL_USE_CURRENT_DECK = (11, 46)
-    DECK_CONFIG_DO_NOT_BURY = (11, 47)
-    DECK_CONFIG_EASY_BONUS_TOOLTIP = (11, 48)
-    DECK_CONFIG_EASY_INTERVAL_TOOLTIP = (11, 49)
-    DECK_CONFIG_ESTIMATED_RETENTION = (11, 50)
-    DECK_CONFIG_EVALUATE_BUTTON = (11, 51)
-    DECK_CONFIG_FSRS_MUST_BE_ENABLED = (11, 52)
-    DECK_CONFIG_FSRS_ON_ALL_CLIENTS = (11, 53)
-    DECK_CONFIG_FSRS_TOOLTIP = (11, 54)
-    DECK_CONFIG_GET_PARAMS = (11, 55)
-    DECK_CONFIG_GOOD_ABOVE_EASY = (11, 56)
-    DECK_CONFIG_GRADUATING_INTERVAL_TOOLTIP = (11, 57)
-    DECK_CONFIG_HARD_INTERVAL_TOOLTIP = (11, 58)
-    DECK_CONFIG_INTERDAY_STEP_PRIORITY = (11, 59)
-    DECK_CONFIG_INTERDAY_STEP_PRIORITY_TOOLTIP = (11, 60)
-    DECK_CONFIG_INTERVAL_MODIFIER_TOOLTIP = (11, 61)
-    DECK_CONFIG_INVALID_WEIGHTS = (11, 62)
-    DECK_CONFIG_ITERATIONS = (11, 63)
-    DECK_CONFIG_LEARNING_STEP_ABOVE_GRADUATING_INTERVAL = (11, 64)
-    DECK_CONFIG_LEARNING_STEPS = (11, 65)
-    DECK_CONFIG_LEARNING_STEPS_TOOLTIP = (11, 66)
-    DECK_CONFIG_LEECH_ACTION_TOOLTIP = (11, 67)
-    DECK_CONFIG_LEECH_THRESHOLD_TOOLTIP = (11, 68)
-    DECK_CONFIG_LIMIT_DECK_V3 = (11, 69)
-    DECK_CONFIG_LIMIT_INTERDAY_BOUND_BY_REVIEWS = (11, 70)
-    DECK_CONFIG_LIMIT_NEW_BOUND_BY_REVIEWS = (11, 71)
-    DECK_CONFIG_MAXIMUM_ANSWER_SECS = (11, 72)
-    DECK_CONFIG_MAXIMUM_ANSWER_SECS_ABOVE_RECOMMENDED = (11, 73)
-    DECK_CONFIG_MAXIMUM_ANSWER_SECS_TOOLTIP = (11, 74)
-    DECK_CONFIG_MAXIMUM_INTERVAL_TOOLTIP = (11, 75)
-    DECK_CONFIG_MINIMUM_INTERVAL_TOOLTIP = (11, 76)
-    DECK_CONFIG_MUST_HAVE_1000_REVIEWS = (11, 77)
-    DECK_CONFIG_NAME_PROMPT = (11, 78)
-    DECK_CONFIG_NEW_CARD_SORT_ORDER = (11, 79)
-    DECK_CONFIG_NEW_CARD_SORT_ORDER_TOOLTIP_2 = (11, 80)
-    DECK_CONFIG_NEW_CARDS_IGNORE_REVIEW_LIMIT = (11, 81)
-    DECK_CONFIG_NEW_CARDS_IGNORE_REVIEW_LIMIT_TOOLTIP = (11, 82)
-    DECK_CONFIG_NEW_GATHER_PRIORITY = (11, 83)
-    DECK_CONFIG_NEW_GATHER_PRIORITY_DECK = (11, 84)
-    DECK_CONFIG_NEW_GATHER_PRIORITY_DECK_THEN_RANDOM_NOTES = (11, 85)
-    DECK_CONFIG_NEW_GATHER_PRIORITY_POSITION_HIGHEST_FIRST = (11, 86)
-    DECK_CONFIG_NEW_GATHER_PRIORITY_POSITION_LOWEST_FIRST = (11, 87)
-    DECK_CONFIG_NEW_GATHER_PRIORITY_RANDOM_CARDS = (11, 88)
-    DECK_CONFIG_NEW_GATHER_PRIORITY_RANDOM_NOTES = (11, 89)
-    DECK_CONFIG_NEW_GATHER_PRIORITY_TOOLTIP_2 = (11, 90)
-    DECK_CONFIG_NEW_INSERTION_ORDER = (11, 91)
-    DECK_CONFIG_NEW_INSERTION_ORDER_RANDOM = (11, 92)
-    DECK_CONFIG_NEW_INSERTION_ORDER_RANDOM_WITH_V3 = (11, 93)
-    DECK_CONFIG_NEW_INSERTION_ORDER_SEQUENTIAL = (11, 94)
-    DECK_CONFIG_NEW_INSERTION_ORDER_TOOLTIP = (11, 95)
-    DECK_CONFIG_NEW_INTERVAL_TOOLTIP = (11, 96)
-    DECK_CONFIG_NEW_LIMIT_TOOLTIP = (11, 97)
-    DECK_CONFIG_NEW_REVIEW_PRIORITY = (11, 98)
-    DECK_CONFIG_NEW_REVIEW_PRIORITY_TOOLTIP = (11, 99)
-    DECK_CONFIG_NOT_ENOUGH_HISTORY = (11, 100)
-    DECK_CONFIG_OPTIMIZE_ALL_TIP = (11, 101)
-    DECK_CONFIG_OPTIMIZE_BUTTON = (11, 102)
-    DECK_CONFIG_OPTIMIZING_PRESET = (11, 103)
-    DECK_CONFIG_ORDERING_TITLE = (11, 104)
-    DECK_CONFIG_PERCENT_OF_REVIEWS = (11, 105)
-    DECK_CONFIG_PLEASE_SAVE_YOUR_CHANGES_FIRST = (11, 106)
-    DECK_CONFIG_RELEARNING_STEPS = (11, 107)
-    DECK_CONFIG_RELEARNING_STEPS_ABOVE_MINIMUM_INTERVAL = (11, 108)
-    DECK_CONFIG_RELEARNING_STEPS_TOOLTIP = (11, 109)
-    DECK_CONFIG_REMOVE_GROUP = (11, 110)
-    DECK_CONFIG_RENAME_GROUP = (11, 111)
-    DECK_CONFIG_RESCHEDULE_CARDS_ON_CHANGE = (11, 112)
-    DECK_CONFIG_RESCHEDULE_CARDS_ON_CHANGE_TOOLTIP = (11, 113)
-    DECK_CONFIG_RESCHEDULE_CARDS_WARNING = (11, 114)
-    DECK_CONFIG_REVERT_BUTTON_TOOLTIP = (11, 115)
-    DECK_CONFIG_REVIEW_LIMIT_TOOLTIP = (11, 116)
-    DECK_CONFIG_REVIEW_MIX_MIX_WITH_REVIEWS = (11, 117)
-    DECK_CONFIG_REVIEW_MIX_SHOW_AFTER_REVIEWS = (11, 118)
-    DECK_CONFIG_REVIEW_MIX_SHOW_BEFORE_REVIEWS = (11, 119)
-    DECK_CONFIG_REVIEW_SORT_ORDER = (11, 120)
-    DECK_CONFIG_REVIEW_SORT_ORDER_TOOLTIP = (11, 121)
-    DECK_CONFIG_REVIEWS_TOO_LOW = (11, 122)
-    DECK_CONFIG_SAVE_AND_OPTIMIZE = (11, 123)
-    DECK_CONFIG_SAVE_BUTTON = (11, 124)
-    DECK_CONFIG_SAVE_TO_ALL_SUBDECKS = (11, 125)
-    DECK_CONFIG_SECONDS_TO_SHOW_ANSWER = (11, 126)
-    DECK_CONFIG_SECONDS_TO_SHOW_ANSWER_TOOLTIP_2 = (11, 127)
-    DECK_CONFIG_SECONDS_TO_SHOW_QUESTION = (11, 128)
-    DECK_CONFIG_SECONDS_TO_SHOW_QUESTION_TOOLTIP_2 = (11, 129)
-    DECK_CONFIG_SHARED_PRESET = (11, 130)
-    DECK_CONFIG_SHOW_ANSWER_TIMER_TOOLTIP = (11, 131)
-    DECK_CONFIG_SHOW_REMINDER = (11, 132)
-    DECK_CONFIG_SKIP_QUESTION_WHEN_REPLAYING = (11, 133)
-    DECK_CONFIG_SM2_RETENTION = (11, 134)
-    DECK_CONFIG_SM2_RETENTION_TOOLTIP = (11, 135)
-    DECK_CONFIG_SMALLER_IS_BETTER = (11, 136)
-    DECK_CONFIG_SORT_ORDER_ASCENDING_DIFFICULTY = (11, 137)
-    DECK_CONFIG_SORT_ORDER_ASCENDING_EASE = (11, 138)
-    DECK_CONFIG_SORT_ORDER_ASCENDING_INTERVALS = (11, 139)
-    DECK_CONFIG_SORT_ORDER_CARD_TEMPLATE_THEN_RANDOM = (11, 140)
-    DECK_CONFIG_SORT_ORDER_DECK_THEN_DUE_DATE = (11, 141)
-    DECK_CONFIG_SORT_ORDER_DESCENDING_DIFFICULTY = (11, 142)
-    DECK_CONFIG_SORT_ORDER_DESCENDING_EASE = (11, 143)
-    DECK_CONFIG_SORT_ORDER_DESCENDING_INTERVALS = (11, 144)
-    DECK_CONFIG_SORT_ORDER_DUE_DATE_THEN_DECK = (11, 145)
-    DECK_CONFIG_SORT_ORDER_DUE_DATE_THEN_RANDOM = (11, 146)
-    DECK_CONFIG_SORT_ORDER_GATHER = (11, 147)
-    DECK_CONFIG_SORT_ORDER_RANDOM = (11, 148)
-    DECK_CONFIG_SORT_ORDER_RANDOM_NOTE_THEN_TEMPLATE = (11, 149)
-    DECK_CONFIG_SORT_ORDER_RELATIVE_OVERDUENESS = (11, 150)
-    DECK_CONFIG_SORT_ORDER_TEMPLATE_THEN_GATHER = (11, 151)
-    DECK_CONFIG_STARTING_EASE_TOOLTIP = (11, 152)
-    DECK_CONFIG_STEPS_TOO_LARGE_FOR_FSRS = (11, 153)
-    DECK_CONFIG_STOP_TIMER_ON_ANSWER = (11, 154)
-    DECK_CONFIG_STOP_TIMER_ON_ANSWER_TOOLTIP = (11, 155)
-    DECK_CONFIG_TAB_DESCRIPTION = (11, 156)
-    DECK_CONFIG_TIMER_TITLE = (11, 157)
-    DECK_CONFIG_TITLE = (11, 158)
-    DECK_CONFIG_TODAY_ONLY = (11, 159)
-    DECK_CONFIG_UNABLE_TO_DETERMINE_DESIRED_RETENTION = (11, 160)
-    DECK_CONFIG_UPDATING_CARDS = (11, 161)
-    DECK_CONFIG_USED_BY_DECKS = (11, 162)
-    DECK_CONFIG_WAIT_FOR_AUDIO = (11, 163)
-    DECK_CONFIG_WAIT_FOR_AUDIO_TOOLTIP = (11, 164)
-    DECK_CONFIG_WEIGHTS = (11, 165)
-    DECK_CONFIG_WEIGHTS_TOOLTIP = (11, 166)
-    DECK_CONFIG_WHICH_DECK = (11, 167)
-    DECK_CONFIG_WILL_REQUIRE_FULL_SYNC = (11, 168)
+    DECK_CONFIG_COMPUTE_MINIMUM_RECOMMENDED_RETENTION = (11, 29)
+    DECK_CONFIG_COMPUTE_OPTIMAL_RETENTION = (11, 30)
+    DECK_CONFIG_COMPUTE_OPTIMAL_RETENTION_TOOLTIP = (11, 31)
+    DECK_CONFIG_COMPUTE_OPTIMAL_RETENTION_TOOLTIP2 = (11, 32)
+    DECK_CONFIG_COMPUTE_OPTIMAL_RETENTION_TOOLTIP3 = (11, 33)
+    DECK_CONFIG_COMPUTE_OPTIMAL_RETENTION_TOOLTIP4 = (11, 34)
+    DECK_CONFIG_COMPUTE_OPTIMAL_WEIGHTS = (11, 35)
+    DECK_CONFIG_COMPUTE_OPTIMAL_WEIGHTS_TOOLTIP = (11, 36)
+    DECK_CONFIG_COMPUTE_OPTIMAL_WEIGHTS_TOOLTIP2 = (11, 37)
+    DECK_CONFIG_CONFIRM_REMOVE_NAME = (11, 38)
+    DECK_CONFIG_CUSTOM_SCHEDULING = (11, 39)
+    DECK_CONFIG_CUSTOM_SCHEDULING_TOOLTIP = (11, 40)
+    DECK_CONFIG_DAILY_LIMIT_WILL_BE_CAPPED = (11, 41)
+    DECK_CONFIG_DAILY_LIMITS = (11, 42)
+    DECK_CONFIG_DAYS_TO_SIMULATE = (11, 43)
+    DECK_CONFIG_DECK_ONLY = (11, 44)
+    DECK_CONFIG_DEFAULT_NAME = (11, 45)
+    DECK_CONFIG_DESCRIPTION_NEW_HANDLING = (11, 46)
+    DECK_CONFIG_DESCRIPTION_NEW_HANDLING_HINT = (11, 47)
+    DECK_CONFIG_DESIRED_RETENTION = (11, 48)
+    DECK_CONFIG_DESIRED_RETENTION_BELOW_OPTIMAL = (11, 49)
+    DECK_CONFIG_DESIRED_RETENTION_TOOLTIP = (11, 50)
+    DECK_CONFIG_DISABLE_AUTOPLAY = (11, 51)
+    DECK_CONFIG_DISABLE_AUTOPLAY_TOOLTIP = (11, 52)
+    DECK_CONFIG_DISPLAY_ORDER_WILL_USE_CURRENT_DECK = (11, 53)
+    DECK_CONFIG_DO_NOT_BURY = (11, 54)
+    DECK_CONFIG_EASY_BONUS_TOOLTIP = (11, 55)
+    DECK_CONFIG_EASY_INTERVAL_TOOLTIP = (11, 56)
+    DECK_CONFIG_EVALUATE_BUTTON = (11, 57)
+    DECK_CONFIG_FSRS_MUST_BE_ENABLED = (11, 58)
+    DECK_CONFIG_FSRS_ON_ALL_CLIENTS = (11, 59)
+    DECK_CONFIG_FSRS_PARAMS_OPTIMAL = (11, 60)
+    DECK_CONFIG_FSRS_TOOLTIP = (11, 61)
+    DECK_CONFIG_GET_PARAMS = (11, 62)
+    DECK_CONFIG_GOOD_ABOVE_EASY = (11, 63)
+    DECK_CONFIG_GRADUATING_INTERVAL_TOOLTIP = (11, 64)
+    DECK_CONFIG_HARD_INTERVAL_TOOLTIP = (11, 65)
+    DECK_CONFIG_HISTORICAL_RETENTION = (11, 66)
+    DECK_CONFIG_HISTORICAL_RETENTION_TOOLTIP = (11, 67)
+    DECK_CONFIG_IGNORE_BEFORE = (11, 68)
+    DECK_CONFIG_IGNORE_BEFORE_TOOLTIP = (11, 69)
+    DECK_CONFIG_INTERDAY_STEP_PRIORITY = (11, 70)
+    DECK_CONFIG_INTERDAY_STEP_PRIORITY_TOOLTIP = (11, 71)
+    DECK_CONFIG_INTERVAL_MODIFIER_TOOLTIP = (11, 72)
+    DECK_CONFIG_INVALID_WEIGHTS = (11, 73)
+    DECK_CONFIG_ITERATIONS = (11, 74)
+    DECK_CONFIG_LEARNING_STEP_ABOVE_GRADUATING_INTERVAL = (11, 75)
+    DECK_CONFIG_LEARNING_STEPS = (11, 76)
+    DECK_CONFIG_LEARNING_STEPS_TOOLTIP = (11, 77)
+    DECK_CONFIG_LEECH_ACTION_TOOLTIP = (11, 78)
+    DECK_CONFIG_LEECH_THRESHOLD_TOOLTIP = (11, 79)
+    DECK_CONFIG_LIMIT_DECK_V3 = (11, 80)
+    DECK_CONFIG_LIMIT_INTERDAY_BOUND_BY_REVIEWS = (11, 81)
+    DECK_CONFIG_LIMIT_NEW_BOUND_BY_REVIEWS = (11, 82)
+    DECK_CONFIG_MAXIMUM_ANSWER_SECS = (11, 83)
+    DECK_CONFIG_MAXIMUM_ANSWER_SECS_ABOVE_RECOMMENDED = (11, 84)
+    DECK_CONFIG_MAXIMUM_ANSWER_SECS_TOOLTIP = (11, 85)
+    DECK_CONFIG_MAXIMUM_INTERVAL_TOOLTIP = (11, 86)
+    DECK_CONFIG_MINIMUM_INTERVAL_TOOLTIP = (11, 87)
+    DECK_CONFIG_MUST_HAVE_400_REVIEWS = (11, 88)
+    DECK_CONFIG_NAME_PROMPT = (11, 89)
+    DECK_CONFIG_NEW_CARD_SORT_ORDER = (11, 90)
+    DECK_CONFIG_NEW_CARD_SORT_ORDER_TOOLTIP_2 = (11, 91)
+    DECK_CONFIG_NEW_CARDS_IGNORE_REVIEW_LIMIT = (11, 92)
+    DECK_CONFIG_NEW_CARDS_IGNORE_REVIEW_LIMIT_TOOLTIP = (11, 93)
+    DECK_CONFIG_NEW_GATHER_PRIORITY = (11, 94)
+    DECK_CONFIG_NEW_GATHER_PRIORITY_DECK = (11, 95)
+    DECK_CONFIG_NEW_GATHER_PRIORITY_DECK_THEN_RANDOM_NOTES = (11, 96)
+    DECK_CONFIG_NEW_GATHER_PRIORITY_POSITION_HIGHEST_FIRST = (11, 97)
+    DECK_CONFIG_NEW_GATHER_PRIORITY_POSITION_LOWEST_FIRST = (11, 98)
+    DECK_CONFIG_NEW_GATHER_PRIORITY_RANDOM_CARDS = (11, 99)
+    DECK_CONFIG_NEW_GATHER_PRIORITY_RANDOM_NOTES = (11, 100)
+    DECK_CONFIG_NEW_GATHER_PRIORITY_TOOLTIP_2 = (11, 101)
+    DECK_CONFIG_NEW_INSERTION_ORDER = (11, 102)
+    DECK_CONFIG_NEW_INSERTION_ORDER_RANDOM = (11, 103)
+    DECK_CONFIG_NEW_INSERTION_ORDER_RANDOM_WITH_V3 = (11, 104)
+    DECK_CONFIG_NEW_INSERTION_ORDER_SEQUENTIAL = (11, 105)
+    DECK_CONFIG_NEW_INSERTION_ORDER_TOOLTIP = (11, 106)
+    DECK_CONFIG_NEW_INTERVAL_TOOLTIP = (11, 107)
+    DECK_CONFIG_NEW_LIMIT_TOOLTIP = (11, 108)
+    DECK_CONFIG_NEW_REVIEW_PRIORITY = (11, 109)
+    DECK_CONFIG_NEW_REVIEW_PRIORITY_TOOLTIP = (11, 110)
+    DECK_CONFIG_NOT_ENOUGH_HISTORY = (11, 111)
+    DECK_CONFIG_OPTIMIZE_ALL_TIP = (11, 112)
+    DECK_CONFIG_OPTIMIZE_BUTTON = (11, 113)
+    DECK_CONFIG_OPTIMIZING_PRESET = (11, 114)
+    DECK_CONFIG_ORDERING_TITLE = (11, 115)
+    DECK_CONFIG_PERCENT_OF_REVIEWS = (11, 116)
+    DECK_CONFIG_PLEASE_SAVE_YOUR_CHANGES_FIRST = (11, 117)
+    DECK_CONFIG_PREDICTED_MINIMUM_RECOMMENDED_RETENTION = (11, 118)
+    DECK_CONFIG_PREDICTED_OPTIMAL_RETENTION = (11, 119)
+    DECK_CONFIG_QUESTION_ACTION = (11, 120)
+    DECK_CONFIG_QUESTION_ACTION_SHOW_ANSWER = (11, 121)
+    DECK_CONFIG_QUESTION_ACTION_SHOW_REMINDER = (11, 122)
+    DECK_CONFIG_QUESTION_ACTION_TOOL_TIP = (11, 123)
+    DECK_CONFIG_RELEARNING_STEPS = (11, 124)
+    DECK_CONFIG_RELEARNING_STEPS_ABOVE_MINIMUM_INTERVAL = (11, 125)
+    DECK_CONFIG_RELEARNING_STEPS_TOOLTIP = (11, 126)
+    DECK_CONFIG_REMOVE_GROUP = (11, 127)
+    DECK_CONFIG_RENAME_GROUP = (11, 128)
+    DECK_CONFIG_RESCHEDULE_CARDS_ON_CHANGE = (11, 129)
+    DECK_CONFIG_RESCHEDULE_CARDS_ON_CHANGE_TOOLTIP = (11, 130)
+    DECK_CONFIG_RESCHEDULE_CARDS_WARNING = (11, 131)
+    DECK_CONFIG_REVERT_BUTTON_TOOLTIP = (11, 132)
+    DECK_CONFIG_REVIEW_LIMIT_TOOLTIP = (11, 133)
+    DECK_CONFIG_REVIEW_MIX_MIX_WITH_REVIEWS = (11, 134)
+    DECK_CONFIG_REVIEW_MIX_SHOW_AFTER_REVIEWS = (11, 135)
+    DECK_CONFIG_REVIEW_MIX_SHOW_BEFORE_REVIEWS = (11, 136)
+    DECK_CONFIG_REVIEW_SORT_ORDER = (11, 137)
+    DECK_CONFIG_REVIEW_SORT_ORDER_TOOLTIP = (11, 138)
+    DECK_CONFIG_REVIEWS_TOO_LOW = (11, 139)
+    DECK_CONFIG_SAVE_AND_OPTIMIZE = (11, 140)
+    DECK_CONFIG_SAVE_BUTTON = (11, 141)
+    DECK_CONFIG_SAVE_TO_ALL_SUBDECKS = (11, 142)
+    DECK_CONFIG_SECONDS_TO_SHOW_ANSWER = (11, 143)
+    DECK_CONFIG_SECONDS_TO_SHOW_ANSWER_TOOLTIP_2 = (11, 144)
+    DECK_CONFIG_SECONDS_TO_SHOW_QUESTION = (11, 145)
+    DECK_CONFIG_SECONDS_TO_SHOW_QUESTION_TOOLTIP_2 = (11, 146)
+    DECK_CONFIG_SHARED_PRESET = (11, 147)
+    DECK_CONFIG_SHOW_ANSWER_TIMER_TOOLTIP = (11, 148)
+    DECK_CONFIG_SHOW_REMINDER = (11, 149)
+    DECK_CONFIG_SKIP_QUESTION_WHEN_REPLAYING = (11, 150)
+    DECK_CONFIG_SMALLER_IS_BETTER = (11, 151)
+    DECK_CONFIG_SORT_ORDER_ASCENDING_DIFFICULTY = (11, 152)
+    DECK_CONFIG_SORT_ORDER_ASCENDING_EASE = (11, 153)
+    DECK_CONFIG_SORT_ORDER_ASCENDING_INTERVALS = (11, 154)
+    DECK_CONFIG_SORT_ORDER_CARD_TEMPLATE_THEN_RANDOM = (11, 155)
+    DECK_CONFIG_SORT_ORDER_DECK_THEN_DUE_DATE = (11, 156)
+    DECK_CONFIG_SORT_ORDER_DESCENDING_DIFFICULTY = (11, 157)
+    DECK_CONFIG_SORT_ORDER_DESCENDING_EASE = (11, 158)
+    DECK_CONFIG_SORT_ORDER_DESCENDING_INTERVALS = (11, 159)
+    DECK_CONFIG_SORT_ORDER_DUE_DATE_THEN_DECK = (11, 160)
+    DECK_CONFIG_SORT_ORDER_DUE_DATE_THEN_RANDOM = (11, 161)
+    DECK_CONFIG_SORT_ORDER_GATHER = (11, 162)
+    DECK_CONFIG_SORT_ORDER_RANDOM = (11, 163)
+    DECK_CONFIG_SORT_ORDER_RANDOM_NOTE_THEN_TEMPLATE = (11, 164)
+    DECK_CONFIG_SORT_ORDER_RELATIVE_OVERDUENESS = (11, 165)
+    DECK_CONFIG_SORT_ORDER_TEMPLATE_THEN_GATHER = (11, 166)
+    DECK_CONFIG_STARTING_EASE_TOOLTIP = (11, 167)
+    DECK_CONFIG_STEPS_TOO_LARGE_FOR_FSRS = (11, 168)
+    DECK_CONFIG_STOP_TIMER_ON_ANSWER = (11, 169)
+    DECK_CONFIG_STOP_TIMER_ON_ANSWER_TOOLTIP = (11, 170)
+    DECK_CONFIG_TAB_DESCRIPTION = (11, 171)
+    DECK_CONFIG_TIMER_TITLE = (11, 172)
+    DECK_CONFIG_TITLE = (11, 173)
+    DECK_CONFIG_TODAY_ONLY = (11, 174)
+    DECK_CONFIG_UNABLE_TO_DETERMINE_DESIRED_RETENTION = (11, 175)
+    DECK_CONFIG_UPDATING_CARDS = (11, 176)
+    DECK_CONFIG_USED_BY_DECKS = (11, 177)
+    DECK_CONFIG_WAIT_FOR_AUDIO = (11, 178)
+    DECK_CONFIG_WAIT_FOR_AUDIO_TOOLTIP = (11, 179)
+    DECK_CONFIG_WEIGHTS = (11, 180)
+    DECK_CONFIG_WEIGHTS_TOOLTIP = (11, 181)
+    DECK_CONFIG_WEIGHTS_TOOLTIP2 = (11, 182)
+    DECK_CONFIG_WHICH_DECK = (11, 183)
+    DECK_CONFIG_WILL_REQUIRE_FULL_SYNC = (11, 184)
     DECKS_ADD_NEW_DECK_CTRLANDN = (12, 0)
     DECKS_BUILD = (12, 1)
     DECKS_CARDS_SELECTED_BY = (12, 2)
@@ -8796,54 +9012,55 @@ class LegacyTranslationEnum:
     EDITING_IMAGE_OCCLUSION_POLYGON_TOOL = (13, 47)
     EDITING_IMAGE_OCCLUSION_RECTANGLE_TOOL = (13, 48)
     EDITING_IMAGE_OCCLUSION_RESET = (13, 49)
-    EDITING_IMAGE_OCCLUSION_SELECT_TOOL = (13, 50)
-    EDITING_IMAGE_OCCLUSION_TEXT_TOOL = (13, 51)
-    EDITING_IMAGE_OCCLUSION_TOGGLE_MASK_EDITOR = (13, 52)
-    EDITING_IMAGE_OCCLUSION_TOGGLE_TRANSLUCENT = (13, 53)
-    EDITING_IMAGE_OCCLUSION_UNGROUP = (13, 54)
-    EDITING_IMAGE_OCCLUSION_ZOOM_IN = (13, 55)
-    EDITING_IMAGE_OCCLUSION_ZOOM_OUT = (13, 56)
-    EDITING_IMAGE_OCCLUSION_ZOOM_RESET = (13, 57)
-    EDITING_IMAGE_OCCLUSION_ZOOM_TOOL = (13, 58)
-    EDITING_INDENT = (13, 59)
-    EDITING_ITALIC_TEXT = (13, 60)
-    EDITING_JUMP_TO_TAGS_WITH_CTRLANDSHIFTANDT = (13, 61)
-    EDITING_JUSTIFY = (13, 62)
-    EDITING_LATEX = (13, 63)
-    EDITING_LATEX_EQUATION = (13, 64)
-    EDITING_LATEX_MATH_ENV = (13, 65)
-    EDITING_MATHJAX_BLOCK = (13, 66)
-    EDITING_MATHJAX_CHEMISTRY = (13, 67)
-    EDITING_MATHJAX_INLINE = (13, 68)
-    EDITING_MATHJAX_PLACEHOLDER = (13, 69)
-    EDITING_MATHJAX_PREVIEW = (13, 70)
-    EDITING_MEDIA = (13, 71)
-    EDITING_NO_IMAGE_FOUND_ON_CLIPBOARD = (13, 72)
-    EDITING_ORDERED_LIST = (13, 73)
-    EDITING_OUTDENT = (13, 74)
-    EDITING_PASTE = (13, 75)
-    EDITING_RECORD_AUDIO = (13, 76)
-    EDITING_REMOVE_FORMATTING = (13, 77)
-    EDITING_RESTORE_ORIGINAL_SIZE = (13, 78)
-    EDITING_SELECT_REMOVE_FORMATTING = (13, 79)
-    EDITING_SHOW_DUPLICATES = (13, 80)
-    EDITING_SHRINK_IMAGES = (13, 81)
-    EDITING_SUBSCRIPT = (13, 82)
-    EDITING_SUPERSCRIPT = (13, 83)
-    EDITING_TAGS = (13, 84)
-    EDITING_TAGS_ADD = (13, 85)
-    EDITING_TAGS_COPY = (13, 86)
-    EDITING_TAGS_REMOVE = (13, 87)
-    EDITING_TAGS_SELECT_ALL = (13, 88)
-    EDITING_TEXT_COLOR = (13, 89)
-    EDITING_TEXT_HIGHLIGHT_COLOR = (13, 90)
-    EDITING_TO_MAKE_A_CLOZE_DELETION_ON = (13, 91)
-    EDITING_TOGGLE_HTML_EDITOR = (13, 92)
-    EDITING_TOGGLE_STICKY = (13, 93)
-    EDITING_TOGGLE_VISUAL_EDITOR = (13, 94)
-    EDITING_UNDERLINE_TEXT = (13, 95)
-    EDITING_UNORDERED_LIST = (13, 96)
-    EDITING_WARNING_CLOZE_DELETIONS_WILL_NOT_WORK = (13, 97)
+    EDITING_IMAGE_OCCLUSION_SELECT_ALL = (13, 50)
+    EDITING_IMAGE_OCCLUSION_SELECT_TOOL = (13, 51)
+    EDITING_IMAGE_OCCLUSION_TEXT_TOOL = (13, 52)
+    EDITING_IMAGE_OCCLUSION_TOGGLE_MASK_EDITOR = (13, 53)
+    EDITING_IMAGE_OCCLUSION_TOGGLE_TRANSLUCENT = (13, 54)
+    EDITING_IMAGE_OCCLUSION_UNGROUP = (13, 55)
+    EDITING_IMAGE_OCCLUSION_ZOOM_IN = (13, 56)
+    EDITING_IMAGE_OCCLUSION_ZOOM_OUT = (13, 57)
+    EDITING_IMAGE_OCCLUSION_ZOOM_RESET = (13, 58)
+    EDITING_IMAGE_OCCLUSION_ZOOM_TOOL = (13, 59)
+    EDITING_INDENT = (13, 60)
+    EDITING_ITALIC_TEXT = (13, 61)
+    EDITING_JUMP_TO_TAGS_WITH_CTRLANDSHIFTANDT = (13, 62)
+    EDITING_JUSTIFY = (13, 63)
+    EDITING_LATEX = (13, 64)
+    EDITING_LATEX_EQUATION = (13, 65)
+    EDITING_LATEX_MATH_ENV = (13, 66)
+    EDITING_MATHJAX_BLOCK = (13, 67)
+    EDITING_MATHJAX_CHEMISTRY = (13, 68)
+    EDITING_MATHJAX_INLINE = (13, 69)
+    EDITING_MATHJAX_PLACEHOLDER = (13, 70)
+    EDITING_MATHJAX_PREVIEW = (13, 71)
+    EDITING_MEDIA = (13, 72)
+    EDITING_NO_IMAGE_FOUND_ON_CLIPBOARD = (13, 73)
+    EDITING_ORDERED_LIST = (13, 74)
+    EDITING_OUTDENT = (13, 75)
+    EDITING_PASTE = (13, 76)
+    EDITING_RECORD_AUDIO = (13, 77)
+    EDITING_REMOVE_FORMATTING = (13, 78)
+    EDITING_RESTORE_ORIGINAL_SIZE = (13, 79)
+    EDITING_SELECT_REMOVE_FORMATTING = (13, 80)
+    EDITING_SHOW_DUPLICATES = (13, 81)
+    EDITING_SHRINK_IMAGES = (13, 82)
+    EDITING_SUBSCRIPT = (13, 83)
+    EDITING_SUPERSCRIPT = (13, 84)
+    EDITING_TAGS = (13, 85)
+    EDITING_TAGS_ADD = (13, 86)
+    EDITING_TAGS_COPY = (13, 87)
+    EDITING_TAGS_REMOVE = (13, 88)
+    EDITING_TAGS_SELECT_ALL = (13, 89)
+    EDITING_TEXT_COLOR = (13, 90)
+    EDITING_TEXT_HIGHLIGHT_COLOR = (13, 91)
+    EDITING_TO_MAKE_A_CLOZE_DELETION_ON = (13, 92)
+    EDITING_TOGGLE_HTML_EDITOR = (13, 93)
+    EDITING_TOGGLE_STICKY = (13, 94)
+    EDITING_TOGGLE_VISUAL_EDITOR = (13, 95)
+    EDITING_UNDERLINE_TEXT = (13, 96)
+    EDITING_UNORDERED_LIST = (13, 97)
+    EDITING_WARNING_CLOZE_DELETIONS_WILL_NOT_WORK = (13, 98)
     EMPTY_CARDS_COUNT_LINE = (14, 0)
     EMPTY_CARDS_DELETE_BUTTON = (14, 1)
     EMPTY_CARDS_DELETE_EMPTY_CARDS = (14, 2)
@@ -8933,131 +9150,135 @@ class LegacyTranslationEnum:
     HELP_OK = (19, 2)
     HELP_OPEN_MANUAL_CHAPTER = (19, 3)
     IMPORTING_ABORTED = (20, 0)
-    IMPORTING_ADDED_DUPLICATE_WITH_FIRST_FIELD = (20, 1)
-    IMPORTING_ADDED_NEW_NOTE = (20, 2)
-    IMPORTING_ALL_SUPPORTED_FORMATS = (20, 3)
-    IMPORTING_ALLOW_HTML_IN_FIELDS = (20, 4)
-    IMPORTING_ALLOW_HTML_IN_FIELDS_HELP = (20, 5)
-    IMPORTING_ALSO_IMPORT_PROGRESS = (20, 6)
-    IMPORTING_ANKI_FILES_ARE_FROM_A_VERY = (20, 7)
-    IMPORTING_ANKI2_FILES_ARE_NOT_DIRECTLY_IMPORTABLE = (20, 8)
-    IMPORTING_APPEARED_TWICE_IN_FILE = (20, 9)
-    IMPORTING_BY_DEFAULT_ANKI_WILL_DETECT_THE = (20, 10)
-    IMPORTING_CANNOT_MERGE_NOTETYPES_OF_DIFFERENT_KINDS = (20, 11)
-    IMPORTING_CARDS_ADDED = (20, 12)
-    IMPORTING_CHANGE = (20, 13)
-    IMPORTING_COLON = (20, 14)
-    IMPORTING_COMMA = (20, 15)
-    IMPORTING_CONFLICTING_NOTES_SKIPPED = (20, 16)
-    IMPORTING_CONFLICTING_NOTES_SKIPPED2 = (20, 17)
-    IMPORTING_DECK_HELP = (20, 18)
-    IMPORTING_DETAILS = (20, 19)
-    IMPORTING_DUPLICATE = (20, 20)
-    IMPORTING_DUPLICATE_NOTE_ADDED = (20, 21)
-    IMPORTING_EMPTY_FIRST_FIELD = (20, 22)
-    IMPORTING_EXISTING_NOTE_SKIPPED = (20, 23)
-    IMPORTING_EXISTING_NOTES = (20, 24)
-    IMPORTING_EXISTING_NOTES_HELP = (20, 25)
-    IMPORTING_EXISTING_NOTES_SKIPPED = (20, 26)
-    IMPORTING_EXTRACTING = (20, 27)
-    IMPORTING_FAILED_DEBUG_INFO = (20, 28)
-    IMPORTING_FAILED_TO_IMPORT_MEDIA_FILE = (20, 29)
-    IMPORTING_FIELD_MAPPING = (20, 30)
-    IMPORTING_FIELD_OF_FILE_IS = (20, 31)
-    IMPORTING_FIELD_SEPARATOR = (20, 32)
-    IMPORTING_FIELD_SEPARATOR_HELP = (20, 33)
-    IMPORTING_FIELDS_SEPARATED_BY = (20, 34)
-    IMPORTING_FILE = (20, 35)
-    IMPORTING_FILE_EMPTY = (20, 36)
-    IMPORTING_FILE_MUST_CONTAIN_FIELD_COLUMN = (20, 37)
-    IMPORTING_FILE_VERSION_UNKNOWN_TRYING_IMPORT_ANYWAY = (20, 38)
-    IMPORTING_FIRST_FIELD_MATCHED = (20, 39)
-    IMPORTING_GATHERING = (20, 40)
-    IMPORTING_IDENTICAL = (20, 41)
-    IMPORTING_IGNORE_FIELD = (20, 42)
-    IMPORTING_IGNORE_LINES_WHERE_FIRST_FIELD_MATCHES = (20, 43)
-    IMPORTING_IGNORED = (20, 44)
-    IMPORTING_IMPORT_EVEN_IF_EXISTING_NOTE_HAS = (20, 45)
-    IMPORTING_IMPORT_LOG = (20, 46)
-    IMPORTING_IMPORT_OPTIONS = (20, 47)
-    IMPORTING_IMPORTING_COLLECTION = (20, 48)
-    IMPORTING_IMPORTING_COMPLETE = (20, 49)
-    IMPORTING_IMPORTING_FILE = (20, 50)
-    IMPORTING_INCLUDE_REVIEWS = (20, 51)
-    IMPORTING_INCLUDE_REVIEWS_HELP = (20, 52)
-    IMPORTING_INVALID_FILE_PLEASE_RESTORE_FROM_BACKUP = (20, 53)
-    IMPORTING_MAP_TO = (20, 54)
-    IMPORTING_MAP_TO_TAGS = (20, 55)
-    IMPORTING_MAPPED_TO = (20, 56)
-    IMPORTING_MAPPED_TO_TAGS = (20, 57)
-    IMPORTING_MATCH_SCOPE = (20, 58)
-    IMPORTING_MATCH_SCOPE_HELP = (20, 59)
-    IMPORTING_MERGE_NOTETYPES = (20, 60)
-    IMPORTING_MERGE_NOTETYPES_HELP = (20, 61)
-    IMPORTING_MNEMOSYNE_20_DECK_DB = (20, 62)
-    IMPORTING_MULTICHARACTER_SEPARATORS_ARE_NOT_SUPPORTED_PLEASE = (20, 63)
-    IMPORTING_NO_NOTES_IN_FILE = (20, 64)
-    IMPORTING_NOTE_ADDED = (20, 65)
-    IMPORTING_NOTE_IMPORTED = (20, 66)
-    IMPORTING_NOTE_SKIPPED_DUE_TO_EMPTY_FIRST_FIELD = (20, 67)
-    IMPORTING_NOTE_SKIPPED_DUE_TO_MISSING_DECK = (20, 68)
-    IMPORTING_NOTE_SKIPPED_DUE_TO_MISSING_NOTETYPE = (20, 69)
-    IMPORTING_NOTE_SKIPPED_UPDATE_DUE_TO_NOTETYPE = (20, 70)
-    IMPORTING_NOTE_UNCHANGED = (20, 71)
-    IMPORTING_NOTE_UPDATED = (20, 72)
-    IMPORTING_NOTE_UPDATED_AS_FILE_HAD_NEWER = (20, 73)
-    IMPORTING_NOTES_ADDED = (20, 74)
-    IMPORTING_NOTES_ADDED_FROM_FILE = (20, 75)
-    IMPORTING_NOTES_FOUND_IN_FILE = (20, 76)
-    IMPORTING_NOTES_FOUND_IN_FILE2 = (20, 77)
-    IMPORTING_NOTES_SKIPPED_AS_THEYRE_ALREADY_IN = (20, 78)
-    IMPORTING_NOTES_SKIPPED_UPDATE_DUE_TO_NOTETYPE = (20, 79)
-    IMPORTING_NOTES_THAT_COULD_NOT_BE_IMPORTED = (20, 80)
-    IMPORTING_NOTES_UPDATED = (20, 81)
-    IMPORTING_NOTES_UPDATED_AS_FILE_HAD_NEWER = (20, 82)
-    IMPORTING_NOTETYPE_AND_DECK = (20, 83)
-    IMPORTING_NOTETYPE_HELP = (20, 84)
-    IMPORTING_PACKAGED_ANKI_DECKCOLLECTION_APKG_COLPKG_ZIP = (20, 85)
-    IMPORTING_PAUKER_18_LESSON_PAUGZ = (20, 86)
-    IMPORTING_PIPE = (20, 87)
-    IMPORTING_PRESERVE = (20, 88)
-    IMPORTING_PROCESSED_CARDS = (20, 89)
-    IMPORTING_PROCESSED_MEDIA_FILE = (20, 90)
-    IMPORTING_PROCESSED_NOTES = (20, 91)
-    IMPORTING_ROWS_HAD_NUM1D_FIELDS_EXPECTED_NUM2D = (20, 92)
-    IMPORTING_SELECTED_FILE_WAS_NOT_IN_UTF8 = (20, 93)
-    IMPORTING_SEMICOLON = (20, 94)
-    IMPORTING_SHOW = (20, 95)
-    IMPORTING_SKIPPED = (20, 96)
-    IMPORTING_STATUS = (20, 97)
-    IMPORTING_SUPERMEMO_XML_EXPORT_XML = (20, 98)
-    IMPORTING_TAB = (20, 99)
-    IMPORTING_TAG_ALL_NOTES = (20, 100)
-    IMPORTING_TAG_ALL_NOTES_HELP = (20, 101)
-    IMPORTING_TAG_MODIFIED_NOTES = (20, 102)
-    IMPORTING_TAG_UPDATED_NOTES = (20, 103)
-    IMPORTING_TAG_UPDATED_NOTES_HELP = (20, 104)
-    IMPORTING_TEXT_SEPARATED_BY_TABS_OR_SEMICOLONS = (20, 105)
-    IMPORTING_THE_FIRST_FIELD_OF_THE_NOTE = (20, 106)
-    IMPORTING_THE_PROVIDED_FILE_IS_NOT_A = (20, 107)
-    IMPORTING_THIS_FILE_DOES_NOT_APPEAR_TO = (20, 108)
-    IMPORTING_THIS_WILL_DELETE_YOUR_EXISTING_COLLECTION = (20, 109)
-    IMPORTING_UNABLE_TO_IMPORT_FILENAME = (20, 110)
-    IMPORTING_UNABLE_TO_IMPORT_FROM_A_READONLY = (20, 111)
-    IMPORTING_UNKNOWN_FILE_FORMAT = (20, 112)
-    IMPORTING_UPDATE = (20, 113)
-    IMPORTING_UPDATE_ALWAYS = (20, 114)
-    IMPORTING_UPDATE_EXISTING_NOTES_WHEN_FIRST_FIELD = (20, 115)
-    IMPORTING_UPDATE_IF_NEWER = (20, 116)
-    IMPORTING_UPDATE_NEVER = (20, 117)
-    IMPORTING_UPDATE_NOTES = (20, 118)
-    IMPORTING_UPDATE_NOTES_HELP = (20, 119)
-    IMPORTING_UPDATE_NOTETYPES = (20, 120)
-    IMPORTING_UPDATE_NOTETYPES_HELP = (20, 121)
-    IMPORTING_UPDATED = (20, 122)
-    IMPORTING_UPDATES = (20, 123)
-    IMPORTING_WITH_DECK_CONFIGS = (20, 124)
-    IMPORTING_WITH_DECK_CONFIGS_HELP = (20, 125)
+    IMPORTING_ADDED = (20, 1)
+    IMPORTING_ADDED_DUPLICATE_WITH_FIRST_FIELD = (20, 2)
+    IMPORTING_ADDED_NEW_NOTE = (20, 3)
+    IMPORTING_ALL_SUPPORTED_FORMATS = (20, 4)
+    IMPORTING_ALLOW_HTML_IN_FIELDS = (20, 5)
+    IMPORTING_ALLOW_HTML_IN_FIELDS_HELP = (20, 6)
+    IMPORTING_ALSO_IMPORT_PROGRESS = (20, 7)
+    IMPORTING_ANKI_FILES_ARE_FROM_A_VERY = (20, 8)
+    IMPORTING_ANKI2_FILES_ARE_NOT_DIRECTLY_IMPORTABLE = (20, 9)
+    IMPORTING_APPEARED_TWICE_IN_FILE = (20, 10)
+    IMPORTING_BY_DEFAULT_ANKI_WILL_DETECT_THE = (20, 11)
+    IMPORTING_CANNOT_MERGE_NOTETYPES_OF_DIFFERENT_KINDS = (20, 12)
+    IMPORTING_CARDS_ADDED = (20, 13)
+    IMPORTING_CHANGE = (20, 14)
+    IMPORTING_COLON = (20, 15)
+    IMPORTING_COMMA = (20, 16)
+    IMPORTING_CONFLICTING_NOTES_SKIPPED = (20, 17)
+    IMPORTING_CONFLICTING_NOTES_SKIPPED2 = (20, 18)
+    IMPORTING_DECK_HELP = (20, 19)
+    IMPORTING_DETAILS = (20, 20)
+    IMPORTING_DUPLICATE = (20, 21)
+    IMPORTING_DUPLICATE_NOTE_ADDED = (20, 22)
+    IMPORTING_EMPTY_FIRST_FIELD = (20, 23)
+    IMPORTING_EXISTING_NOTE_SKIPPED = (20, 24)
+    IMPORTING_EXISTING_NOTES = (20, 25)
+    IMPORTING_EXISTING_NOTES_HELP = (20, 26)
+    IMPORTING_EXISTING_NOTES_SKIPPED = (20, 27)
+    IMPORTING_EXTRACTING = (20, 28)
+    IMPORTING_FAILED_DEBUG_INFO = (20, 29)
+    IMPORTING_FAILED_TO_IMPORT_MEDIA_FILE = (20, 30)
+    IMPORTING_FIELD_MAPPING = (20, 31)
+    IMPORTING_FIELD_OF_FILE_IS = (20, 32)
+    IMPORTING_FIELD_SEPARATOR = (20, 33)
+    IMPORTING_FIELD_SEPARATOR_HELP = (20, 34)
+    IMPORTING_FIELDS_SEPARATED_BY = (20, 35)
+    IMPORTING_FILE = (20, 36)
+    IMPORTING_FILE_EMPTY = (20, 37)
+    IMPORTING_FILE_MUST_CONTAIN_FIELD_COLUMN = (20, 38)
+    IMPORTING_FILE_VERSION_UNKNOWN_TRYING_IMPORT_ANYWAY = (20, 39)
+    IMPORTING_FIRST_FIELD_MATCHED = (20, 40)
+    IMPORTING_GATHERING = (20, 41)
+    IMPORTING_IDENTICAL = (20, 42)
+    IMPORTING_IGNORE_FIELD = (20, 43)
+    IMPORTING_IGNORE_LINES_WHERE_FIRST_FIELD_MATCHES = (20, 44)
+    IMPORTING_IGNORED = (20, 45)
+    IMPORTING_IMPORT_EVEN_IF_EXISTING_NOTE_HAS = (20, 46)
+    IMPORTING_IMPORT_LOG = (20, 47)
+    IMPORTING_IMPORT_OPTIONS = (20, 48)
+    IMPORTING_IMPORTING_COLLECTION = (20, 49)
+    IMPORTING_IMPORTING_COMPLETE = (20, 50)
+    IMPORTING_IMPORTING_FILE = (20, 51)
+    IMPORTING_INCLUDE_REVIEWS = (20, 52)
+    IMPORTING_INCLUDE_REVIEWS_HELP = (20, 53)
+    IMPORTING_INVALID_FILE_PLEASE_RESTORE_FROM_BACKUP = (20, 54)
+    IMPORTING_MAP_TO = (20, 55)
+    IMPORTING_MAP_TO_TAGS = (20, 56)
+    IMPORTING_MAPPED_TO = (20, 57)
+    IMPORTING_MAPPED_TO_TAGS = (20, 58)
+    IMPORTING_MATCH_SCOPE = (20, 59)
+    IMPORTING_MATCH_SCOPE_HELP = (20, 60)
+    IMPORTING_MERGE_NOTETYPES = (20, 61)
+    IMPORTING_MERGE_NOTETYPES_HELP = (20, 62)
+    IMPORTING_MNEMOSYNE_20_DECK_DB = (20, 63)
+    IMPORTING_MULTICHARACTER_SEPARATORS_ARE_NOT_SUPPORTED_PLEASE = (20, 64)
+    IMPORTING_NO_NOTES_IN_FILE = (20, 65)
+    IMPORTING_NOTE_ADDED = (20, 66)
+    IMPORTING_NOTE_IMPORTED = (20, 67)
+    IMPORTING_NOTE_SKIPPED_DUE_TO_EMPTY_FIRST_FIELD = (20, 68)
+    IMPORTING_NOTE_SKIPPED_DUE_TO_MISSING_DECK = (20, 69)
+    IMPORTING_NOTE_SKIPPED_DUE_TO_MISSING_NOTETYPE = (20, 70)
+    IMPORTING_NOTE_SKIPPED_UPDATE_DUE_TO_NOTETYPE = (20, 71)
+    IMPORTING_NOTE_SKIPPED_UPDATE_DUE_TO_NOTETYPE2 = (20, 72)
+    IMPORTING_NOTE_UNCHANGED = (20, 73)
+    IMPORTING_NOTE_UPDATED = (20, 74)
+    IMPORTING_NOTE_UPDATED_AS_FILE_HAD_NEWER = (20, 75)
+    IMPORTING_NOTES_ADDED = (20, 76)
+    IMPORTING_NOTES_ADDED_FROM_FILE = (20, 77)
+    IMPORTING_NOTES_FAILED = (20, 78)
+    IMPORTING_NOTES_FOUND_IN_FILE = (20, 79)
+    IMPORTING_NOTES_FOUND_IN_FILE2 = (20, 80)
+    IMPORTING_NOTES_SKIPPED_AS_THEYRE_ALREADY_IN = (20, 81)
+    IMPORTING_NOTES_SKIPPED_UPDATE_DUE_TO_NOTETYPE = (20, 82)
+    IMPORTING_NOTES_THAT_COULD_NOT_BE_IMPORTED = (20, 83)
+    IMPORTING_NOTES_UPDATED = (20, 84)
+    IMPORTING_NOTES_UPDATED_AS_FILE_HAD_NEWER = (20, 85)
+    IMPORTING_NOTETYPE_AND_DECK = (20, 86)
+    IMPORTING_NOTETYPE_HELP = (20, 87)
+    IMPORTING_OVERVIEW = (20, 88)
+    IMPORTING_PACKAGED_ANKI_DECKCOLLECTION_APKG_COLPKG_ZIP = (20, 89)
+    IMPORTING_PAUKER_18_LESSON_PAUGZ = (20, 90)
+    IMPORTING_PIPE = (20, 91)
+    IMPORTING_PRESERVE = (20, 92)
+    IMPORTING_PROCESSED_CARDS = (20, 93)
+    IMPORTING_PROCESSED_MEDIA_FILE = (20, 94)
+    IMPORTING_PROCESSED_NOTES = (20, 95)
+    IMPORTING_ROWS_HAD_NUM1D_FIELDS_EXPECTED_NUM2D = (20, 96)
+    IMPORTING_SELECTED_FILE_WAS_NOT_IN_UTF8 = (20, 97)
+    IMPORTING_SEMICOLON = (20, 98)
+    IMPORTING_SHOW = (20, 99)
+    IMPORTING_SKIPPED = (20, 100)
+    IMPORTING_STATUS = (20, 101)
+    IMPORTING_SUPERMEMO_XML_EXPORT_XML = (20, 102)
+    IMPORTING_TAB = (20, 103)
+    IMPORTING_TAG_ALL_NOTES = (20, 104)
+    IMPORTING_TAG_ALL_NOTES_HELP = (20, 105)
+    IMPORTING_TAG_MODIFIED_NOTES = (20, 106)
+    IMPORTING_TAG_UPDATED_NOTES = (20, 107)
+    IMPORTING_TAG_UPDATED_NOTES_HELP = (20, 108)
+    IMPORTING_TEXT_SEPARATED_BY_TABS_OR_SEMICOLONS = (20, 109)
+    IMPORTING_THE_FIRST_FIELD_OF_THE_NOTE = (20, 110)
+    IMPORTING_THE_PROVIDED_FILE_IS_NOT_A = (20, 111)
+    IMPORTING_THIS_FILE_DOES_NOT_APPEAR_TO = (20, 112)
+    IMPORTING_THIS_WILL_DELETE_YOUR_EXISTING_COLLECTION = (20, 113)
+    IMPORTING_UNABLE_TO_IMPORT_FILENAME = (20, 114)
+    IMPORTING_UNABLE_TO_IMPORT_FROM_A_READONLY = (20, 115)
+    IMPORTING_UNKNOWN_FILE_FORMAT = (20, 116)
+    IMPORTING_UPDATE = (20, 117)
+    IMPORTING_UPDATE_ALWAYS = (20, 118)
+    IMPORTING_UPDATE_EXISTING_NOTES_WHEN_FIRST_FIELD = (20, 119)
+    IMPORTING_UPDATE_IF_NEWER = (20, 120)
+    IMPORTING_UPDATE_NEVER = (20, 121)
+    IMPORTING_UPDATE_NOTES = (20, 122)
+    IMPORTING_UPDATE_NOTES_HELP = (20, 123)
+    IMPORTING_UPDATE_NOTETYPES = (20, 124)
+    IMPORTING_UPDATE_NOTETYPES_HELP = (20, 125)
+    IMPORTING_UPDATED = (20, 126)
+    IMPORTING_UPDATES = (20, 127)
+    IMPORTING_WITH_DECK_CONFIGS = (20, 128)
+    IMPORTING_WITH_DECK_CONFIGS_HELP = (20, 129)
     KEYBOARD_CTRL = (21, 0)
     KEYBOARD_SHIFT = (21, 1)
     MEDIA_ERROR_EXECUTING = (22, 0)
@@ -9172,68 +9393,72 @@ class LegacyTranslationEnum:
     PREFERENCES_EDITING = (26, 18)
     PREFERENCES_FULL_SCREEN_ONLY = (26, 19)
     PREFERENCES_GENERAL = (26, 20)
-    PREFERENCES_HIDE_BOTTOM_BAR_DURING_REVIEW = (26, 21)
-    PREFERENCES_HIDE_TOP_BAR_DURING_REVIEW = (26, 22)
-    PREFERENCES_HOURS_PAST_MIDNIGHT = (26, 23)
-    PREFERENCES_IGNORE_ACCENTS_IN_SEARCH = (26, 24)
-    PREFERENCES_IMPORT_EXPORT = (26, 25)
-    PREFERENCES_INTERRUPT_CURRENT_AUDIO_WHEN_ANSWERING = (26, 26)
-    PREFERENCES_LANGUAGE = (26, 27)
-    PREFERENCES_LEARN_AHEAD_LIMIT = (26, 28)
-    PREFERENCES_LEGACY_TIMEZONE_HANDLING = (26, 29)
-    PREFERENCES_MEDIA = (26, 30)
-    PREFERENCES_MEDIA_IS_NOT_BACKED_UP = (26, 31)
-    PREFERENCES_MINIMALIST_MODE = (26, 32)
-    PREFERENCES_MINS = (26, 33)
-    PREFERENCES_MINUTES_BETWEEN_BACKUPS = (26, 34)
-    PREFERENCES_MONTHLY_BACKUPS = (26, 35)
-    PREFERENCES_NETWORK = (26, 36)
-    PREFERENCES_NETWORK_TIMEOUT = (26, 37)
-    PREFERENCES_NEXT_DAY_STARTS_AT = (26, 38)
-    PREFERENCES_NOTE = (26, 39)
-    PREFERENCES_ON_NEXT_SYNC_FORCE_CHANGES_IN = (26, 40)
-    PREFERENCES_PASTE_CLIPBOARD_IMAGES_AS_PNG = (26, 41)
-    PREFERENCES_PASTE_WITHOUT_SHIFT_KEY_STRIPS_FORMATTING = (26, 42)
-    PREFERENCES_PERIODICALLY_SYNC_MEDIA = (26, 43)
-    PREFERENCES_PLEASE_RESTART_ANKI_TO_COMPLETE_LANGUAGE = (26, 44)
-    PREFERENCES_PREFERENCES = (26, 45)
-    PREFERENCES_REDUCE_MOTION = (26, 46)
-    PREFERENCES_REDUCE_MOTION_TOOLTIP = (26, 47)
-    PREFERENCES_RESET_WINDOW_SIZES = (26, 48)
-    PREFERENCES_RESET_WINDOW_SIZES_COMPLETE = (26, 49)
-    PREFERENCES_REVIEW = (26, 50)
-    PREFERENCES_REVIEWER = (26, 51)
-    PREFERENCES_SCHEDULER = (26, 52)
-    PREFERENCES_SCHEDULING = (26, 53)
-    PREFERENCES_SHORTCUT_PLACEHOLDER = (26, 54)
-    PREFERENCES_SHOW_LEARNING_CARDS_WITH_LARGER_STEPS = (26, 55)
-    PREFERENCES_SHOW_NEXT_REVIEW_TIME_ABOVE_ANSWER = (26, 56)
-    PREFERENCES_SHOW_PLAY_BUTTONS_ON_CARDS_WITH = (26, 57)
-    PREFERENCES_SHOW_REMAINING_CARD_COUNT = (26, 58)
-    PREFERENCES_SOME_SETTINGS_WILL_TAKE_EFFECT_AFTER = (26, 59)
-    PREFERENCES_SPACEBAR_RATES_CARD = (26, 60)
-    PREFERENCES_STYLE = (26, 61)
-    PREFERENCES_SYNCHRONIZATIONNOT_CURRENTLY_ENABLED_CLICK_THE_SYNC = (26, 62)
-    PREFERENCES_SYNCHRONIZE_AUDIO_AND_IMAGES_TOO = (26, 63)
-    PREFERENCES_TAB_SYNCHRONISATION = (26, 64)
-    PREFERENCES_THEME = (26, 65)
-    PREFERENCES_THEME_DARK = (26, 66)
-    PREFERENCES_THEME_FOLLOW_SYSTEM = (26, 67)
-    PREFERENCES_THEME_LIGHT = (26, 68)
-    PREFERENCES_TIMEBOX_TIME_LIMIT = (26, 69)
-    PREFERENCES_USER_INTERFACE = (26, 70)
-    PREFERENCES_USER_INTERFACE_SIZE = (26, 71)
-    PREFERENCES_V3_SCHEDULER = (26, 72)
-    PREFERENCES_VIDEO_DRIVER = (26, 73)
-    PREFERENCES_VIDEO_DRIVER_ANGLE = (26, 74)
-    PREFERENCES_VIDEO_DRIVER_DEFAULT = (26, 75)
-    PREFERENCES_VIDEO_DRIVER_OPENGL_MAC = (26, 76)
-    PREFERENCES_VIDEO_DRIVER_OPENGL_OTHER = (26, 77)
-    PREFERENCES_VIDEO_DRIVER_SOFTWARE_MAC = (26, 78)
-    PREFERENCES_VIDEO_DRIVER_SOFTWARE_OTHER = (26, 79)
-    PREFERENCES_WEEKLY_BACKUPS = (26, 80)
-    PREFERENCES_WHEN_ADDING_DEFAULT_TO_CURRENT_DECK = (26, 81)
-    PREFERENCES_YOU_CAN_RESTORE_BACKUPS_VIA_FILESWITCH = (26, 82)
+    PREFERENCES_GENERATE_LATEX_IMAGES_AUTOMATICALLY = (26, 21)
+    PREFERENCES_HIDE_BOTTOM_BAR_DURING_REVIEW = (26, 22)
+    PREFERENCES_HIDE_TOP_BAR_DURING_REVIEW = (26, 23)
+    PREFERENCES_HOURS_PAST_MIDNIGHT = (26, 24)
+    PREFERENCES_IGNORE_ACCENTS_IN_SEARCH = (26, 25)
+    PREFERENCES_IMPORT_EXPORT = (26, 26)
+    PREFERENCES_INTERRUPT_CURRENT_AUDIO_WHEN_ANSWERING = (26, 27)
+    PREFERENCES_LANGUAGE = (26, 28)
+    PREFERENCES_LATEX_GENERATION_DISABLED = (26, 29)
+    PREFERENCES_LEARN_AHEAD_LIMIT = (26, 30)
+    PREFERENCES_LEGACY_TIMEZONE_HANDLING = (26, 31)
+    PREFERENCES_LOGIN_SUCCESSFUL_SYNC_NOW = (26, 32)
+    PREFERENCES_MEDIA = (26, 33)
+    PREFERENCES_MEDIA_IS_NOT_BACKED_UP = (26, 34)
+    PREFERENCES_MINIMALIST_MODE = (26, 35)
+    PREFERENCES_MINIMALIST_MODE_TOOLTIP = (26, 36)
+    PREFERENCES_MINS = (26, 37)
+    PREFERENCES_MINUTES_BETWEEN_BACKUPS = (26, 38)
+    PREFERENCES_MONTHLY_BACKUPS = (26, 39)
+    PREFERENCES_NETWORK = (26, 40)
+    PREFERENCES_NETWORK_TIMEOUT = (26, 41)
+    PREFERENCES_NEXT_DAY_STARTS_AT = (26, 42)
+    PREFERENCES_NOT_LOGGED_IN = (26, 43)
+    PREFERENCES_NOTE = (26, 44)
+    PREFERENCES_ON_NEXT_SYNC_FORCE_CHANGES_IN = (26, 45)
+    PREFERENCES_PASTE_CLIPBOARD_IMAGES_AS_PNG = (26, 46)
+    PREFERENCES_PASTE_WITHOUT_SHIFT_KEY_STRIPS_FORMATTING = (26, 47)
+    PREFERENCES_PERIODICALLY_SYNC_MEDIA = (26, 48)
+    PREFERENCES_PLEASE_RESTART_ANKI_TO_COMPLETE_LANGUAGE = (26, 49)
+    PREFERENCES_PREFERENCES = (26, 50)
+    PREFERENCES_REDUCE_MOTION = (26, 51)
+    PREFERENCES_REDUCE_MOTION_TOOLTIP = (26, 52)
+    PREFERENCES_RESET_WINDOW_SIZES = (26, 53)
+    PREFERENCES_RESET_WINDOW_SIZES_COMPLETE = (26, 54)
+    PREFERENCES_REVIEW = (26, 55)
+    PREFERENCES_REVIEWER = (26, 56)
+    PREFERENCES_SCHEDULER = (26, 57)
+    PREFERENCES_SCHEDULING = (26, 58)
+    PREFERENCES_SHORTCUT_PLACEHOLDER = (26, 59)
+    PREFERENCES_SHOW_LEARNING_CARDS_WITH_LARGER_STEPS = (26, 60)
+    PREFERENCES_SHOW_NEXT_REVIEW_TIME_ABOVE_ANSWER = (26, 61)
+    PREFERENCES_SHOW_PLAY_BUTTONS_ON_CARDS_WITH = (26, 62)
+    PREFERENCES_SHOW_REMAINING_CARD_COUNT = (26, 63)
+    PREFERENCES_SOME_SETTINGS_WILL_TAKE_EFFECT_AFTER = (26, 64)
+    PREFERENCES_SPACEBAR_RATES_CARD = (26, 65)
+    PREFERENCES_STYLE = (26, 66)
+    PREFERENCES_SYNCHRONIZE_AUDIO_AND_IMAGES_TOO = (26, 67)
+    PREFERENCES_TAB_SYNCHRONISATION = (26, 68)
+    PREFERENCES_THEME = (26, 69)
+    PREFERENCES_THEME_DARK = (26, 70)
+    PREFERENCES_THEME_FOLLOW_SYSTEM = (26, 71)
+    PREFERENCES_THEME_LIGHT = (26, 72)
+    PREFERENCES_TIMEBOX_TIME_LIMIT = (26, 73)
+    PREFERENCES_USER_INTERFACE = (26, 74)
+    PREFERENCES_USER_INTERFACE_SIZE = (26, 75)
+    PREFERENCES_V3_SCHEDULER = (26, 76)
+    PREFERENCES_VIDEO_DRIVER = (26, 77)
+    PREFERENCES_VIDEO_DRIVER_ANGLE = (26, 78)
+    PREFERENCES_VIDEO_DRIVER_DEFAULT = (26, 79)
+    PREFERENCES_VIDEO_DRIVER_OPENGL_MAC = (26, 80)
+    PREFERENCES_VIDEO_DRIVER_OPENGL_OTHER = (26, 81)
+    PREFERENCES_VIDEO_DRIVER_SOFTWARE_MAC = (26, 82)
+    PREFERENCES_VIDEO_DRIVER_SOFTWARE_OTHER = (26, 83)
+    PREFERENCES_WEEKLY_BACKUPS = (26, 84)
+    PREFERENCES_WHEN_ADDING_DEFAULT_TO_CURRENT_DECK = (26, 85)
+    PREFERENCES_YOU_CAN_RESTORE_BACKUPS_VIA_FILESWITCH = (26, 86)
     PROFILES_ANKI_COULD_NOT_READ_YOUR_PROFILE = (27, 0)
     PROFILES_ANKI_COULD_NOT_RENAME_YOUR_PROFILE = (27, 1)
     PROFILES_BACKUP_CREATED = (27, 2)
@@ -9610,19 +9835,20 @@ class LegacyTranslationEnum:
     STUDYING_NOTE_SUSPENDED = (33, 31)
     STUDYING_PAUSE_AUDIO = (33, 32)
     STUDYING_PLEASE_RUN_TOOLSEMPTY_CARDS = (33, 33)
-    STUDYING_RECORD_OWN_VOICE = (33, 34)
-    STUDYING_REPLAY_OWN_VOICE = (33, 35)
-    STUDYING_SHOW_ANSWER = (33, 36)
-    STUDYING_SPACE = (33, 37)
-    STUDYING_STUDY_NOW = (33, 38)
-    STUDYING_SUSPEND = (33, 39)
-    STUDYING_SUSPEND_NOTE = (33, 40)
-    STUDYING_THIS_IS_A_SPECIAL_DECK_FOR = (33, 41)
-    STUDYING_TO_REVIEW = (33, 42)
-    STUDYING_TYPE_ANSWER_UNKNOWN_FIELD = (33, 43)
-    STUDYING_UNBURY = (33, 44)
-    STUDYING_WHAT_WOULD_YOU_LIKE_TO_UNBURY = (33, 45)
-    STUDYING_YOU_HAVENT_RECORDED_YOUR_VOICE_YET = (33, 46)
+    STUDYING_QUESTION_TIME_ELAPSED = (33, 34)
+    STUDYING_RECORD_OWN_VOICE = (33, 35)
+    STUDYING_REPLAY_OWN_VOICE = (33, 36)
+    STUDYING_SHOW_ANSWER = (33, 37)
+    STUDYING_SPACE = (33, 38)
+    STUDYING_STUDY_NOW = (33, 39)
+    STUDYING_SUSPEND = (33, 40)
+    STUDYING_SUSPEND_NOTE = (33, 41)
+    STUDYING_THIS_IS_A_SPECIAL_DECK_FOR = (33, 42)
+    STUDYING_TO_REVIEW = (33, 43)
+    STUDYING_TYPE_ANSWER_UNKNOWN_FIELD = (33, 44)
+    STUDYING_UNBURY = (33, 45)
+    STUDYING_WHAT_WOULD_YOU_LIKE_TO_UNBURY = (33, 46)
+    STUDYING_YOU_HAVENT_RECORDED_YOUR_VOICE_YET = (33, 47)
     SYNC_ABORT_BUTTON = (34, 0)
     SYNC_ACCOUNT_REQUIRED = (34, 1)
     SYNC_ADDED_UPDATED_COUNT = (34, 2)
@@ -9636,31 +9862,33 @@ class LegacyTranslationEnum:
     SYNC_CONFIRM_EMPTY_UPLOAD = (34, 10)
     SYNC_CONFLICT = (34, 11)
     SYNC_CONFLICT_EXPLANATION = (34, 12)
-    SYNC_CONNECTING = (34, 13)
-    SYNC_DOWNLOAD_FROM_ANKIWEB = (34, 14)
-    SYNC_DOWNLOADING_FROM_ANKIWEB = (34, 15)
-    SYNC_LOG_OUT_BUTTON = (34, 16)
-    SYNC_MEDIA_ABORTED = (34, 17)
-    SYNC_MEDIA_ABORTING = (34, 18)
-    SYNC_MEDIA_ADDED_COUNT = (34, 19)
-    SYNC_MEDIA_CHECKED_COUNT = (34, 20)
-    SYNC_MEDIA_COMPLETE = (34, 21)
-    SYNC_MEDIA_DISABLED = (34, 22)
-    SYNC_MEDIA_FAILED = (34, 23)
-    SYNC_MEDIA_LOG_BUTTON = (34, 24)
-    SYNC_MEDIA_LOG_TITLE = (34, 25)
-    SYNC_MEDIA_REMOVED_COUNT = (34, 26)
-    SYNC_MEDIA_STARTING = (34, 27)
-    SYNC_MUST_WAIT_FOR_END = (34, 28)
-    SYNC_PASSWORD_LABEL = (34, 29)
-    SYNC_RESYNC_REQUIRED = (34, 30)
-    SYNC_SANITY_CHECK_FAILED = (34, 31)
-    SYNC_SERVER_ERROR = (34, 32)
-    SYNC_SYNCING = (34, 33)
-    SYNC_UPLOAD_TO_ANKIWEB = (34, 34)
-    SYNC_UPLOAD_TOO_LARGE = (34, 35)
-    SYNC_UPLOADING_TO_ANKIWEB = (34, 36)
-    SYNC_WRONG_PASS = (34, 37)
+    SYNC_CONFLICT_EXPLANATION2 = (34, 13)
+    SYNC_CONNECTING = (34, 14)
+    SYNC_DOWNLOAD_FROM_ANKIWEB = (34, 15)
+    SYNC_DOWNLOADING_FROM_ANKIWEB = (34, 16)
+    SYNC_LOG_IN_BUTTON = (34, 17)
+    SYNC_LOG_OUT_BUTTON = (34, 18)
+    SYNC_MEDIA_ABORTED = (34, 19)
+    SYNC_MEDIA_ABORTING = (34, 20)
+    SYNC_MEDIA_ADDED_COUNT = (34, 21)
+    SYNC_MEDIA_CHECKED_COUNT = (34, 22)
+    SYNC_MEDIA_COMPLETE = (34, 23)
+    SYNC_MEDIA_DISABLED = (34, 24)
+    SYNC_MEDIA_FAILED = (34, 25)
+    SYNC_MEDIA_LOG_BUTTON = (34, 26)
+    SYNC_MEDIA_LOG_TITLE = (34, 27)
+    SYNC_MEDIA_REMOVED_COUNT = (34, 28)
+    SYNC_MEDIA_STARTING = (34, 29)
+    SYNC_MUST_WAIT_FOR_END = (34, 30)
+    SYNC_PASSWORD_LABEL = (34, 31)
+    SYNC_RESYNC_REQUIRED = (34, 32)
+    SYNC_SANITY_CHECK_FAILED = (34, 33)
+    SYNC_SERVER_ERROR = (34, 34)
+    SYNC_SYNCING = (34, 35)
+    SYNC_UPLOAD_TO_ANKIWEB = (34, 36)
+    SYNC_UPLOAD_TOO_LARGE = (34, 37)
+    SYNC_UPLOADING_TO_ANKIWEB = (34, 38)
+    SYNC_WRONG_PASS = (34, 39)
     UNDO_ACTION_REDONE = (35, 0)
     UNDO_ACTION_UNDONE = (35, 1)
     UNDO_REDO = (35, 2)

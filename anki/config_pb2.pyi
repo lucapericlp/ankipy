@@ -51,6 +51,7 @@ class ConfigKey(google.protobuf.message.Message):
         RESET_COUNTS_REVIEWER: ConfigKey._Bool.ValueType  # 22
         RANDOM_ORDER_REPOSITION: ConfigKey._Bool.ValueType  # 23
         SHIFT_POSITION_OF_EXISTING_CARDS: ConfigKey._Bool.ValueType  # 24
+        RENDER_LATEX: ConfigKey._Bool.ValueType  # 25
 
     class Bool(_Bool, metaclass=_BoolEnumTypeWrapper): ...
     BROWSER_TABLE_SHOW_NOTES_MODE: ConfigKey.Bool.ValueType  # 0
@@ -76,6 +77,7 @@ class ConfigKey(google.protobuf.message.Message):
     RESET_COUNTS_REVIEWER: ConfigKey.Bool.ValueType  # 22
     RANDOM_ORDER_REPOSITION: ConfigKey.Bool.ValueType  # 23
     SHIFT_POSITION_OF_EXISTING_CARDS: ConfigKey.Bool.ValueType  # 24
+    RENDER_LATEX: ConfigKey.Bool.ValueType  # 25
 
     class _String:
         ValueType = typing.NewType("ValueType", builtins.int)
@@ -287,11 +289,13 @@ class Preferences(google.protobuf.message.Message):
         PASTE_STRIPS_FORMATTING_FIELD_NUMBER: builtins.int
         DEFAULT_SEARCH_TEXT_FIELD_NUMBER: builtins.int
         IGNORE_ACCENTS_IN_SEARCH_FIELD_NUMBER: builtins.int
+        RENDER_LATEX_FIELD_NUMBER: builtins.int
         adding_defaults_to_current_deck: builtins.bool
         paste_images_as_png: builtins.bool
         paste_strips_formatting: builtins.bool
         default_search_text: builtins.str
         ignore_accents_in_search: builtins.bool
+        render_latex: builtins.bool
         def __init__(
             self,
             *,
@@ -300,8 +304,9 @@ class Preferences(google.protobuf.message.Message):
             paste_strips_formatting: builtins.bool = ...,
             default_search_text: builtins.str = ...,
             ignore_accents_in_search: builtins.bool = ...,
+            render_latex: builtins.bool = ...,
         ) -> None: ...
-        def ClearField(self, field_name: typing_extensions.Literal["adding_defaults_to_current_deck", b"adding_defaults_to_current_deck", "default_search_text", b"default_search_text", "ignore_accents_in_search", b"ignore_accents_in_search", "paste_images_as_png", b"paste_images_as_png", "paste_strips_formatting", b"paste_strips_formatting"]) -> None: ...
+        def ClearField(self, field_name: typing_extensions.Literal["adding_defaults_to_current_deck", b"adding_defaults_to_current_deck", "default_search_text", b"default_search_text", "ignore_accents_in_search", b"ignore_accents_in_search", "paste_images_as_png", b"paste_images_as_png", "paste_strips_formatting", b"paste_strips_formatting", "render_latex", b"render_latex"]) -> None: ...
 
     @typing_extensions.final
     class BackupLimits(google.protobuf.message.Message):

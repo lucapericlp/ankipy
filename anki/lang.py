@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import locale
 import re
+import warnings
 import weakref
 from typing import TYPE_CHECKING, Any
 
@@ -60,7 +61,7 @@ langs = sorted(
         ("Монгол хэл", "mn_MN"),
         ("Pусский язык", "ru_RU"),
         ("Српски", "sr_SP"),
-        ("Yкраїнська мова", "uk_UA"),
+        ("Українська мова", "uk_UA"),
         ("Հայերեն", "hy_AM"),
         ("עִבְרִית", "he_IL"),
         ("العربية", "ar_SA"),
@@ -71,6 +72,7 @@ langs = sorted(
         ("Беларуская мова", "be_BY"),
         ("ଓଡ଼ିଆ", "or_OR"),
         ("Filipino", "tl"),
+        ("ئۇيغۇر", "ug"),
     ]
 )
 
@@ -182,7 +184,14 @@ def get_def_lang(lang: str | None = None) -> tuple[int, str]:
     """Return lang converted to name used on disk and its index, defaulting to system language
     or English if not available."""
     try:
-        (sys_lang, enc) = locale.getdefaultlocale()
+        # getdefaultlocale() is deprecated since Python 3.11, but we need to keep using it as getlocale() behaves differently: https://bugs.python.org/issue38805
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", DeprecationWarning)
+            (sys_lang, enc) = locale.getdefaultlocale()
+    except AttributeError:
+        # this will return a different format on Windows (e.g. Italian_Italy), resulting in us falling back to en_US
+        # further below
+        (sys_lang, enc) = locale.getlocale()
     except:
         # fails on osx
         sys_lang = "en_US"

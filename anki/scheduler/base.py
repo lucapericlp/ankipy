@@ -22,7 +22,7 @@ ScheduleCardsAsNewDefaults = scheduler_pb2.ScheduleCardsAsNewDefaultsResponse
 FilteredDeckForUpdate = decks_pb2.FilteredDeckForUpdate
 RepositionDefaults = scheduler_pb2.RepositionDefaultsResponse
 
-from typing import Sequence
+from typing import Sequence, overload
 
 from anki import config_pb2
 from anki.cards import CardId
@@ -64,6 +64,12 @@ class SchedulerBase(DeprecatedNamesMixin):
 
     # Deck list
     ##########################################################################
+
+    @overload
+    def deck_due_tree(self, top_deck_id: None = None) -> DeckTreeNode: ...
+
+    @overload
+    def deck_due_tree(self, top_deck_id: DeckId) -> DeckTreeNode | None: ...
 
     def deck_due_tree(self, top_deck_id: DeckId | None = None) -> DeckTreeNode | None:
         """Returns a tree of decks with counts.
@@ -201,7 +207,7 @@ class SchedulerBase(DeprecatedNamesMixin):
         config_key: Config.String.V | None = None,
     ) -> OpChanges:
         """Set cards to be due in `days`, turning them into review cards if necessary.
-        `days` can be of the form '5' or '5..7'
+        `days` can be of the form '5' or '5-7'
         If `config_key` is provided, provided days will be remembered in config."""
         key: config_pb2.OptionalStringConfigKey | None
         if config_key is not None:

@@ -139,14 +139,17 @@ class GetImageOcclusionNoteResponse(google.protobuf.message.Message):
         DESCRIPTOR: google.protobuf.descriptor.Descriptor
 
         SHAPES_FIELD_NUMBER: builtins.int
+        ORDINAL_FIELD_NUMBER: builtins.int
         @property
         def shapes(self) -> google.protobuf.internal.containers.RepeatedCompositeFieldContainer[global___GetImageOcclusionNoteResponse.ImageOcclusionShape]: ...
+        ordinal: builtins.int
         def __init__(
             self,
             *,
             shapes: collections.abc.Iterable[global___GetImageOcclusionNoteResponse.ImageOcclusionShape] | None = ...,
+            ordinal: builtins.int = ...,
         ) -> None: ...
-        def ClearField(self, field_name: typing_extensions.Literal["shapes", b"shapes"]) -> None: ...
+        def ClearField(self, field_name: typing_extensions.Literal["ordinal", b"ordinal", "shapes", b"shapes"]) -> None: ...
 
     @typing_extensions.final
     class ImageOcclusionNote(google.protobuf.message.Message):

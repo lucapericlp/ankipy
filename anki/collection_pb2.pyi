@@ -349,14 +349,14 @@ class ComputeWeightsProgress(google.protobuf.message.Message):
 
     CURRENT_FIELD_NUMBER: builtins.int
     TOTAL_FIELD_NUMBER: builtins.int
-    FSRS_ITEMS_FIELD_NUMBER: builtins.int
+    REVIEWS_FIELD_NUMBER: builtins.int
     CURRENT_PRESET_FIELD_NUMBER: builtins.int
     TOTAL_PRESETS_FIELD_NUMBER: builtins.int
     current: builtins.int
     """Current iteration"""
     total: builtins.int
     """Total iterations"""
-    fsrs_items: builtins.int
+    reviews: builtins.int
     current_preset: builtins.int
     """Only used in 'compute all weights' case"""
     total_presets: builtins.int
@@ -366,11 +366,11 @@ class ComputeWeightsProgress(google.protobuf.message.Message):
         *,
         current: builtins.int = ...,
         total: builtins.int = ...,
-        fsrs_items: builtins.int = ...,
+        reviews: builtins.int = ...,
         current_preset: builtins.int = ...,
         total_presets: builtins.int = ...,
     ) -> None: ...
-    def ClearField(self, field_name: typing_extensions.Literal["current", b"current", "current_preset", b"current_preset", "fsrs_items", b"fsrs_items", "total", b"total", "total_presets", b"total_presets"]) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["current", b"current", "current_preset", b"current_preset", "reviews", b"reviews", "total", b"total", "total_presets", b"total_presets"]) -> None: ...
 
 global___ComputeWeightsProgress = ComputeWeightsProgress
 

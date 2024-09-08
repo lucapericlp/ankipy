@@ -95,6 +95,7 @@ class BackendError(google.protobuf.message.Message):
         OS_ERROR: BackendError._Kind.ValueType  # 20
         """Originated from and usually specific to the OS."""
         SCHEDULER_UPGRADE_REQUIRED: BackendError._Kind.ValueType  # 21
+        INVALID_CERTIFICATE_FORMAT: BackendError._Kind.ValueType  # 22
 
     class Kind(_Kind, metaclass=_KindEnumTypeWrapper): ...
     INVALID_INPUT: BackendError.Kind.ValueType  # 0
@@ -120,6 +121,7 @@ class BackendError(google.protobuf.message.Message):
     OS_ERROR: BackendError.Kind.ValueType  # 20
     """Originated from and usually specific to the OS."""
     SCHEDULER_UPGRADE_REQUIRED: BackendError.Kind.ValueType  # 21
+    INVALID_CERTIFICATE_FORMAT: BackendError.Kind.ValueType  # 22
 
     MESSAGE_FIELD_NUMBER: builtins.int
     KIND_FIELD_NUMBER: builtins.int

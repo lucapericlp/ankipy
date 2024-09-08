@@ -1,3 +1,3 @@
 # pylint: disable=invalid-name
-version = '23.12.1'
-buildhash = '1a1d4d54'
+version = '24.06.3'
+buildhash = 'd678e393'

@@ -174,6 +174,8 @@ class DeckConfig(google.protobuf.message.Message):
             REVIEW_CARD_ORDER_EASE_DESCENDING: DeckConfig.Config._ReviewCardOrder.ValueType  # 6
             REVIEW_CARD_ORDER_RELATIVE_OVERDUENESS: DeckConfig.Config._ReviewCardOrder.ValueType  # 7
             REVIEW_CARD_ORDER_RANDOM: DeckConfig.Config._ReviewCardOrder.ValueType  # 8
+            REVIEW_CARD_ORDER_ADDED: DeckConfig.Config._ReviewCardOrder.ValueType  # 9
+            REVIEW_CARD_ORDER_REVERSE_ADDED: DeckConfig.Config._ReviewCardOrder.ValueType  # 10
 
         class ReviewCardOrder(_ReviewCardOrder, metaclass=_ReviewCardOrderEnumTypeWrapper): ...
         REVIEW_CARD_ORDER_DAY: DeckConfig.Config.ReviewCardOrder.ValueType  # 0
@@ -185,6 +187,8 @@ class DeckConfig(google.protobuf.message.Message):
         REVIEW_CARD_ORDER_EASE_DESCENDING: DeckConfig.Config.ReviewCardOrder.ValueType  # 6
         REVIEW_CARD_ORDER_RELATIVE_OVERDUENESS: DeckConfig.Config.ReviewCardOrder.ValueType  # 7
         REVIEW_CARD_ORDER_RANDOM: DeckConfig.Config.ReviewCardOrder.ValueType  # 8
+        REVIEW_CARD_ORDER_ADDED: DeckConfig.Config.ReviewCardOrder.ValueType  # 9
+        REVIEW_CARD_ORDER_REVERSE_ADDED: DeckConfig.Config.ReviewCardOrder.ValueType  # 10
 
         class _ReviewMix:
             ValueType = typing.NewType("ValueType", builtins.int)
@@ -233,6 +237,19 @@ class DeckConfig(google.protobuf.message.Message):
         ANSWER_ACTION_ANSWER_HARD: DeckConfig.Config.AnswerAction.ValueType  # 3
         ANSWER_ACTION_SHOW_REMINDER: DeckConfig.Config.AnswerAction.ValueType  # 4
 
+        class _QuestionAction:
+            ValueType = typing.NewType("ValueType", builtins.int)
+            V: typing_extensions.TypeAlias = ValueType
+
+        class _QuestionActionEnumTypeWrapper(google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper[DeckConfig.Config._QuestionAction.ValueType], builtins.type):
+            DESCRIPTOR: google.protobuf.descriptor.EnumDescriptor
+            QUESTION_ACTION_SHOW_ANSWER: DeckConfig.Config._QuestionAction.ValueType  # 0
+            QUESTION_ACTION_SHOW_REMINDER: DeckConfig.Config._QuestionAction.ValueType  # 1
+
+        class QuestionAction(_QuestionAction, metaclass=_QuestionActionEnumTypeWrapper): ...
+        QUESTION_ACTION_SHOW_ANSWER: DeckConfig.Config.QuestionAction.ValueType  # 0
+        QUESTION_ACTION_SHOW_REMINDER: DeckConfig.Config.QuestionAction.ValueType  # 1
+
         LEARN_STEPS_FIELD_NUMBER: builtins.int
         RELEARN_STEPS_FIELD_NUMBER: builtins.int
         FSRS_WEIGHTS_FIELD_NUMBER: builtins.int
@@ -262,6 +279,7 @@ class DeckConfig(google.protobuf.message.Message):
         STOP_TIMER_ON_ANSWER_FIELD_NUMBER: builtins.int
         SECONDS_TO_SHOW_QUESTION_FIELD_NUMBER: builtins.int
         SECONDS_TO_SHOW_ANSWER_FIELD_NUMBER: builtins.int
+        QUESTION_ACTION_FIELD_NUMBER: builtins.int
         ANSWER_ACTION_FIELD_NUMBER: builtins.int
         WAIT_FOR_AUDIO_FIELD_NUMBER: builtins.int
         SKIP_QUESTION_WHEN_REPLAYING_ANSWER_FIELD_NUMBER: builtins.int
@@ -269,7 +287,8 @@ class DeckConfig(google.protobuf.message.Message):
         BURY_REVIEWS_FIELD_NUMBER: builtins.int
         BURY_INTERDAY_LEARNING_FIELD_NUMBER: builtins.int
         DESIRED_RETENTION_FIELD_NUMBER: builtins.int
-        SM2_RETENTION_FIELD_NUMBER: builtins.int
+        IGNORE_REVLOGS_BEFORE_DATE_FIELD_NUMBER: builtins.int
+        HISTORICAL_RETENTION_FIELD_NUMBER: builtins.int
         WEIGHT_SEARCH_FIELD_NUMBER: builtins.int
         OTHER_FIELD_NUMBER: builtins.int
         @property
@@ -305,6 +324,7 @@ class DeckConfig(google.protobuf.message.Message):
         stop_timer_on_answer: builtins.bool
         seconds_to_show_question: builtins.float
         seconds_to_show_answer: builtins.float
+        question_action: global___DeckConfig.Config.QuestionAction.ValueType
         answer_action: global___DeckConfig.Config.AnswerAction.ValueType
         wait_for_audio: builtins.bool
         skip_question_when_replaying_answer: builtins.bool
@@ -313,7 +333,8 @@ class DeckConfig(google.protobuf.message.Message):
         bury_interday_learning: builtins.bool
         desired_retention: builtins.float
         """for fsrs"""
-        sm2_retention: builtins.float
+        ignore_revlogs_before_date: builtins.str
+        historical_retention: builtins.float
         weight_search: builtins.str
         other: builtins.bytes
         def __init__(
@@ -348,6 +369,7 @@ class DeckConfig(google.protobuf.message.Message):
             stop_timer_on_answer: builtins.bool = ...,
             seconds_to_show_question: builtins.float = ...,
             seconds_to_show_answer: builtins.float = ...,
+            question_action: global___DeckConfig.Config.QuestionAction.ValueType = ...,
             answer_action: global___DeckConfig.Config.AnswerAction.ValueType = ...,
             wait_for_audio: builtins.bool = ...,
             skip_question_when_replaying_answer: builtins.bool = ...,
@@ -355,11 +377,12 @@ class DeckConfig(google.protobuf.message.Message):
             bury_reviews: builtins.bool = ...,
             bury_interday_learning: builtins.bool = ...,
             desired_retention: builtins.float = ...,
-            sm2_retention: builtins.float = ...,
+            ignore_revlogs_before_date: builtins.str = ...,
+            historical_retention: builtins.float = ...,
             weight_search: builtins.str = ...,
             other: builtins.bytes = ...,
         ) -> None: ...
-        def ClearField(self, field_name: typing_extensions.Literal["answer_action", b"answer_action", "bury_interday_learning", b"bury_interday_learning", "bury_new", b"bury_new", "bury_reviews", b"bury_reviews", "cap_answer_time_to_secs", b"cap_answer_time_to_secs", "desired_retention", b"desired_retention", "disable_autoplay", b"disable_autoplay", "easy_multiplier", b"easy_multiplier", "fsrs_weights", b"fsrs_weights", "graduating_interval_easy", b"graduating_interval_easy", "graduating_interval_good", b"graduating_interval_good", "hard_multiplier", b"hard_multiplier", "initial_ease", b"initial_ease", "interday_learning_mix", b"interday_learning_mix", "interval_multiplier", b"interval_multiplier", "lapse_multiplier", b"lapse_multiplier", "learn_steps", b"learn_steps", "leech_action", b"leech_action", "leech_threshold", b"leech_threshold", "maximum_review_interval", b"maximum_review_interval", "minimum_lapse_interval", b"minimum_lapse_interval", "new_card_gather_priority", b"new_card_gather_priority", "new_card_insert_order", b"new_card_insert_order", "new_card_sort_order", b"new_card_sort_order", "new_mix", b"new_mix", "new_per_day", b"new_per_day", "new_per_day_minimum", b"new_per_day_minimum", "other", b"other", "relearn_steps", b"relearn_steps", "review_order", b"review_order", "reviews_per_day", b"reviews_per_day", "seconds_to_show_answer", b"seconds_to_show_answer", "seconds_to_show_question", b"seconds_to_show_question", "show_timer", b"show_timer", "skip_question_when_replaying_answer", b"skip_question_when_replaying_answer", "sm2_retention", b"sm2_retention", "stop_timer_on_answer", b"stop_timer_on_answer", "wait_for_audio", b"wait_for_audio", "weight_search", b"weight_search"]) -> None: ...
+        def ClearField(self, field_name: typing_extensions.Literal["answer_action", b"answer_action", "bury_interday_learning", b"bury_interday_learning", "bury_new", b"bury_new", "bury_reviews", b"bury_reviews", "cap_answer_time_to_secs", b"cap_answer_time_to_secs", "desired_retention", b"desired_retention", "disable_autoplay", b"disable_autoplay", "easy_multiplier", b"easy_multiplier", "fsrs_weights", b"fsrs_weights", "graduating_interval_easy", b"graduating_interval_easy", "graduating_interval_good", b"graduating_interval_good", "hard_multiplier", b"hard_multiplier", "historical_retention", b"historical_retention", "ignore_revlogs_before_date", b"ignore_revlogs_before_date", "initial_ease", b"initial_ease", "interday_learning_mix", b"interday_learning_mix", "interval_multiplier", b"interval_multiplier", "lapse_multiplier", b"lapse_multiplier", "learn_steps", b"learn_steps", "leech_action", b"leech_action", "leech_threshold", b"leech_threshold", "maximum_review_interval", b"maximum_review_interval", "minimum_lapse_interval", b"minimum_lapse_interval", "new_card_gather_priority", b"new_card_gather_priority", "new_card_insert_order", b"new_card_insert_order", "new_card_sort_order", b"new_card_sort_order", "new_mix", b"new_mix", "new_per_day", b"new_per_day", "new_per_day_minimum", b"new_per_day_minimum", "other", b"other", "question_action", b"question_action", "relearn_steps", b"relearn_steps", "review_order", b"review_order", "reviews_per_day", b"reviews_per_day", "seconds_to_show_answer", b"seconds_to_show_answer", "seconds_to_show_question", b"seconds_to_show_question", "show_timer", b"show_timer", "skip_question_when_replaying_answer", b"skip_question_when_replaying_answer", "stop_timer_on_answer", b"stop_timer_on_answer", "wait_for_audio", b"wait_for_audio", "weight_search", b"weight_search"]) -> None: ...
 
     ID_FIELD_NUMBER: builtins.int
     NAME_FIELD_NUMBER: builtins.int
@@ -480,6 +503,7 @@ class DeckConfigsForUpdate(google.protobuf.message.Message):
     NEW_CARDS_IGNORE_REVIEW_LIMIT_FIELD_NUMBER: builtins.int
     FSRS_FIELD_NUMBER: builtins.int
     APPLY_ALL_PARENT_LIMITS_FIELD_NUMBER: builtins.int
+    DAYS_SINCE_LAST_FSRS_OPTIMIZE_FIELD_NUMBER: builtins.int
     @property
     def all_config(self) -> google.protobuf.internal.containers.RepeatedCompositeFieldContainer[global___DeckConfigsForUpdate.ConfigWithExtra]: ...
     @property
@@ -493,6 +517,7 @@ class DeckConfigsForUpdate(google.protobuf.message.Message):
     """only applies to v3 scheduler"""
     fsrs: builtins.bool
     apply_all_parent_limits: builtins.bool
+    days_since_last_fsrs_optimize: builtins.int
     def __init__(
         self,
         *,
@@ -504,9 +529,10 @@ class DeckConfigsForUpdate(google.protobuf.message.Message):
         new_cards_ignore_review_limit: builtins.bool = ...,
         fsrs: builtins.bool = ...,
         apply_all_parent_limits: builtins.bool = ...,
+        days_since_last_fsrs_optimize: builtins.int = ...,
     ) -> None: ...
     def HasField(self, field_name: typing_extensions.Literal["current_deck", b"current_deck", "defaults", b"defaults"]) -> builtins.bool: ...
-    def ClearField(self, field_name: typing_extensions.Literal["all_config", b"all_config", "apply_all_parent_limits", b"apply_all_parent_limits", "card_state_customizer", b"card_state_customizer", "current_deck", b"current_deck", "defaults", b"defaults", "fsrs", b"fsrs", "new_cards_ignore_review_limit", b"new_cards_ignore_review_limit", "schema_modified", b"schema_modified"]) -> None: ...
+    def ClearField(self, field_name: typing_extensions.Literal["all_config", b"all_config", "apply_all_parent_limits", b"apply_all_parent_limits", "card_state_customizer", b"card_state_customizer", "current_deck", b"current_deck", "days_since_last_fsrs_optimize", b"days_since_last_fsrs_optimize", "defaults", b"defaults", "fsrs", b"fsrs", "new_cards_ignore_review_limit", b"new_cards_ignore_review_limit", "schema_modified", b"schema_modified"]) -> None: ...
 
 global___DeckConfigsForUpdate = DeckConfigsForUpdate
 
