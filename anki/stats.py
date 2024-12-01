@@ -191,7 +191,7 @@ class CollectionStats:
                 rect.setAttribute('y', dayOfWeek * (cellSize + cellSpacing));
                 rect.setAttribute('width', cellSize);
                 rect.setAttribute('height', cellSize);
-                rect.setAttribute('fill', `rgba(0, 0, 255, ${{day.intensity}})`);
+                rect.setAttribute('fill', day.intensity === 0 ? 'rgba(0, 0, 0, 0.2)' : `rgba(0, 0, 255, ${{day.intensity}})`);
 
                 const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
                 title.textContent = `${{day.date}}: ${{day.count}} reviews`;
