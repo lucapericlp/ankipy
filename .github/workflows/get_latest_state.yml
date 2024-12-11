@@ -3,6 +3,7 @@ name: Update report
 on:
   schedule:
     - cron: '55 23 * * *'
+  workflow_dispatch:
 
 jobs:
   build_and_run:
